@@ -11,6 +11,12 @@ test_set = ['watch', 'watching', 'watches', 'watched', 'chilling', 'working', 'g
 
 
 
+# For each iteration
+# calculate area under the curve
+# find the max area/keyword
+# hold max keyword for next iteration
+# fetch the next 4 keywords
+# repeat until end of list
 
 
 AUC = []
@@ -54,16 +60,9 @@ if len(test_set) >5:
 
 
 
-# subset of <=4 words
 
-# For each iteration
-# calculate area under the curve
-# find the max area/keyword
-# hold max keyword for next iteration
-# use the next 3 keywords
-# repeat until end of list
 
-get_data(['watch', 'watching', 'watches', 'watched', 'chilling',],  window='all', where='CA')
+
 
 
 
