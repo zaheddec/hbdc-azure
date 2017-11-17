@@ -1,0 +1,294 @@
+province_id,province_name,division_id,division_name,latitude,longitude
+46,Manitoba,4609,Division No.  9,49.972422,-98.289185
+59,British Columbia / Colombie-Britannique,5901,East Kootenay,,
+59,British Columbia / Colombie-Britannique,5933,Thompson-Nicola,50.2598803,-121.4070114
+48,Alberta,4816,Division No. 16,52.1476514,-106.6680964
+59,British Columbia / Colombie-Britannique,5919,Cowichan Valley,48.81174475,-123.803624662522
+46,Manitoba,4621,Division No. 21,54.77440345,-101.882480716359
+46,Manitoba,4608,Division No.  8,50.9959116,-98.7987473049144
+48,Alberta,4811,Division No. 11,52.1476514,-106.6680964
+48,Alberta,4802,Division No.  2,50.9227196,-102.791443
+59,British Columbia / Colombie-Britannique,5951,Bulkley-Nechako,54.4921242,-125.809230711388
+47,Saskatchewan,4714,Division No. 14,53.1869562,-105.7210493
+46,Manitoba,4604,Division No.  4,49.2248362,-98.9121735
+59,British Columbia / Colombie-Britannique,5941,Cariboo,49.2477785,-122.8897737
+48,Alberta,4801,Division No.  1,52.1531542,-106.6680651
+46,Manitoba,4611,Division No. 11,49.884017,-97.168579
+59,British Columbia / Colombie-Britannique,5929,Sunshine Coast,49.6212539,-124.026415
+47,Saskatchewan,4716,Division No. 16,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5935,Central Okanagan,49.9528689,-119.384755517864
+46,Manitoba,4606,Division No.  6,49.8485092,-100.9322654
+48,Alberta,4810,Division No. 10,51.6394143,-103.5274211
+59,British Columbia / Colombie-Britannique,5926,Comox Valley,49.6727748,-124.9276177
+59,British Columbia / Colombie-Britannique,5924,Strathcona,49.279554,-123.0899788
+48,Alberta,4815,Division No. 15,52.1476514,-106.6680964
+59,British Columbia / Colombie-Britannique,5927,Powell River,49.837097,-124.524536
+47,Saskatchewan,4707,Division No.  7,53.1869562,-105.7210493
+47,Saskatchewan,4711,Division No. 11,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5937,North Okanagan,49.8351549,-119.484048876536
+48,Alberta,4805,Division No.  5,52.1476514,-106.6680964
+59,British Columbia / Colombie-Britannique,5953,Fraser-Fort George,,
+59,British Columbia / Colombie-Britannique,5959,Northern Rockies,59.00140165,-123.471498673751
+46,Manitoba,4603,Division No.  3,49.0210445,-98.2528431
+48,Alberta,4813,Division No. 13,51.917734,-109.1405612
+59,British Columbia / Colombie-Britannique,5955,Peace River,55.9828406,-121.9947387
+59,British Columbia / Colombie-Britannique,5943,Mount Waddington,51.3737074,-125.263529
+47,Saskatchewan,4712,Division No. 12,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5947,Skeena-Queen Charlotte,54.2370102,-129.8373263
+46,Manitoba,4620,Division No. 20,51.9667188,-101.5617688
+59,British Columbia / Colombie-Britannique,5949,Kitimat-Stikine,54.017452,-128.688354
+47,Saskatchewan,4713,Division No. 13,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5905,Kootenay Boundary,50.16641145,-115.605236680592
+47,Saskatchewan,4704,Division No.  4,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5917,Capital,49.2814237,-123.1330616
+48,Alberta,4814,Division No. 14,52.8624503,-104.6063771
+47,Saskatchewan,4706,Division No.  6,53.1869562,-105.7210493
+59,British Columbia / Colombie-Britannique,5931,Squamish-Lillooet,49.701391,-123.151245
+46,Manitoba,4614,Division No. 14,50.1327525,-97.3270268320833
+48,Alberta,4809,Division No.  9,51.5669475,-101.9052489
+59,British Columbia / Colombie-Britannique,5939,Columbia-Shuswap,51.45081845,-117.632953828762
+59,British Columbia / Colombie-Britannique,5945,Central Coast,,
+47,Saskatchewan,4701,Division No.  1,52.1200598,-106.6700821
+47,Saskatchewan,4715,Division No. 15,53.1869562,-105.7210493
+46,Manitoba,4616,Division No. 16,51.233333,-101.35
+47,Saskatchewan,4718,Division No. 18,53.1869562,-105.7210493
+47,Saskatchewan,4717,Division No. 17,53.1869562,-105.7210493
+47,Saskatchewan,4708,Division No.  8,53.1869562,-105.7210493
+48,Alberta,4803,Division No.  3,52.1476514,-106.6680964
+59,British Columbia / Colombie-Britannique,5957,Stikine,58.000891,-127.937374427118
+48,Alberta,4818,Division No. 18,52.1476514,-106.6680964
+47,Saskatchewan,4709,Division No.  9,53.1869562,-105.7210493
+47,Saskatchewan,4710,Division No. 10,53.1869562,-105.7210493
+48,Alberta,4804,Division No.  4,52.8624503,-104.6063771
+46,Manitoba,4607,Division No.  7,49.850381,-99.959106
+59,British Columbia / Colombie-Britannique,5921,Nanaimo,49.166441,-123.939514
+48,Alberta,4807,Division No.  7,52.1476514,-106.6680964
+47,Saskatchewan,4703,Division No.  3,53.1869562,-105.7210493
+48,Alberta,4812,Division No. 12,52.1476514,-106.6680964
+48,Alberta,4817,Division No. 17,52.1476514,-106.6680964
+48,Alberta,4806,Division No.  6,,
+48,Alberta,4808,Division No.  8,52.1476514,-106.6680964
+46,Manitoba,4605,Division No.  5,49.8310583,-99.9602367
+47,Saskatchewan,4705,Division No.  5,53.1869562,-105.7210493
+46,Manitoba,4615,Division No. 15,,
+46,Manitoba,4617,Division No. 17,51.153509,-100.04425
+59,British Columbia / Colombie-Britannique,5903,Central Kootenay,50.03194325,-117.485445499337
+59,British Columbia / Colombie-Britannique,5909,Fraser Valley,59.715297,-135.0479946
+59,British Columbia / Colombie-Britannique,5915,Greater Vancouver,49.0935151,-122.487078538805
+47,Saskatchewan,4702,Division No.  2,53.1869562,-105.7210493
+46,Manitoba,4610,Division No. 10,,
+48,Alberta,4819,Division No. 19,52.1476514,-106.6680964
+59,British Columbia / Colombie-Britannique,5923,Alberni-Clayoquot,49.266667,-124.8
+59,British Columbia / Colombie-Britannique,5907,Okanagan-Similkameen,49.45603675,-120.190751651949
+35,Ontario,3507,Leeds and Grenville,44.70309435,-75.8989237214255
+24,Quebec / Québec,2485,Témiscamingue,48.2172576,-79.0901374
+35,Ontario,3537,Essex,42.03350855,-82.806841127654
+35,Ontario,3524,Halton,43.5104303,-79.8948700066769
+46,Manitoba,4601,Division No.  1,50.9959116,-98.7987473049144
+35,Ontario,3539,Middlesex,42.9791385,-80.9305313
+35,Ontario,3543,Simcoe,44.44590855,-79.8498380080937
+35,Ontario,3528,Haldimand-Norfolk,43.1703733,-80.2572541880299
+35,Ontario,3559,Rainy River,48.722679,-94.564819
+24,Quebec / Québec,2482,Les Collines-de-l'Outaouais,45.6235107,-75.8362613619339
+35,Ontario,3506,Ottawa,45.421106,-75.690308
+35,Ontario,3554,Timiskaming,47.66846735,-80.2958348298788
+35,Ontario,3502,Prescott and Russell,45.4138136,-75.0146088661715
+35,Ontario,3529,Brant,43.088075,-80.00387215
+35,Ontario,3509,Lanark,45.05743525,-76.327872307416
+24,Quebec / Québec,2471,Vaudreuil-Soulanges,45.37723455,-74.1362429399123
+24,Quebec / Québec,2477,Les Pays-d'en-Haut,45.93467465,-74.2615046085697
+24,Quebec / Québec,2480,Papineau,45.5240492,-73.5529443
+35,Ontario,3525,Hamilton,43.255205,-79.868202
+35,Ontario,3548,Nipissing,46.0955444,-79.5141664
+35,Ontario,3541,Bruce,44.64276155,-81.2043980575845
+35,Ontario,3514,Northumberland,44.1678357,-77.9539617366493
+35,Ontario,3510,Frontenac,44.7794886,-76.8704262736232
+35,Ontario,3519,York,43.6896191,-79.479188
+35,Ontario,3546,Haliburton,45.1573163,-78.4706638642032
+35,Ontario,3547,Renfrew,45.69645125,-77.221907106754
+24,Quebec / Québec,2486,Rouyn-Noranda,48.2420524,-79.0205378
+35,Ontario,3549,Parry Sound,45.3402359,-80.0370222
+24,Quebec / Québec,2489,La Vallée-de-l'Or,,
+35,Ontario,3532,Oxford,46.4710258,-81.0719054
+35,Ontario,3544,Muskoka,45.1506666,-79.3440678213544
+24,Quebec / Québec,2476,Argenteuil,45.7190565,-74.4920852312709
+35,Ontario,3538,Lambton,42.92960515,-82.4337328238176
+24,Quebec / Québec,2478,Les Laurentides,46.1842172,-74.5810082166045
+35,Ontario,3518,Durham,44.1749404,-80.8138847
+24,Quebec / Québec,2473,Thérèse-De Blainville,45.6984316,-73.8621956333276
+35,Ontario,3501,"Stormont,  Dundas and Glengarry",45.21648095,-75.0334668017603
+35,Ontario,3540,Huron,44.65030755,-82.2818681764462
+35,Ontario,3553,Greater Sudbury / Grand Sudbury,46.3074538,-81.3561758750547
+24,Quebec / Québec,2472,Deux-Montagnes,45.5355009,-73.9806930378064
+35,Ontario,3513,Prince Edward,43.6610887,-79.5107936915514
+24,Quebec / Québec,2475,La Rivière-du-Nord,45.83461525,-73.9606203110322
+35,Ontario,3530,Waterloo,43.466874,-80.524635
+35,Ontario,3542,Grey,44.47141625,-80.6947055939835
+35,Ontario,3522,Dufferin,44.0282948,-80.1989895728721
+35,Ontario,3557,Algoma,44.28926955,-79.8536858467865
+35,Ontario,3536,Chatham-Kent,42.405207,-82.191467
+35,Ontario,3511,Lennox and Addington,44.6228365,-77.1362825069376
+24,Quebec / Québec,2487,Abitibi-Ouest,,
+35,Ontario,3551,Manitoulin,45.68834755,-82.0977830740486
+35,Ontario,3531,Perth,44.898868,-76.246943
+35,Ontario,3523,Wellington,43.9521503,-77.3491071
+24,Quebec / Québec,2484,Pontiac,45.54244155,-76.1091991792408
+24,Quebec / Québec,2481,Gatineau,45.457241,-75.723267
+24,Quebec / Québec,2483,La Vallée-de-la-Gatineau,46.798141,-76.2729531885489
+35,Ontario,3516,Kawartha Lakes,44.5204884,-78.7976478822308
+35,Ontario,3520,Toronto,43.653963,-79.387207
+24,Quebec / Québec,2470,Beauharnois-Salaberry,45.21652845,-74.11518798047
+35,Ontario,3534,Elgin,44.6078306,-76.2214376
+24,Quebec / Québec,2474,Mirabel,45.623402,-74.012489
+35,Ontario,3526,Niagara,43.05023,-79.12038
+35,Ontario,3552,Sudbury,46.49272,-80.991211
+35,Ontario,3512,Hastings,44.71713585,-77.573417023485
+35,Ontario,3515,Peterborough,44.3048009,-78.3199496
+24,Quebec / Québec,2479,Antoine-Labelle,46.5523631,-75.497393
+24,Quebec / Québec,2488,Abitibi,48.7058581,-79.5035103419599
+35,Ontario,3521,Peel,43.73424205,-79.7992120888744
+24,Quebec / Québec,2469,Le Haut-Saint-Laurent,46.8547179,-71.0534745
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1003,Division No.  3,,
+12,Nova Scotia / Nouvelle-Écosse,1207,Kings,45.00525875,-64.6280222972508
+24,Quebec / Québec,2414,Kamouraska,47.566797,-69.866867
+12,Nova Scotia / Nouvelle-Écosse,1216,Richmond,45.7542246,-63.467609
+24,Quebec / Québec,2432,L'Érable,45.3609838,-72.240677
+24,Quebec / Québec,2404,La Haute-Gaspésie,49.1562677,-66.145980058048
+12,Nova Scotia / Nouvelle-Écosse,1211,Cumberland,45.5964139,-64.0972503571956
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1001,Division No.  1,,
+13,New Brunswick / Nouveau-Brunswick,1312,Victoria,47.0299997,-65.2310894
+24,Quebec / Québec,2437,Francheville,45.588618,-73.6036527
+12,Nova Scotia / Nouvelle-Écosse,1201,Shelburne,43.7639539,-65.321384
+24,Quebec / Québec,2447,La Haute-Yamaska,45.4113256,-72.7223007154422
+24,Quebec / Québec,2413,Témiscouata,47.684343,-68.883591
+24,Quebec / Québec,2436,Shawinigan,46.5389609,-72.7467621
+24,Quebec / Québec,2415,Charlevoix-Est,47.82132325,-70.1767257931971
+12,Nova Scotia / Nouvelle-Écosse,1217,Cape Breton,46.2950327,-60.9360553504817
+12,Nova Scotia / Nouvelle-Écosse,1215,Inverness,46.2307181,-61.3056432
+13,New Brunswick / Nouveau-Brunswick,1305,Kings,45.6592383,-65.5560951425769
+13,New Brunswick / Nouveau-Brunswick,1313,Madawaska,47.4181157,-68.1424950144885
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1004,Division No.  4,,
+12,Nova Scotia / Nouvelle-Écosse,1212,Pictou,45.6776403,-62.7106123
+24,Quebec / Québec,2420,L'Île-d'Orléans,46.8787849,-71.1304836
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1006,Division No.  6,,
+12,Nova Scotia / Nouvelle-Écosse,1210,Colchester,45.41964845,-63.5111101813397
+11,Prince Edward Island / Île-du-Prince-Édouard,1103,Prince,46.57355925,-63.8695358464098
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1008,Division No.  8,,
+12,Nova Scotia / Nouvelle-Écosse,1203,Digby,44.6194028,-65.758575
+24,Quebec / Québec,2417,L'Islet,46.8812716,-71.118836989072
+13,New Brunswick / Nouveau-Brunswick,1307,Westmorland,45.9687484,-64.4155438183461
+24,Quebec / Québec,2441,Le Haut-Saint-François,,
+24,Quebec / Québec,2431,Les Appalaches,48.9708637,-64.4486373
+24,Quebec / Québec,2440,Les Sources,,
+24,Quebec / Québec,2402,Le Rocher-Percé,48.5238022,-64.1991076
+24,Quebec / Québec,2428,Les Etchemins,,
+24,Quebec / Québec,2412,Rivière-du-Loup,47.8358164,-69.5368025
+24,Quebec / Québec,2454,Les Maskoutains,,
+24,Quebec / Québec,2457,La Vallée-du-Richelieu,45.6305465,-73.1828338
+24,Quebec / Québec,2405,Bonaventure,48.0444351,-65.4925807
+24,Quebec / Québec,2493,Lac-Saint-Jean-Est,48.40402585,-68.0626364787201
+12,Nova Scotia / Nouvelle-Écosse,1204,Queens,44.1449621,-64.9184338221293
+24,Quebec / Québec,2445,Memphrémagog,45.2629236,-72.1435927083436
+24,Quebec / Québec,2444,Coaticook,45.1334169,-71.803479
+24,Quebec / Québec,2423,Québec,46.8259601,-71.2352226
+13,New Brunswick / Nouveau-Brunswick,1308,Kent,47.059307,-67.749952
+12,Nova Scotia / Nouvelle-Écosse,1208,Hants,45.0592567,-63.7925337852486
+24,Quebec / Québec,2455,Rouville,45.5199004,-73.1495501
+24,Quebec / Québec,2419,Bellechasse,46.8696461,-70.7754501
+13,New Brunswick / Nouveau-Brunswick,1306,Albert,45.7952051,-64.8744203230587
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1007,Division No.  7,,
+13,New Brunswick / Nouveau-Brunswick,1309,Northumberland,46.9389258,-65.8953414990735
+24,Quebec / Québec,2410,Rimouski-Neigette,48.4332914,-68.5235867157652
+24,Quebec / Québec,2429,Beauce-Sartigan,46.12655105,-70.6691818414125
+13,New Brunswick / Nouveau-Brunswick,1304,Queens,45.8255852,-66.0106246694295
+24,Quebec / Québec,2442,Le Val-Saint-François,,
+24,Quebec / Québec,2409,La Mitis,48.42734735,-68.0500092382475
+24,Quebec / Québec,2448,Acton,45.647648,-72.564011
+12,Nova Scotia / Nouvelle-Écosse,1205,Annapolis,44.69495785,-65.2811194725923
+24,Quebec / Québec,2450,Nicolet-Yamaska,,
+24,Quebec / Québec,2451,Maskinongé,46.2282338,-73.0164873
+24,Quebec / Québec,2453,Pierre-De Saurel,46.0278804,-73.0972552
+24,Quebec / Québec,2421,La Côte-de-Beaupré,47.41831145,-71.1991017973721
+24,Quebec / Québec,2416,Charlevoix,47.6114112,-70.7215117381193
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1005,Division No.  5,,
+13,New Brunswick / Nouveau-Brunswick,1301,Saint John,45.278752,-66.058044
+24,Quebec / Québec,2456,Le Haut-Richelieu,45.305326,-73.2541753997446
+24,Quebec / Québec,2407,La Matapédia,48.412796,-67.390137
+24,Quebec / Québec,2418,Montmagny,46.981892,-70.555916
+11,Prince Edward Island / Île-du-Prince-Édouard,1101,Kings,46.17366575,-62.5328944956973
+24,Quebec / Québec,2403,La Côte-de-Gaspé,49.1654025,-64.5583971496186
+24,Quebec / Québec,2449,Drummond,45.5091531,-73.5999403
+12,Nova Scotia / Nouvelle-Écosse,1206,Lunenburg,44.3774954,-64.3154816
+13,New Brunswick / Nouveau-Brunswick,1315,Gloucester,47.640686,-65.4157519941204
+24,Quebec / Québec,2443,Sherbrooke,45.403271,-71.889038
+24,Quebec / Québec,2433,Lotbinière,46.6158722,-71.9352468
+12,Nova Scotia / Nouvelle-Écosse,1214,Antigonish,45.6213607,-61.9904928
+24,Quebec / Québec,2446,Brome-Missisquoi,45.20721195,-72.7142660803351
+24,Quebec / Québec,2458,Longueuil,45.5172382,-73.4467466
+24,Quebec / Québec,2495,La Haute-Côte-Nord,49.02652575,-69.3991730822559
+12,Nova Scotia / Nouvelle-Écosse,1213,Guysborough,45.3922534,-61.4997896
+24,Quebec / Québec,2434,Portneuf,46.99346845,-71.9920602105379
+13,New Brunswick / Nouveau-Brunswick,1303,Sunbury,46.2062723,-66.1755855
+24,Quebec / Québec,2430,Le Granit,45.0081335,-72.0972678
+24,Quebec / Québec,2452,D'Autray,46.216735,-73.2567319006472
+11,Prince Edward Island / Île-du-Prince-Édouard,1102,Queens,46.2181211,-63.1348056806189
+13,New Brunswick / Nouveau-Brunswick,1302,Charlotte,45.01103135,-66.8656097263204
+24,Quebec / Québec,2438,Bécancour,46.339343,-72.433205
+24,Quebec / Québec,2401,Les Îles-de-la-Madeleine,47.4630787,-61.7584097
+24,Quebec / Québec,2460,L'Assomption,45.8307051,-73.4222086
+12,Nova Scotia / Nouvelle-Écosse,1202,Yarmouth,43.8372828,-66.1156037
+12,Nova Scotia / Nouvelle-Écosse,1218,Victoria,45.7300441,-63.6807159
+12,Nova Scotia / Nouvelle-Écosse,1209,Halifax,44.6491198,-63.575134
+24,Quebec / Québec,2406,Avignon,48.16164485,-66.3900211287803
+24,Quebec / Québec,2439,Arthabaska,47.650125,-70.774487
+24,Quebec / Québec,2427,Robert-Cliche,46.735824,-71.2838009
+24,Quebec / Québec,2426,La Nouvelle-Beauce,,
+13,New Brunswick / Nouveau-Brunswick,1310,York,46.2255841,-66.8114419663078
+13,New Brunswick / Nouveau-Brunswick,1311,Carleton,45.9580412,-66.6445253
+24,Quebec / Québec,2425,Lévis,46.7910096,-71.1753274
+13,New Brunswick / Nouveau-Brunswick,1314,Restigouche,47.72508035,-67.0851442550926
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1002,Division No.  2,,
+24,Quebec / Québec,2408,Matane,48.8466697,-67.5317397
+24,Quebec / Québec,2422,La Jacques-Cartier,47.27416065,-71.5634219182232
+24,Quebec / Québec,2459,Lajemmerais,45.5984181,-73.5985252
+24,Quebec / Québec,2411,Les Basques,,
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1011,Division No. 11,,
+61,Northwest Territories / Territoires du Nord-Ouest,6103,Region 3,,
+61,Northwest Territories / Territoires du Nord-Ouest,6101,Region 1,,
+46,Manitoba,4613,Division No. 13,52.1496988,-106.7099989
+61,Northwest Territories / Territoires du Nord-Ouest,6104,Region 4,,
+46,Manitoba,4619,Division No. 19,,
+61,Northwest Territories / Territoires du Nord-Ouest,6106,Region 6,,
+62,Nunavut,6205,Keewatin,,
+46,Manitoba,4622,Division No. 22,55.743347,-97.863464
+46,Manitoba,4623,Division No. 23,58.7721606,-94.1637108
+46,Manitoba,4618,Division No. 18,50.1327525,-97.3270268320833
+46,Manitoba,4612,Division No. 12,50.0619312,-96.5140821
+61,Northwest Territories / Territoires du Nord-Ouest,6105,Region 5,,
+61,Northwest Territories / Territoires du Nord-Ouest,6102,Region 2,,
+60,Yukon,6001,Yukon,33.7985579,-91.4678568
+46,Manitoba,4602,Division No.  2,49.530557,-96.69342
+35,Ontario,3556,Cochrane,49.066668,-81.017303
+35,Ontario,3560,Kenora,49.761752,-94.482422
+24,Quebec / Québec,2468,Les Jardins-de-Napierville,,
+24,Quebec / Québec,2492,Maria-Chapdelaine,,
+24,Quebec / Québec,2490,La Tuque,47.441092,-72.78511
+24,Quebec / Québec,2461,Joliette,46.0243857,-73.439845
+24,Quebec / Québec,2491,Le Domaine-du-Roy,,
+24,Quebec / Québec,2462,Matawinie,46.87002175,-74.061181726057
+24,Quebec / Québec,2435,Mékinac,47.0538687,-73.0931461971588
+24,Quebec / Québec,2465,Laval,45.60558895,-73.7344969952416
+24,Quebec / Québec,2467,Roussillon,45.5414941,-73.4946444244885
+62,Nunavut,6204,Baffin,67.8593948,-69.6872955543764
+35,Ontario,3558,Thunder Bay,48.406414,-89.259796
+24,Quebec / Québec,2499,Nord-du-Québec,45.3597156,-73.7732808
+24,Quebec / Québec,2466,Montréal,45.4972159,-73.6103642
+24,Quebec / Québec,2464,Les Moulins,45.74816055,-73.6346122780677
+24,Quebec / Québec,2463,Montcalm,45.9223436,-73.6971348065301
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1010,Division No. 10,,
+24,Quebec / Québec,2496,Manicouagan,50.2145718,-68.8521751772504
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1009,Division No.  9,,
+24,Quebec / Québec,2498,Minganie--Le Golfe-du-Saint-Laurent,,
+24,Quebec / Québec,2494,Le Saguenay-et-son-Fjord,,
+24,Quebec / Québec,2497,Sept-Rivières--Caniapiscau,,
+62,Nunavut,6208,Kitikmeot,69.11737675,-105.051776036282
