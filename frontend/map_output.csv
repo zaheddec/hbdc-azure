@@ -1,0 +1,294 @@
+province_id,province_name,division_id,division_name,latitude,longitude,num_tweets,physical_activity,sedentary_behavior,sleeping
+46,Manitoba,4609,Division No.  9,49.972421999999995,-98.289185,253.0,0.0,38.0,0.0
+59,British Columbia / Colombie-Britannique,5901,East Kootenay,,,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5933,Thompson-Nicola,50.2598803,-121.4070114,601.0,7.0,24.0,5.0
+48,Alberta,4816,Division No. 16,52.147651399999994,-106.66809640000001,3.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5919,Cowichan Valley,48.81174475,-123.803624662522,81.0,3.0,6.0,0.0
+46,Manitoba,4621,Division No. 21,54.77440345,-101.882480716359,4577.0,36.0,176.0,17.0
+46,Manitoba,4608,Division No.  8,50.99591160000001,-98.7987473049144,10.0,0.0,0.0,0.0
+48,Alberta,4811,Division No. 11,52.147651399999994,-106.66809640000001,37.0,0.0,2.0,0.0
+48,Alberta,4802,Division No.  2,50.9227196,-102.791443,1566.0,14.0,90.0,10.0
+59,British Columbia / Colombie-Britannique,5951,Bulkley-Nechako,54.492124200000006,-125.809230711388,309.0,0.0,24.0,0.0
+47,Saskatchewan,4714,Division No. 14,53.186956200000004,-105.7210493,593.0,5.0,27.0,8.0
+46,Manitoba,4604,Division No.  4,49.224836200000006,-98.9121735,12.0,1.0,2.0,0.0
+59,British Columbia / Colombie-Britannique,5941,Cariboo,49.247778499999995,-122.88977369999999,5354.0,53.0,264.0,25.0
+48,Alberta,4801,Division No.  1,52.1531542,-106.66806509999998,64.0,0.0,5.0,0.0
+46,Manitoba,4611,Division No. 11,49.884017,-97.16857900000001,5740.0,41.0,294.0,37.0
+59,British Columbia / Colombie-Britannique,5929,Sunshine Coast,49.6212539,-124.02641499999999,51.0,0.0,0.0,0.0
+47,Saskatchewan,4716,Division No. 16,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5935,Central Okanagan,49.9528689,-119.384755517864,271.0,7.0,8.0,2.0
+46,Manitoba,4606,Division No.  6,49.8485092,-100.9322654,113.0,0.0,5.0,3.0
+48,Alberta,4810,Division No. 10,51.6394143,-103.52742109999998,279.0,0.0,12.0,0.0
+59,British Columbia / Colombie-Britannique,5926,Comox Valley,49.6727748,-124.92761770000001,266.0,4.0,11.0,2.0
+59,British Columbia / Colombie-Britannique,5924,Strathcona,49.279554,-123.0899788,11176.0,96.0,506.0,45.0
+48,Alberta,4815,Division No. 15,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5927,Powell River,49.837097,-124.52453600000001,20.0,0.0,0.0,0.0
+47,Saskatchewan,4707,Division No.  7,53.186956200000004,-105.7210493,8.0,0.0,1.0,0.0
+47,Saskatchewan,4711,Division No. 11,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5937,North Okanagan,49.8351549,-119.48404887653601,964.0,14.0,41.0,7.0
+48,Alberta,4805,Division No.  5,52.147651399999994,-106.66809640000001,27.0,1.0,2.0,0.0
+59,British Columbia / Colombie-Britannique,5953,Fraser-Fort George,,,5.0,0.0,1.0,0.0
+59,British Columbia / Colombie-Britannique,5959,Northern Rockies,59.00140165,-123.47149867375099,126.0,3.0,4.0,0.0
+46,Manitoba,4603,Division No.  3,49.0210445,-98.25284309999999,132.0,1.0,13.0,0.0
+48,Alberta,4813,Division No. 13,51.917734,-109.1405612,11177.0,104.0,431.0,40.0
+59,British Columbia / Colombie-Britannique,5955,Peace River,55.982840599999996,-121.99473870000001,438.0,6.0,24.0,3.0
+59,British Columbia / Colombie-Britannique,5943,Mount Waddington,51.373707399999994,-125.263529,23.0,0.0,3.0,1.0
+47,Saskatchewan,4712,Division No. 12,53.186956200000004,-105.7210493,8.0,0.0,1.0,1.0
+59,British Columbia / Colombie-Britannique,5947,Skeena-Queen Charlotte,54.23701020000001,-129.8373263,71.0,1.0,2.0,0.0
+46,Manitoba,4620,Division No. 20,51.966718799999995,-101.5617688,1.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5949,Kitimat-Stikine,54.017452,-128.688354,534.0,3.0,12.0,0.0
+47,Saskatchewan,4713,Division No. 13,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5905,Kootenay Boundary,50.16641145,-115.605236680592,13388.0,132.0,601.0,60.0
+47,Saskatchewan,4704,Division No.  4,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5917,Capital,49.281423700000005,-123.13306159999999,705.0,13.0,42.0,2.0
+48,Alberta,4814,Division No. 14,52.862450300000006,-104.60637709999999,14.0,0.0,2.0,0.0
+47,Saskatchewan,4706,Division No.  6,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5931,Squamish-Lillooet,49.701391,-123.15124499999999,683.0,14.0,15.0,1.0
+46,Manitoba,4614,Division No. 14,50.1327525,-97.3270268320833,71.0,1.0,3.0,1.0
+48,Alberta,4809,Division No.  9,51.5669475,-101.9052489,4.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5939,Columbia-Shuswap,51.45081845,-117.632953828762,791.0,17.0,38.0,2.0
+59,British Columbia / Colombie-Britannique,5945,Central Coast,,,0.0,0.0,0.0,0.0
+47,Saskatchewan,4701,Division No.  1,52.1200598,-106.6700821,1306.0,16.0,73.0,2.0
+47,Saskatchewan,4715,Division No. 15,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+46,Manitoba,4616,Division No. 16,51.233333,-101.35,23.0,0.0,1.0,0.0
+47,Saskatchewan,4718,Division No. 18,53.186956200000004,-105.7210493,182.0,0.0,23.0,0.0
+47,Saskatchewan,4717,Division No. 17,53.186956200000004,-105.7210493,2.0,0.0,0.0,0.0
+47,Saskatchewan,4708,Division No.  8,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+48,Alberta,4803,Division No.  3,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5957,Stikine,58.000891,-127.937374427118,4.0,0.0,0.0,0.0
+48,Alberta,4818,Division No. 18,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+47,Saskatchewan,4709,Division No.  9,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+47,Saskatchewan,4710,Division No. 10,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+48,Alberta,4804,Division No.  4,52.862450300000006,-104.60637709999999,0.0,0.0,0.0,0.0
+46,Manitoba,4607,Division No.  7,49.850381,-99.959106,195.0,1.0,11.0,0.0
+59,British Columbia / Colombie-Britannique,5921,Nanaimo,49.166441,-123.93951399999999,668.0,3.0,43.0,2.0
+48,Alberta,4807,Division No.  7,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+47,Saskatchewan,4703,Division No.  3,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+48,Alberta,4812,Division No. 12,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+48,Alberta,4817,Division No. 17,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+48,Alberta,4806,Division No.  6,,,0.0,0.0,0.0,0.0
+48,Alberta,4808,Division No.  8,52.147651399999994,-106.66809640000001,0.0,0.0,0.0,0.0
+46,Manitoba,4605,Division No.  5,49.831058299999995,-99.96023670000001,11.0,0.0,1.0,0.0
+47,Saskatchewan,4705,Division No.  5,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+46,Manitoba,4615,Division No. 15,,,0.0,0.0,0.0,0.0
+46,Manitoba,4617,Division No. 17,51.153509,-100.04425,15.0,1.0,2.0,0.0
+59,British Columbia / Colombie-Britannique,5903,Central Kootenay,50.03194325,-117.485445499337,239.0,2.0,7.0,0.0
+59,British Columbia / Colombie-Britannique,5909,Fraser Valley,59.715297,-135.0479946,313.0,3.0,11.0,1.0
+59,British Columbia / Colombie-Britannique,5915,Greater Vancouver,49.093515100000005,-122.48707853880501,3207.0,31.0,136.0,13.0
+47,Saskatchewan,4702,Division No.  2,53.186956200000004,-105.7210493,0.0,0.0,0.0,0.0
+46,Manitoba,4610,Division No. 10,,,0.0,0.0,0.0,0.0
+48,Alberta,4819,Division No. 19,52.147651399999994,-106.66809640000001,3.0,0.0,0.0,0.0
+59,British Columbia / Colombie-Britannique,5923,Alberni-Clayoquot,49.266667,-124.8,234.0,0.0,14.0,0.0
+59,British Columbia / Colombie-Britannique,5907,Okanagan-Similkameen,49.45603675,-120.190751651949,102.0,0.0,3.0,3.0
+35,Ontario,3507,Leeds and Grenville,44.70309435,-75.8989237214255,154.0,2.0,9.0,1.0
+24,Quebec / Québec,2485,Témiscamingue,48.2172576,-79.0901374,1.0,0.0,0.0,0.0
+35,Ontario,3537,Essex,42.03350855,-82.806841127654,2628.0,21.0,122.0,22.0
+35,Ontario,3524,Halton,43.510430299999996,-79.8948700066769,2144.0,28.0,117.0,11.0
+46,Manitoba,4601,Division No.  1,50.99591160000001,-98.7987473049144,0.0,0.0,0.0,0.0
+35,Ontario,3539,Middlesex,42.9791385,-80.9305313,3793.0,48.0,200.0,15.0
+35,Ontario,3543,Simcoe,44.44590855,-79.8498380080937,1588.0,14.0,94.0,13.0
+35,Ontario,3528,Haldimand-Norfolk,43.170373299999994,-80.2572541880299,774.0,13.0,36.0,5.0
+35,Ontario,3559,Rainy River,48.722679,-94.564819,25.0,0.0,2.0,0.0
+24,Quebec / Québec,2482,Les Collines-de-l'Outaouais,45.623510700000004,-75.83626136193391,17.0,0.0,2.0,0.0
+35,Ontario,3506,Ottawa,45.421106,-75.690308,11164.0,108.0,503.0,68.0
+35,Ontario,3554,Timiskaming,47.66846735,-80.2958348298788,25.0,0.0,1.0,1.0
+35,Ontario,3502,Prescott and Russell,45.4138136,-75.0146088661715,93.0,0.0,1.0,0.0
+35,Ontario,3529,Brant,43.088075,-80.00387215,208.0,1.0,13.0,2.0
+35,Ontario,3509,Lanark,45.05743525,-76.327872307416,99.0,1.0,3.0,0.0
+24,Quebec / Québec,2471,Vaudreuil-Soulanges,45.37723455,-74.1362429399123,206.0,2.0,4.0,0.0
+24,Quebec / Québec,2477,Les Pays-d'en-Haut,45.93467465,-74.26150460856971,18.0,0.0,2.0,0.0
+24,Quebec / Québec,2480,Papineau,45.5240492,-73.5529443,44.0,0.0,3.0,0.0
+35,Ontario,3525,Hamilton,43.255205,-79.868202,5315.0,62.0,291.0,41.0
+35,Ontario,3548,Nipissing,46.095544399999994,-79.51416640000001,520.0,1.0,27.0,4.0
+35,Ontario,3541,Bruce,44.64276155,-81.2043980575845,219.0,8.0,3.0,0.0
+35,Ontario,3514,Northumberland,44.167835700000005,-77.95396173664929,341.0,2.0,18.0,1.0
+35,Ontario,3510,Frontenac,44.7794886,-76.8704262736232,31.0,2.0,1.0,0.0
+35,Ontario,3519,York,43.6896191,-79.479188,4946.0,45.0,237.0,25.0
+35,Ontario,3546,Haliburton,45.15731629999999,-78.4706638642032,7.0,0.0,2.0,0.0
+35,Ontario,3547,Renfrew,45.69645125,-77.221907106754,86.0,4.0,4.0,0.0
+24,Quebec / Québec,2486,Rouyn-Noranda,48.2420524,-79.0205378,129.0,1.0,8.0,0.0
+35,Ontario,3549,Parry Sound,45.340235899999996,-80.03702220000001,43.0,0.0,3.0,0.0
+24,Quebec / Québec,2489,La Vallée-de-l'Or,,,0.0,0.0,0.0,0.0
+35,Ontario,3532,Oxford,46.4710258,-81.0719054,7.0,0.0,0.0,0.0
+35,Ontario,3544,Muskoka,45.1506666,-79.34406782135441,257.0,7.0,6.0,2.0
+24,Quebec / Québec,2476,Argenteuil,45.7190565,-74.4920852312709,7.0,0.0,0.0,0.0
+35,Ontario,3538,Lambton,42.92960515,-82.43373282381759,351.0,5.0,22.0,1.0
+24,Quebec / Québec,2478,Les Laurentides,46.1842172,-74.5810082166045,31.0,0.0,0.0,0.0
+35,Ontario,3518,Durham,44.1749404,-80.8138847,179.0,1.0,5.0,0.0
+24,Quebec / Québec,2473,Thérèse-De Blainville,45.6984316,-73.86219563332759,79.0,0.0,7.0,0.0
+35,Ontario,3501,"Stormont,  Dundas and Glengarry",45.21648095,-75.0334668017603,251.0,7.0,19.0,1.0
+35,Ontario,3540,Huron,44.65030755,-82.2818681764462,3.0,0.0,0.0,0.0
+35,Ontario,3553,Greater Sudbury / Grand Sudbury,46.3074538,-81.3561758750547,562.0,7.0,41.0,8.0
+24,Quebec / Québec,2472,Deux-Montagnes,45.535500899999995,-73.9806930378064,172.0,0.0,4.0,0.0
+35,Ontario,3513,Prince Edward,43.66108870000001,-79.51079369155141,5667.0,41.0,281.0,16.0
+24,Quebec / Québec,2475,La Rivière-du-Nord,45.83461525,-73.9606203110322,126.0,0.0,1.0,0.0
+35,Ontario,3530,Waterloo,43.466874,-80.524635,4830.0,60.0,219.0,30.0
+35,Ontario,3542,Grey,44.47141625,-80.6947055939835,240.0,28.0,9.0,0.0
+35,Ontario,3522,Dufferin,44.0282948,-80.1989895728721,185.0,8.0,6.0,1.0
+35,Ontario,3557,Algoma,44.28926955,-79.8536858467865,722.0,6.0,36.0,6.0
+35,Ontario,3536,Chatham-Kent,42.405207,-82.191467,443.0,2.0,18.0,2.0
+35,Ontario,3511,Lennox and Addington,44.6228365,-77.13628250693759,37.0,6.0,1.0,1.0
+24,Quebec / Québec,2487,Abitibi-Ouest,,,0.0,0.0,0.0,0.0
+35,Ontario,3551,Manitoulin,45.68834755,-82.09778307404859,212.0,1.0,10.0,2.0
+35,Ontario,3531,Perth,44.898868,-76.246943,66.0,0.0,2.0,0.0
+35,Ontario,3523,Wellington,43.9521503,-77.3491071,704.0,9.0,45.0,0.0
+24,Quebec / Québec,2484,Pontiac,45.54244155,-76.1091991792408,32.0,0.0,4.0,0.0
+24,Quebec / Québec,2481,Gatineau,45.457240999999996,-75.723267,782.0,8.0,29.0,7.0
+24,Quebec / Québec,2483,La Vallée-de-la-Gatineau,46.798140999999994,-76.27295318854891,0.0,0.0,0.0,0.0
+35,Ontario,3516,Kawartha Lakes,44.5204884,-78.79764788223079,277.0,3.0,8.0,4.0
+35,Ontario,3520,Toronto,43.653963,-79.38720699999999,47531.0,368.0,1845.0,243.0
+24,Quebec / Québec,2470,Beauharnois-Salaberry,45.21652845,-74.11518798047,32.0,1.0,0.0,0.0
+35,Ontario,3534,Elgin,44.60783060000001,-76.22143759999999,1933.0,20.0,118.0,8.0
+24,Quebec / Québec,2474,Mirabel,45.623402,-74.012489,23.0,0.0,3.0,0.0
+35,Ontario,3526,Niagara,43.05023,-79.12038000000001,2749.0,18.0,137.0,21.0
+35,Ontario,3552,Sudbury,46.49272,-80.99121099999999,16.0,0.0,0.0,0.0
+35,Ontario,3512,Hastings,44.71713585,-77.573417023485,32.0,0.0,3.0,0.0
+35,Ontario,3515,Peterborough,44.3048009,-78.31994959999999,1803.0,9.0,82.0,16.0
+24,Quebec / Québec,2479,Antoine-Labelle,46.5523631,-75.497393,1.0,0.0,0.0,1.0
+24,Quebec / Québec,2488,Abitibi,48.7058581,-79.50351034195991,28.0,0.0,0.0,0.0
+35,Ontario,3521,Peel,43.73424205,-79.79921208887441,3471.0,29.0,134.0,13.0
+24,Quebec / Québec,2469,Le Haut-Saint-Laurent,46.8547179,-71.0534745,1.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1003,Division No.  3,,,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1207,Kings,45.00525875,-64.6280222972508,329.0,4.0,21.0,4.0
+24,Quebec / Québec,2414,Kamouraska,47.566796999999994,-69.866867,2.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1216,Richmond,45.75422460000001,-63.467608999999996,1024.0,7.0,51.0,7.0
+24,Quebec / Québec,2432,L'Érable,45.3609838,-72.240677,1.0,0.0,0.0,0.0
+24,Quebec / Québec,2404,La Haute-Gaspésie,49.1562677,-66.145980058048,38.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1211,Cumberland,45.596413899999995,-64.0972503571956,15.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1001,Division No.  1,,,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1312,Victoria,47.029999700000005,-65.2310894,99.0,0.0,5.0,0.0
+24,Quebec / Québec,2437,Francheville,45.588618,-73.6036527,1.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1201,Shelburne,43.7639539,-65.321384,31.0,0.0,0.0,1.0
+24,Quebec / Québec,2447,La Haute-Yamaska,45.4113256,-72.7223007154422,64.0,0.0,4.0,0.0
+24,Quebec / Québec,2413,Témiscouata,47.684343,-68.88359100000001,2.0,0.0,0.0,0.0
+24,Quebec / Québec,2436,Shawinigan,46.5389609,-72.7467621,72.0,0.0,1.0,1.0
+24,Quebec / Québec,2415,Charlevoix-Est,47.82132325,-70.1767257931971,1.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1217,Cape Breton,46.29503270000001,-60.9360553504817,2083.0,33.0,105.0,15.0
+12,Nova Scotia / Nouvelle-Écosse,1215,Inverness,46.230718100000004,-61.305643200000006,10.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1305,Kings,45.6592383,-65.5560951425769,25.0,3.0,7.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1313,Madawaska,47.4181157,-68.1424950144885,20.0,1.0,2.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1004,Division No.  4,,,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1212,Pictou,45.6776403,-62.7106123,96.0,0.0,11.0,0.0
+24,Quebec / Québec,2420,L'Île-d'Orléans,46.8787849,-71.13048359999999,19.0,0.0,2.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1006,Division No.  6,,,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1210,Colchester,45.41964845,-63.5111101813397,451.0,10.0,17.0,2.0
+11,Prince Edward Island / Île-du-Prince-Édouard,1103,Prince,46.57355925,-63.869535846409796,366.0,1.0,15.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1008,Division No.  8,,,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1203,Digby,44.619402799999996,-65.758575,72.0,0.0,1.0,0.0
+24,Quebec / Québec,2417,L'Islet,46.8812716,-71.118836989072,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1307,Westmorland,45.9687484,-64.4155438183461,846.0,37.0,37.0,2.0
+24,Quebec / Québec,2441,Le Haut-Saint-François,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2431,Les Appalaches,48.9708637,-64.4486373,2.0,0.0,0.0,0.0
+24,Quebec / Québec,2440,Les Sources,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2402,Le Rocher-Percé,48.523802200000006,-64.1991076,1.0,0.0,0.0,0.0
+24,Quebec / Québec,2428,Les Etchemins,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2412,Rivière-du-Loup,47.8358164,-69.53680250000001,11.0,0.0,0.0,0.0
+24,Quebec / Québec,2454,Les Maskoutains,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2457,La Vallée-du-Richelieu,45.6305465,-73.1828338,97.0,1.0,1.0,0.0
+24,Quebec / Québec,2405,Bonaventure,48.0444351,-65.4925807,19.0,2.0,0.0,0.0
+24,Quebec / Québec,2493,Lac-Saint-Jean-Est,48.40402585,-68.06263647872011,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1204,Queens,44.1449621,-64.9184338221293,47.0,0.0,3.0,0.0
+24,Quebec / Québec,2445,Memphrémagog,45.2629236,-72.14359270834359,24.0,0.0,0.0,0.0
+24,Quebec / Québec,2444,Coaticook,45.1334169,-71.80347900000001,19.0,1.0,0.0,1.0
+24,Quebec / Québec,2423,Québec,46.8259601,-71.23522259999999,1746.0,6.0,41.0,14.0
+13,New Brunswick / Nouveau-Brunswick,1308,Kent,47.059307000000004,-67.74995200000001,31.0,1.0,1.0,2.0
+12,Nova Scotia / Nouvelle-Écosse,1208,Hants,45.059256700000006,-63.7925337852486,125.0,0.0,7.0,0.0
+24,Quebec / Québec,2455,Rouville,45.5199004,-73.1495501,16.0,0.0,1.0,1.0
+24,Quebec / Québec,2419,Bellechasse,46.869646100000004,-70.77545009999999,5.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1306,Albert,45.795205100000004,-64.8744203230587,12.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1007,Division No.  7,,,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1309,Northumberland,46.9389258,-65.8953414990735,1.0,0.0,0.0,0.0
+24,Quebec / Québec,2410,Rimouski-Neigette,48.4332914,-68.5235867157652,34.0,3.0,2.0,0.0
+24,Quebec / Québec,2429,Beauce-Sartigan,46.12655105,-70.6691818414125,50.0,0.0,10.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1304,Queens,45.8255852,-66.0106246694295,23.0,10.0,4.0,0.0
+24,Quebec / Québec,2442,Le Val-Saint-François,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2409,La Mitis,48.42734735,-68.0500092382475,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2448,Acton,45.647648,-72.564011,95.0,1.0,3.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1205,Annapolis,44.69495785,-65.2811194725923,75.0,0.0,5.0,1.0
+24,Quebec / Québec,2450,Nicolet-Yamaska,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2451,Maskinongé,46.2282338,-73.01648730000001,13.0,0.0,0.0,0.0
+24,Quebec / Québec,2453,Pierre-De Saurel,46.0278804,-73.0972552,7.0,0.0,1.0,0.0
+24,Quebec / Québec,2421,La Côte-de-Beaupré,47.41831145,-71.1991017973721,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2416,Charlevoix,47.6114112,-70.7215117381193,2.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1005,Division No.  5,,,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1301,Saint John,45.278752000000004,-66.058044,546.0,10.0,31.0,0.0
+24,Quebec / Québec,2456,Le Haut-Richelieu,45.305326,-73.2541753997446,55.0,0.0,1.0,0.0
+24,Quebec / Québec,2407,La Matapédia,48.412796,-67.390137,10.0,0.0,0.0,0.0
+24,Quebec / Québec,2418,Montmagny,46.981891999999995,-70.555916,1.0,0.0,0.0,0.0
+11,Prince Edward Island / Île-du-Prince-Édouard,1101,Kings,46.17366575,-62.5328944956973,24.0,0.0,0.0,0.0
+24,Quebec / Québec,2403,La Côte-de-Gaspé,49.1654025,-64.5583971496186,31.0,0.0,0.0,1.0
+24,Quebec / Québec,2449,Drummond,45.5091531,-73.5999403,32.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1206,Lunenburg,44.377495399999994,-64.3154816,133.0,2.0,14.0,1.0
+13,New Brunswick / Nouveau-Brunswick,1315,Gloucester,47.640685999999995,-65.4157519941204,20.0,2.0,1.0,0.0
+24,Quebec / Québec,2443,Sherbrooke,45.403271000000004,-71.889038,232.0,1.0,8.0,0.0
+24,Quebec / Québec,2433,Lotbinière,46.6158722,-71.9352468,4.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1214,Antigonish,45.621360700000004,-61.9904928,103.0,0.0,3.0,4.0
+24,Quebec / Québec,2446,Brome-Missisquoi,45.20721195,-72.7142660803351,284.0,1.0,1.0,0.0
+24,Quebec / Québec,2458,Longueuil,45.5172382,-73.44674659999998,624.0,8.0,28.0,2.0
+24,Quebec / Québec,2495,La Haute-Côte-Nord,49.02652575,-69.3991730822559,5.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1213,Guysborough,45.3922534,-61.49978960000001,17.0,2.0,1.0,0.0
+24,Quebec / Québec,2434,Portneuf,46.99346845,-71.99206021053791,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1303,Sunbury,46.2062723,-66.1755855,25.0,0.0,2.0,0.0
+24,Quebec / Québec,2430,Le Granit,45.0081335,-72.0972678,7.0,0.0,0.0,0.0
+24,Quebec / Québec,2452,D'Autray,46.216735,-73.2567319006472,0.0,0.0,0.0,0.0
+11,Prince Edward Island / Île-du-Prince-Édouard,1102,Queens,46.2181211,-63.134805680618896,385.0,6.0,21.0,3.0
+13,New Brunswick / Nouveau-Brunswick,1302,Charlotte,45.01103135,-66.8656097263204,25.0,1.0,0.0,0.0
+24,Quebec / Québec,2438,Bécancour,46.339343,-72.433205,176.0,0.0,0.0,1.0
+24,Quebec / Québec,2401,Les Îles-de-la-Madeleine,47.463078700000004,-61.75840970000001,253.0,3.0,14.0,2.0
+24,Quebec / Québec,2460,L'Assomption,45.8307051,-73.42220859999999,97.0,0.0,4.0,2.0
+12,Nova Scotia / Nouvelle-Écosse,1202,Yarmouth,43.8372828,-66.1156037,119.0,0.0,3.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1218,Victoria,45.7300441,-63.680715899999996,0.0,0.0,0.0,0.0
+12,Nova Scotia / Nouvelle-Écosse,1209,Halifax,44.649119799999994,-63.575134,4693.0,56.0,194.0,30.0
+24,Quebec / Québec,2406,Avignon,48.16164485,-66.3900211287803,18.0,0.0,0.0,0.0
+24,Quebec / Québec,2439,Arthabaska,47.650125,-70.774487,186.0,3.0,7.0,0.0
+24,Quebec / Québec,2427,Robert-Cliche,46.735824,-71.2838009,7.0,0.0,0.0,0.0
+24,Quebec / Québec,2426,La Nouvelle-Beauce,,,0.0,0.0,0.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1310,York,46.2255841,-66.8114419663078,22.0,3.0,1.0,0.0
+13,New Brunswick / Nouveau-Brunswick,1311,Carleton,45.958041200000004,-66.6445253,636.0,17.0,33.0,0.0
+24,Quebec / Québec,2425,Lévis,46.7910096,-71.17532740000001,116.0,0.0,6.0,1.0
+13,New Brunswick / Nouveau-Brunswick,1314,Restigouche,47.72508035,-67.0851442550926,0.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1002,Division No.  2,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2408,Matane,48.84666970000001,-67.5317397,80.0,0.0,1.0,2.0
+24,Quebec / Québec,2422,La Jacques-Cartier,47.27416065,-71.5634219182232,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2459,Lajemmerais,45.5984181,-73.5985252,9.0,0.0,2.0,0.0
+24,Quebec / Québec,2411,Les Basques,,,0.0,0.0,0.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1011,Division No. 11,,,0.0,0.0,0.0,0.0
+61,Northwest Territories / Territoires du Nord-Ouest,6103,Region 3,,,1.0,0.0,0.0,0.0
+61,Northwest Territories / Territoires du Nord-Ouest,6101,Region 1,,,38.0,0.0,0.0,0.0
+46,Manitoba,4613,Division No. 13,52.149698799999996,-106.7099989,7.0,0.0,0.0,0.0
+61,Northwest Territories / Territoires du Nord-Ouest,6104,Region 4,,,5.0,0.0,0.0,0.0
+46,Manitoba,4619,Division No. 19,,,0.0,0.0,0.0,0.0
+61,Northwest Territories / Territoires du Nord-Ouest,6106,Region 6,,,4.0,0.0,0.0,0.0
+62,Nunavut,6205,Keewatin,,,17.0,0.0,1.0,0.0
+46,Manitoba,4622,Division No. 22,55.743347,-97.86346400000001,3.0,0.0,0.0,0.0
+46,Manitoba,4623,Division No. 23,58.7721606,-94.1637108,23.0,0.0,3.0,0.0
+46,Manitoba,4618,Division No. 18,50.1327525,-97.3270268320833,0.0,0.0,0.0,0.0
+46,Manitoba,4612,Division No. 12,50.061931200000004,-96.5140821,108.0,0.0,4.0,1.0
+61,Northwest Territories / Territoires du Nord-Ouest,6105,Region 5,,,4.0,0.0,0.0,0.0
+61,Northwest Territories / Territoires du Nord-Ouest,6102,Region 2,,,7.0,0.0,0.0,0.0
+60,Yukon,6001,Yukon,33.7985579,-91.46785679999999,45.0,0.0,0.0,0.0
+46,Manitoba,4602,Division No.  2,49.530557,-96.69341999999999,85.0,2.0,2.0,1.0
+35,Ontario,3556,Cochrane,49.066668,-81.017303,311.0,7.0,22.0,2.0
+35,Ontario,3560,Kenora,49.761752,-94.482422,100.0,0.0,7.0,0.0
+24,Quebec / Québec,2468,Les Jardins-de-Napierville,,,1.0,0.0,0.0,0.0
+24,Quebec / Québec,2492,Maria-Chapdelaine,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2490,La Tuque,47.441092,-72.78511,9.0,0.0,0.0,0.0
+24,Quebec / Québec,2461,Joliette,46.0243857,-73.43984499999999,8.0,0.0,0.0,0.0
+24,Quebec / Québec,2491,Le Domaine-du-Roy,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2462,Matawinie,46.87002175,-74.061181726057,2.0,0.0,0.0,0.0
+24,Quebec / Québec,2435,Mékinac,47.0538687,-73.09314619715879,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2465,Laval,45.60558895,-73.7344969952416,837.0,3.0,18.0,2.0
+24,Quebec / Québec,2467,Roussillon,45.5414941,-73.4946444244885,119.0,0.0,2.0,0.0
+62,Nunavut,6204,Baffin,67.8593948,-69.6872955543764,168.0,1.0,2.0,0.0
+35,Ontario,3558,Thunder Bay,48.406414,-89.259796,554.0,8.0,38.0,8.0
+24,Quebec / Québec,2499,Nord-du-Québec,45.3597156,-73.7732808,537.0,4.0,16.0,1.0
+24,Quebec / Québec,2466,Montréal,45.4972159,-73.61036419999999,11952.0,81.0,464.0,49.0
+24,Quebec / Québec,2464,Les Moulins,45.74816055,-73.6346122780677,187.0,1.0,5.0,1.0
+24,Quebec / Québec,2463,Montcalm,45.9223436,-73.69713480653009,45.0,0.0,1.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1010,Division No. 10,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2496,Manicouagan,50.2145718,-68.8521751772504,70.0,0.0,12.0,0.0
+10,Newfoundland and Labrador / Terre-Neuve-et-Labrador,1009,Division No.  9,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2498,Minganie--Le Golfe-du-Saint-Laurent,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2494,Le Saguenay-et-son-Fjord,,,0.0,0.0,0.0,0.0
+24,Quebec / Québec,2497,Sept-Rivières--Caniapiscau,,,1.0,0.0,0.0,0.0
+62,Nunavut,6208,Kitikmeot,69.11737675,-105.051776036282,19.0,0.0,0.0,0.0

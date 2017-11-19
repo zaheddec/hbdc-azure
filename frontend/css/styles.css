@@ -1,0 +1,21 @@
+p {
+    font-size: 0.85
+}
+
+svg {
+   // background: #efefef;
+}
+
+tool-tip{
+    fill:gray;
+    color: black;
+}
+
+.district {
+    stroke: #333333;
+    stroke-width: 0.2;
+}
+
+.selected {
+    fill: darkcyan;
+}
