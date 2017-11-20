@@ -2,13 +2,20 @@ p {
     font-size: 0.85
 }
 
-svg {
-   // background: #efefef;
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
 }
 
-tool-tip{
-    fill:gray;
-    color: black;
+text {
+    margin-bottom: 50px;
+}
+        
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left:1200px;
+	top:150px;
 }
 
 .district {
@@ -16,6 +23,32 @@ tool-tip{
     stroke-width: 0.2;
 }
 
+.district:hover {
+    fill-opacity: .7;
+}
+
+.hidden {
+    display: none;
+}
+
 .selected {
     fill: darkcyan;
+}
+
+#mapid { 
+    width: 1080px; 
+    height: 680px;
+    margin-bottom: 50px;
+}
+
+div.tooltip {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    
+    border-radius: 3px; 
+    box-shadow: 0px 0px 2px 0px #a6a6a6; 
+    padding: .2em; 
+    text-shadow: #f5f5f5 0 1px 0;
+    opacity: 0.9; 
+    position: absolute;
 }
