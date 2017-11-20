@@ -9,29 +9,52 @@
 
         <link rel="stylesheet" href="css/styles.css?v=1.0">
 
+        <!-- Leaflet css -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+        integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+        crossorigin=""/>
+
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
     </head>
 
     <body>
+        <!-- Mapbox -->
+        <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' /> -->
+     
         <center>
             <div id ="site-desc">
-                <h1> This is a test for alignment and map centering </h1>
+                <h1> This is a test for alignment and map centering!</h1>
             </div>
             <div id="map"></div>
             <div id="info"></div>
             <div id="bar-chart"></div>
+
+            <div id="mapid"></div>
+
+            <!-- <div id='map' style='width: 400px; height: 300px;'></div>
+            <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoib2xpdmllcm5ndXllbiIsImEiOiIyNGExOTIwZTQwNGYyZmJjZWY3Mzk2MTEwY2EwZGRjOCJ9.vhftamcL2cMPjsdCut5SJg';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/dark-v9'
+            });
+            </script> -->
+
         </center>
 
         <!-- D3 library -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 
-        <!-- Visualization script -->
+        <!-- Additional libraries -->
         <script src="https://d3js.org/topojson.v1.min.js"></script>
         <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-
-
         <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
         
         <!-- Visualization script -->
-        <script src="js/main.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/main.js"></script
     </body>
 </html>
