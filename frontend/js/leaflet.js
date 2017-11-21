@@ -16,7 +16,7 @@
     var districts;
 
     d3.queue()
-      .defer(d3.json, "canada.topojson")
+      .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
       .await(ready)
 
     function ready(error, canada) {
@@ -33,7 +33,7 @@
                       weight: .8}
          }
 
-        districts = topojson.feature(canada, canada.objects.districts2011)
+        districts = topojson.feature(canada, canada.objects.gcd_000b11a_e_geo)
         geojson = L.geoJson(districts)
                    .addTo(map);
 

@@ -13,15 +13,30 @@ text {
         
 /* Legend Position Style */
 .legend {
-	position:absolute;
-	left:1200px;
-	top:150px;
+	position: absolute;
+	left: 1000px;
+	top: 200px;
 }
 
 .district {
-    stroke: #333333;
-    stroke-width: 0.2;
 }
+
+#bar-chart {
+    margin-bottom: 50px;
+}
+
+.bar {
+    fill: steelblue;
+}
+  
+.bar:hover {
+    fill: brown;
+}
+
+.axis--x path {
+    display: none;
+}
+
 
 .district:hover {
     fill-opacity: .7;
@@ -32,7 +47,7 @@ text {
 }
 
 .selected {
-    fill: darkcyan;
+    fill-opacity: .7;
 }
 
 #mapid { 
