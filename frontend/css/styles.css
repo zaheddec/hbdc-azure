@@ -18,6 +18,14 @@ text {
 	top: 200px;
 }
 
+.radio{
+	text-align: center;
+}
+
+.row{
+	text-align: center;
+}
+
 .district {
 }
 
@@ -26,7 +34,6 @@ text {
 }
 
 .bar {
-    fill: steelblue;
 }
   
 .bar:hover {
