@@ -17,6 +17,7 @@
         <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
         integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
         crossorigin=""></script>
+
     </head>
 
     <body>
@@ -28,12 +29,30 @@
             <div id ="site-desc">
                 <h1> This is a test for alignment and map centering!</h1>
             </div>
+
+            <div class='row'>
+                <div class='radio'>
+                        <label class='radio-inline'>
+                            <input type="radio" name="topic" value="physical" checked> Physical activity
+                        </label>
+                        <label class='radio-inline'>
+                            <input type="radio" name="topic" value="sedentary"> Sedentary behaviour
+                        </label>
+                        <label class='radio-inline'>
+                            <input type="radio" name="topic" value="sleep"> Sleep
+                        </label>
+                </div>
+            </div>
+
             <div id="map"></div>
 
             <div id="info"></div>
 
-            <div id="bar-chart"></div>
-            <!-- <svg width="960" height="500"></svg> -->
+            <div id="bar-chart">
+                <svg width="960" height="500">
+                    <g></g>
+                </svg> 
+            </div>
 
 
             <div id="mapid"></div>
@@ -59,6 +78,6 @@
         
         <!-- Visualization script -->
         <script src="js/leaflet.js"></script>
-        <script src="js/main.js"></script
+        <script src="js/main.js"></script>
     </body>
 </html>
