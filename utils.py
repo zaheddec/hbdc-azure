@@ -11,7 +11,17 @@ import re
 
 sedentary_pattern = r'working|work|watch|chill|games|travail'
 sleeping_pattern = r'sleep|slept|dorm|dodo'
-physical_activity = r'run|hiking|hike|courir'
+physical_activity = r'run|hiking|hike|courir|gym|train|workout|work out|'
+
+sedentary_pattern = r'working|work|watch|chill|games|movies|nba|ufc|nhl|nfl|cfl'
+sleeping_pattern = r'sleep|slept|insomnia|dormir|dodo|rest|nap|zzz|siesta'
+
+physical_incl = 'run|hiking|hike|courir|gym|train|workout|work out|basketball| \
+                 ball|hockey|biking|bike|bb|bball|baseball|climb|dance|dancin|ran| \
+                 skate|skating|squat|lift|gains|volleyball|yoga'
+
+physical_excl = 'watch|attend'
+physical_activity = r'^(?=.*(?:%s))(?!.*(?:%s)).*$' % (physical_incl, physical_excl)
 
 
 '''
