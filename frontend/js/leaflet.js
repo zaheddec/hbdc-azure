@@ -21,7 +21,7 @@
 
     function ready(error, canada) {
         if (error) throw error;
-        console.log(canada)
+        // console.log(canada)
 
         function style(feat, i){
             var i = feat.indie;
