@@ -61,7 +61,7 @@ text {
     width: 1080px; 
     height: 680px;
     margin-bottom: 50px;
-}
+}   
 
 div.tooltip {
     color: #fff;
@@ -74,3 +74,25 @@ div.tooltip {
     opacity: 0.9; 
     position: absolute;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto';
+}
+
+#fullpage {
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+    color:#fff;
+}
+
+#fullpage section { height: 100vh; }
+#fullpage section:nth-child(1) { background-color: rgb(48, 105, 77); }
+#fullpage section:nth-child(2) { background-color: rgb(89, 66, 104); }
+#fullpage section:nth-child(3) { background-color: rgb(54, 70, 93); }
+#fullpage section:nth-child(4) { background-color: rgb(141, 87, 26); }
+#fullpage section:nth-child(5) { background-color: rgb(62, 43, 77); }
+#fullpage section:nth-child(6) { background-color: rgb(86, 99, 40); }
