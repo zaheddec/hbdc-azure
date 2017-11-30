@@ -111,7 +111,6 @@
         */
         d3.selectAll("input[name='topic']").on("change", function(){
             console.log("calling map update!! # ", this.value)
-            //removing values but no effect
             d3.select("#ltext").remove();
             d3.select("#lrect").remove();
             updateMap();
@@ -176,8 +175,8 @@
 
             // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
             var legend = map.append("svg")
-                            //.attr("class", "legend")
-                            .attr("width", 120)
+                            .attr("class", "legend")
+                            .attr("width", 100)
                             .attr("height", 400)
                             .selectAll("g")
                             .data(legend_color.domain().slice().reverse())
@@ -197,9 +196,8 @@
                     .data(population_domain.reverse())
                     .attr("x", 24)
                     .attr("y", 9)
-                    .attr("dy", ".45em")
-                    .text(function(d) { return d + ' tweets'; })
-                    .style("fill", "white");
+                    .attr("dy", ".35em")
+                    .text(function(d) { return d + ' tweets'; });
         }
 
         // //color map
@@ -270,12 +268,11 @@
                 .attr("x", 2)
                 .attr("y", y(y.ticks().pop()) + 0.5)
                 .attr("dy", "0.32em")
-                .attr("fill", "white")
+                .attr("fill", "#000")
                 .attr("font-weight", "bold")
                 .attr("text-anchor", "start")
                 .attr("transform", "translate(-35," +  (bar_height + margin.bottom)/2 + ") rotate(-90)")
-                .text("# Tweets")
-                .style("fill", "white");
+                .text("# Tweets");
           
             var legend = g.append("g")
                 .attr("font-family", "sans-serif")
@@ -295,9 +292,8 @@
             legend.append("text")
                 .attr("x", bar_width - 24)
                 .attr("y", 9.5)
-                .attr("dy", "0.42em")
-                .text(function(d) { return d; })
-                .style("fill", "white");    
+                .attr("dy", "0.32em")
+                .text(function(d) { return d; });    
         }
 
         function updateBarchart (division_id) {
@@ -342,13 +338,13 @@
                 .attr("class", "axis")
                 .call(d3.axisLeft(y).ticks(null, "s"))
               .append("text")
-                .attr("x", 20)
+                .attr("x", 2)
                 .attr("y", y(y.ticks().pop()) + 0.5)
                 .attr("dy", "0.32em")
-                .style("fill", "#fff")
+                .attr("fill", "#000")
                 .attr("font-weight", "bold")
                 .attr("text-anchor", "start")
-                .attr("transform", "translate(15," +  (bar_height + margin.bottom)/2 + ") rotate(-90)")
+                .attr("transform", "translate(-35," +  (bar_height + margin.bottom)/2 + ") rotate(-90)")
                 .text("# Tweets");
           
             var legend = g.append("g")
@@ -369,8 +365,7 @@
             legend.append("text")
                 .attr("x", bar_width - 24)
                 .attr("y", 9.5)
-                .attr("dy", "0.42em")
-                .attr("fill","white")
+                .attr("dy", "0.32em")
                 .text(function(d) { return d; });    
         }        
 
