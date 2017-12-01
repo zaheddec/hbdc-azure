@@ -5,7 +5,6 @@
         + .csv
     */
     d3.queue()
-      //.defer(d3.json, "canada.topojson")
       .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
       .defer(d3.csv, "data/map_output.csv", function(d) {
             dict = {
@@ -39,14 +38,12 @@
         */
         d3.selectAll("input[name='topic']").on("change", function(){
             console.log("calling map update!! # ", this.value)
-            d3.select("#ltext").remove();
-            d3.select("#lrect").remove();
             choropleth.updateVis();
         });
 
         initVis();
 
-        // Render the obesity spending lines chart.
+        // Render the charts
         function initVis () {
             barchart = new window.charts.Bar('#bar-chart', processedData, {});
             choropleth = new window.charts.Choropleth('#map', mapData, {}, healthIndex);

@@ -84,18 +84,18 @@
                         });
 
                         d3.select("#info").append("text").attr("id","province")
-                        .text("Province: " + d.properties.PRNAME)
+                                                         .text("Province: " + d.properties.PRNAME)
                         d3.select("#info").append("text").attr("id","city")
-                        .text(" | City: " +     d.properties.CDNAME)
+                                                         .text(" | City: " +     d.properties.CDNAME)
                         d3.select("#info").append("text").attr("id","population")
-                        .text(" | Population: " + d.properties.CDUID)
+                                                         .text(" | Population: " + d.properties.CDUID)
 
                         d3.select(this).classed("selected", true);
 
                         vis.tooltip.classed('hidden', false)
-                            .attr('style', 'left:' + (mouse[0] + 15) +
-                                    'px; top:' + (mouse[1] - 35) + 'px')
-                            .html(d.properties.CDNAME);
+                                   .attr('style', 'left:' + (mouse[0] + 15) +
+                                         'px; top:' + (mouse[1] - 35) + 'px')
+                                   .html(d.properties.CDNAME);
                     })
                     .on("mouseout", function(d){
                         d3.select("#province").remove();
@@ -104,6 +104,32 @@
                         d3.select(this).classed("selected", false);
                         vis.tooltip.classed('hidden', true);
                     })
+
+        // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+        vis.legend = vis.svg.append("svg")
+                        .attr("class", "legend")
+                        .attr("width", 100)
+                        .attr("height", 400)
+                        .selectAll("g")
+                        .data(vis.legend_color.domain().slice().reverse())
+                        .enter()
+                        .append("g")
+                        //.attr("transform", "translate(0,40)");
+                        .attr("transform", function(d, i) { return "translate(5," + i * 20 + ")"; });
+
+        vis.legend.append("rect")
+                  .attr("id","lrect")
+                  .attr("width", 18)
+                  .attr("height", 18)
+                  .style("fill", vis.legend_color);
+
+        vis.legend.append("text")
+                  .attr("id","ltext")
+                  .data(vis.population_domain.reverse())
+                  .attr("x", 24)
+                  .attr("y", 9)
+                  .attr("dy", ".35em")
+                  .text(function(d) { return d + ' tweets'; });
 
         vis.updateVis();
     }
@@ -131,7 +157,7 @@
         })
         
         // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-        vis.legend = vis.svg.append("svg")
+        vis.legend = vis.svg.select("svg")
                         .attr("class", "legend")
                         .attr("width", 100)
                         .attr("height", 400)
@@ -142,13 +168,13 @@
                         //.attr("transform", "translate(0,40)");
                         .attr("transform", function(d, i) { return "translate(5," + i * 20 + ")"; });
 
-        vis.legend.append("rect")
+        vis.legend.select("rect")
                   .attr("id","lrect")
                   .attr("width", 18)
                   .attr("height", 18)
                   .style("fill", vis.legend_color);
 
-        vis.legend.append("text")
+        vis.legend.select("text")
                   .attr("id","ltext")
                   .data(vis.population_domain.reverse())
                   .attr("x", 24)
