@@ -38,9 +38,12 @@ def tweet_folder_json_to_csv(tweet_folder, out_path):
     data_python = []
 
     for tweet in tqdm(data_json):
-        tweet_json = json.loads(tweet)
-        if filter_tweet(tweet_json):
-            data_python.append(tweet_json)
+        try:
+            tweet_json = json.loads(tweet)
+            if filter_tweet(tweet_json):
+            	data_python.append(tweet_json)
+        except:
+            print("Bad json:", tweet)
 
     csv_out = open(out_path, mode='w')
     writer = csv.writer(csv_out)
