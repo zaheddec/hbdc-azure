@@ -10,29 +10,6 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
-    w = 960
-    h = 500
-
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    bar_width = w - margin.left - margin.right,
-    bar_height = h - margin.top - margin.bottom
-
-    var barchart = d3.select("#bar-chart").select("svg")
-                        .attr("height", h)
-                        .attr("width", w)
-
-    var x0 = d3.scaleBand()
-                .rangeRound([0, bar_width])
-                .paddingInner(0.1);
-
-    var x1 = d3.scaleBand()
-                .padding(0.05);
-
-    var y = d3.scaleLinear()
-                .rangeRound([bar_height, 0]);
-
-    var z = d3.scaleOrdinal()
-                .range(["#98abc5", "#6b486b", "#ff8c00"]);    
 
     //var population_domain = [10000,100000,200000,300000,400000,500000,600000,900000];
     var population_domain = [0,2,200,300,400,1000,1500,2000];
@@ -91,18 +68,18 @@
                  .projection(projection)    
 
 
+    var barchart;
+
     function ready(error, data, processedData) {
         if (error) {
             console.log(error)
         }
-
 
         var districts = topojson.feature(data, data.objects.gcd_000b11a_e_geo).features
 
         // console.log(districts)
         // console.log(processedData);
         // console.log(healthIndex);
-
 
         updateMap();
         
@@ -119,6 +96,12 @@
         // for legend color
         var legend_color;
 
+        initVis();
+
+        // Render the obesity spending lines chart.
+        function initVis () {
+            barchart = new window.charts.Bar('#bar-chart', processedData, {});
+        }
 
         function updateMap () {
             console.log("here it enters")
@@ -172,7 +155,7 @@
                 tooltip.classed('hidden', true);
             })
             .on("click", function(d){
-                updateBarchart(d.properties.CDUID);
+                barchart.updateVis(d.properties.CDUID);
             })
 
             // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
@@ -225,177 +208,5 @@
         //     })
         // }
 
-        /*
-           Bar chart
-        */
-        initBarchart();
-
-        function initBarchart() {
-            data = processedData;
-            var keys = data.columns.slice(7);
-            data = data.filter(function(d) {
-                return d.division_name == 'Toronto';
-            });
-
-            var g = barchart.select("g").attr("transform",
-                         "translate(" + margin.left + "," + margin.top + ")");
-
-            x0.domain(data.map(function(d) { return d.division_name; }));
-            x1.domain(keys).rangeRound([0, x0.bandwidth()]);
-            y.domain([0, d3.max(data, function(d) {return d3.max(keys, function(key) { return d[key]; }); })]).nice();
-          
-            g.selectAll("g")
-              .data(data)
-              .enter().append("g")
-              .attr("transform", function(d) { return "translate(" + x0(d.division_name) + ",0)"; })
-              .selectAll("rect")
-              .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
-              .enter().append("rect")
-                .attr("class", "bar")
-                .attr("x", function(d) { return x1(d.key); })
-                .attr("y", function(d) { return y(d.value); })
-                .attr("width", x1.bandwidth())
-                .attr("height", function(d) { return bar_height - y(d.value); })
-                .attr("fill", function(d) { return z(d.key); });
-          
-            g.append("g")
-                .attr("class", "axis")
-                .attr("transform", "translate(0," + bar_height + ")")
-                .call(d3.axisBottom(x0));
-          
-            g.append("g")
-                .attr("class", "axis")
-                .call(d3.axisLeft(y).ticks(null, "s"))
-              .append("text")
-                .attr("x", 2)
-                .attr("y", y(y.ticks().pop()) + 0.5)
-                .attr("dy", "0.32em")
-                .attr("fill", "#000")
-                .attr("font-weight", "bold")
-                .attr("text-anchor", "start")
-                .attr("transform", "translate(-35," +  (bar_height + margin.bottom)/2 + ") rotate(-90)")
-                .text("# Tweets");
-          
-            var legend = g.append("g")
-                .attr("font-family", "sans-serif")
-                .attr("font-size", 10)
-                .attr("text-anchor", "end")
-              .selectAll("g")
-              .data(keys.slice().reverse())
-              .enter().append("g")
-                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-          
-            legend.append("rect")
-                .attr("x", bar_width - 19)
-                .attr("width", 19)
-                .attr("height", 19)
-                .attr("fill", z);
-          
-            legend.append("text")
-                .attr("x", bar_width - 24)
-                .attr("y", 9.5)
-                .attr("dy", "0.32em")
-                .text(function(d) { return d; });    
-        }
-
-        function updateBarchart (division_id) {
-            data = processedData;
-            var keys = data.columns.slice(7);
-            data = data.filter(function(d) {
-                return d.division_id == division_id;
-            });
-
-            var bars = barchart.selectAll("g")
-                               .remove()
-                               .exit()
-                               .data(data)
-
-            var g = barchart.append("g").attr("transform",
-                         "translate(" + margin.left + "," + margin.top + ")");
-
-            x0.domain(data.map(function(d) { return d.division_name; }));
-            x1.domain(keys).rangeRound([0, x0.bandwidth()]);
-            y.domain([0, d3.max(data, function(d) {return d3.max(keys, function(key) { return d[key]; }); })]).nice();
-          
-            g.selectAll("g")
-              .data(data)
-              .enter().append("g")
-              .attr("transform", function(d) { return "translate(" + x0(d.division_name) + ",0)"; })
-              .selectAll("rect")
-              .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
-              .enter().append("rect")
-                .attr("class", "bar")
-                .attr("x", function(d) { return x1(d.key); })
-                .attr("y", function(d) { return y(d.value); })
-                .attr("width", x1.bandwidth())
-                .attr("height", function(d) { return bar_height - y(d.value); })
-                .attr("fill", function(d) { return z(d.key); });
-          
-            g.append("g")
-                .attr("class", "axis")
-                .attr("transform", "translate(0," + bar_height + ")")
-                .call(d3.axisBottom(x0));
-          
-            g.append("g")
-                .attr("class", "axis")
-                .call(d3.axisLeft(y).ticks(null, "s"))
-              .append("text")
-                .attr("x", 2)
-                .attr("y", y(y.ticks().pop()) + 0.5)
-                .attr("dy", "0.32em")
-                .attr("fill", "#000")
-                .attr("font-weight", "bold")
-                .attr("text-anchor", "start")
-                .attr("transform", "translate(-35," +  (bar_height + margin.bottom)/2 + ") rotate(-90)")
-                .text("# Tweets");
-          
-            var legend = g.append("g")
-                .attr("font-family", "sans-serif")
-                .attr("font-size", 10)
-                .attr("text-anchor", "end")
-              .selectAll("g")
-              .data(keys.slice().reverse())
-              .enter().append("g")
-                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-          
-            legend.append("rect")
-                .attr("x", bar_width - 19)
-                .attr("width", 19)
-                .attr("height", 19)
-                .attr("fill", z);
-          
-            legend.append("text")
-                .attr("x", bar_width - 24)
-                .attr("y", 9.5)
-                .attr("dy", "0.32em")
-                .text(function(d) { return d; });    
-        }        
-
     }
-
-    // window.onload = function () {
-    //    var radioButtons = document.getElementsByName("topic");
-    //    for (var i = 0; radioButtons[i]; i++) 
-    //      radioButtons[ i ].onclick = changeTopic;
-    // };
-
-    // function changeTopic () { 
-    //     topic = this.value
-
-    //     if(topic === 'physical'){
-    //         population_color = d3.scaleThreshold()
-    //                              .domain(population_domain)
-    //                              .range(d3.schemeOranges[8]);              
-    //     }else if(topic === 'sedentary'){
-    //         population_color = d3.scaleThreshold()
-    //                              .domain(population_domain)
-    //                              .range(d3.schemeReds[8]);              
-    //     }else{
-    //         population_color = d3.scaleThreshold()
-    //                              .domain(population_domain)
-    //                              .range(d3.schemeBlues[8]);              
-    //     }        
-    // }
-
-
 })();
