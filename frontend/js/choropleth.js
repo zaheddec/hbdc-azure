@@ -105,6 +105,7 @@
                         vis.tooltip.classed('hidden', true);
                     })
 
+                    /*
         // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
         vis.legend = vis.svg.append("svg")
                         .attr("class", "legend")
@@ -131,6 +132,7 @@
                   .attr("dy", ".35em")
                   .text(function(d) { return d + ' tweets'; });
 
+                  */
         vis.updateVis();
     }
 
@@ -155,9 +157,11 @@
                 return vis.pa_color(d.tweets = vis.healthIndex.get(d.properties.CDUID).physical_activity);
             }
         })
+
+        d3.select(".legend").remove();
         
         // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-        vis.legend = vis.svg.select("svg")
+        vis.legend = vis.svg.append("svg")
                         .attr("class", "legend")
                         .attr("width", 100)
                         .attr("height", 400)
@@ -168,15 +172,15 @@
                         //.attr("transform", "translate(0,40)");
                         .attr("transform", function(d, i) { return "translate(5," + i * 20 + ")"; });
 
-        vis.legend.select("rect")
+        vis.legend.append("rect")
                   .attr("id","lrect")
                   .attr("width", 18)
                   .attr("height", 18)
                   .style("fill", vis.legend_color);
 
-        vis.legend.select("text")
+        vis.legend.append("text")
                   .attr("id","ltext")
-                  .data(vis.population_domain.reverse())
+                  .data(vis.population_domain.slice().reverse())
                   .attr("x", 24)
                   .attr("y", 9)
                   .attr("dy", ".35em")

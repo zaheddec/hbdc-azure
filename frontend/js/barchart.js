@@ -28,22 +28,22 @@
         vis.width = vis.opts.width - vis.margin.left - vis.margin.right;
         vis.height = vis.opts.height - vis.margin.top - vis.margin.bottom;        
 
-        vis.barchart = d3.select(this.parentSelector).select("svg")
-                            .attr("height", vis.opts.height)
-                            .attr("width", vis.opts.width)
+        vis.barchart = d3.select(this.parentSelector).append("svg")
+                                                     .attr("height", vis.opts.height)
+                                                     .attr("width", vis.opts.width)
 
         vis.x0 = d3.scaleBand()
-                    .rangeRound([0, vis.width])
-                    .paddingInner(0.1);
+                   .rangeRound([0, vis.width])
+                   .paddingInner(0.1);
 
         vis.x1 = d3.scaleBand()
-                    .padding(0.05);
+                   .padding(0.05);
 
         vis.y = d3.scaleLinear()
-                    .rangeRound([vis.height, 0]);
+                  .rangeRound([vis.height, 0]);
 
         vis.z = d3.scaleOrdinal()
-                    .range(["#98abc5", "#6b486b", "#ff8c00"]);    
+                  .range(["#98abc5", "#6b486b", "#ff8c00"]);    
 
         // Display Toronto by default
         vis.updateVis(3520);
