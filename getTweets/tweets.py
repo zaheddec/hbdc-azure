@@ -71,10 +71,15 @@ class LimitListener(StreamListener):
 class MongoDBListener(StreamListener):
 
     def on_data(self, data):
-        print data
+        
         print("# tweets in the database:", col.count())
         temp = json.loads(data)
-        col.insert_one(temp)
+
+        if temp['place']['country_code'] == 'CA':
+            col.insert_one(temp)
+            print data
+            print 'CANADA \n'
+
         return True
         
 
