@@ -8,20 +8,84 @@ from geopy.distance import vincenty
 import geocoder
 import re
 
+from nltk.stem.porter import PorterStemmer
+from nltk.stem.snowball import FrenchStemmer
+from googletrans import Translator
 
-sedentary_pattern = r'working|work|watch|chill|games|travail'
-sleeping_pattern = r'sleep|slept|dorm|dodo'
-physical_activity = r'run|hiking|hike|courir|gym|train|workout|work out|'
+translator = Translator()
+porter = PorterStemmer()
+FrenchStem = FrenchStemmer()
 
-sedentary_pattern = r'working|work|watch|chill|games|movies|nba|ufc|nhl|nfl|cfl'
-sleeping_pattern = r'sleep|slept|insomnia|dormir|dodo|rest|nap|zzz|siesta'
+"""
+To be filtered, a tweet has to contain a noun + verb in one of the lists
+"""
 
-physical_incl = 'run|hiking|hike|courir|gym|train|workout|work out|basketball| \
-                 ball|hockey|biking|bike|bb|bball|baseball|climb|dance|dancin|ran| \
-                 skate|skating|squat|lift|gains|volleyball|yoga'
+# Sedentary behavior keywords
+sedentary_verbs = ['watch', 'chill', 'work', 'study', 'lying', 'recline', 'sit\s', 'read\s', 'draw', 'paint'
+        , 'drive']
 
-physical_excl = 'watch|attend'
-physical_activity = r'^(?=.*(?:%s))(?!.*(?:%s)).*$' % (physical_incl, physical_excl)
+sedentary_nouns = ['game', 'video game', 'school', 'office', 'television', 'tv', 
+         'computer', 'phone', 'iphone', 'tablet', 'ipad', 'kindle', 'book', 
+         'newspaper', 'homework', 'car\s', 'plane', 'bus', 'train', 'netflix',
+         'bed', 'the play', 'the show'] 
+
+sedentary_leagues = ['nba', 'worldseri', 'nfl', 'mls', 'baseball', 'mlb', 'soccer'
+                     , 'mls', 'ufc', 'nhl', 'cfl']
+sedentary_exclusion = ['look for work', 'hire', 'job', 'career', 'Job', 'Hire', 'hiring', 'Hiring'] 
+sedentary_verbs_stemmed = [porter.stem(item) for item in sedentary_verbs]
+sedentary_verbs_fr = [translator.translate(x, dest='fr').text for x in sedentary_verbs]
+sedentary_nouns_fr = [translator.translate(x, dest='fr').text for x in sedentary_nouns]
+sedentary_exclusion_fr = [translator.translate(x, dest='fr').text for x in sedentary_exclusion]
+sedentary_verbs_stemmed_fr = [FrenchStem.stem(item) for item in sedentary_verbs]
+
+sedentary_exclusion_regex = "\s(" + '|'.join(sedentary_exclusion + sedentary_exclusion_fr) + ')'
+sedentary_nouns_regex = "\s(" + '|'.join(sedentary_nouns + sedentary_nouns_fr + sedentary_leagues) + ')'
+sedentary_verbs_regex = "\\b(" + '|'.join(sedentary_verbs + sedentary_verbs_stemmed + sedentary_verbs_fr + sedentary_verbs_stemmed_fr) + ')'
+
+sedentary_pattern = r'^(?=.*(?:%s))(?!.*(?:%s))(?=.*%s).*$' % (sedentary_nouns_regex + '|' + sedentary_verbs_regex, sedentary_exclusion_regex, '') # sedentary_verbs_regex)
+
+# physical activity keywords
+activity_verbs = ['play', 'train', 'run', 'hike', 'ski', 'bike', 'lift']
+activity_nouns = [ 'gym', 'workout', 'work out', 'basketball', 'basket ball'
+                  ,'hockey', 'biking', 'bball', 'baseball', 'climb', 'dance', 'dancin'
+                  ,'skate', 'skating', 'squat', 'weights', 'gains', 'volleyball', 'yoga'
+                 , 'park', 'mountain'] 
+
+with open('./Tweets_keywords/sportslist.txt') as f:
+    lines = f.readlines()
+
+sports = [x.lower().replace('\n', '') for x in lines if x.lower() not in activity_nouns] # removed 3 duplicates
+activity_exclusion = ['look for work', 'hire', 'job', 'career', 'game', 'watch', 'attend']
+activity_verbs_stemmed = [porter.stem(item) for item in activity_verbs]
+
+physical_exclusion_regex = "\s(" + '|'.join(activity_exclusion) + ')'
+physical_nouns_regex = "\s(" + '|'.join(activity_nouns + sports) + ')'
+
+temp = re.sub('a.k.a','',physical_nouns_regex)
+temp = re.sub('\.','', temp)
+temp = re.sub('/','',temp)
+temp = re.sub('\[','',temp)
+temp = re.sub('\]','',temp)
+
+physical_nouns_regex = temp
+
+
+physical_verbs_regex = "\\b(" + '|'.join(activity_verbs + activity_verbs_stemmed) + ')'
+
+physical_activity = r'^(?=.*(?:%s))(?!.*(?:%s))(?=.*%s).*$' % (physical_nouns_regex + '|' + physical_verbs_regex, physical_exclusion_regex, '') # physical_verbs_regex)
+
+# sleep keywords
+sleep_verbs = ['sleep', 'nap\s', 'rest\s', 'zzz.?\s', 'pass out', 'get up', 'wake up'
+               , 'asleep', 'slept']
+sleep_verbs_stemmed = [porter.stem(item) for item in sleep_verbs]
+sleep_nouns = ['bed', 'night', 'last night', 'today', 'sack', 'morning', 'insomnia', 'dodo', 'zzz', 'siesta', 'tired'] 
+sleep_exclusion = ['restaurant']
+
+sleep_verbs_regex = "\s(" + '|'.join(sleep_verbs + sleep_verbs_stemmed) + ')'
+sleep_nouns_regex = "\s(" + '|'.join(sleep_nouns) + ')'
+sleep_exclusion_regex = "\s(" + '|'.join(sleep_exclusion) + ')'
+
+sleeping_pattern = r'^(?=.*(?:%s))(?!.*(?:%s))(?=.*%s).*$' % (sleep_nouns_regex + '|' + sleep_verbs_regex, sleep_exclusion_regex, '')#, sleep_verbs_regex)
 
 
 '''

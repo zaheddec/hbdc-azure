@@ -5,6 +5,7 @@
         + .csv
     */
     d3.queue()
+<<<<<<< HEAD
         //.defer(d3.json, "canada.topojson")
         .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
         .defer(d3.csv, "data/map_output.csv", function(d) {
@@ -27,6 +28,24 @@
 
 
 
+=======
+      .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
+      .defer(d3.csv, "data/map_output.csv", function(d) {
+            dict = {
+                province_id: +d.province_id,
+                division_id: +d.division_id,
+                division_name: d.division_name,
+                province: d.province_name,
+                num_tweets: +d.num_tweets,
+                physical_activity: +d.physical_activity,
+                sedentary_behavior: +d.sedentary_behavior,
+                sleeping: +d.sleeping   
+            }
+            healthIndex.set(+d.division_id, dict);
+            return dict
+      })
+      .await(ready)
+>>>>>>> c7be1cda12c16a1ac9c2277938df3b3e60aa4f9d
 
     var barchart, choropleth;
 
@@ -44,17 +63,21 @@
         */
         d3.selectAll("input[name='topic']").on("change", function(){
             console.log("calling map update!! # ", this.value)
+<<<<<<< HEAD
             d3.select("#ltext").remove();
             d3.select("#lrect").remove();
             choropletht.updateVis();
             choroplethg.updateVis();
             choroplethdt.updateVis();
             choroplethdg.updateVis();
+=======
+            choropleth.updateVis();
+>>>>>>> c7be1cda12c16a1ac9c2277938df3b3e60aa4f9d
         });
 
         initVis();
 
-        // Render the obesity spending lines chart.
+        // Render the charts
         function initVis () {
             var opts = {
                 height: 400,

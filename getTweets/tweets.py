@@ -3,6 +3,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 import sys, os, time, datetime, json
+import pymongo
 
 
 #Variables that contains the user credentials to access Twitter API 
@@ -22,6 +23,10 @@ class StdOutListener(StreamListener):
 
     def on_error(self, status):
         print status
+
+
+
+
 
 
 ####################
@@ -61,104 +66,60 @@ class LimitListener(StreamListener):
 
 
 
-'''
-# save file every 5 mins
-class KenListener(StreamListener):
-    def __init__(self, time_refresh=5*60):
-        self.start_time = time.time()
-        self.limit = time_refresh
-        
-        now = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%s")
-        self.saveFile = open('RawTweets/%s_tws%s.json' %('_'.join(sys.argv[1:]).replace(' ','.'),now), 'a')
 
-        super(KenListener, self).__init__()
+# Put in MongoDB
+class MongoDBListener(StreamListener):
 
-    def on_connect(self):
-        # Called initially to connect to the Streaming API
-        print("You are now connected to the streaming API.")
-    
     def on_data(self, data):
+        
+        print data
+        temp = json.loads(data)
+        if 'text' in data:
+            if temp['place']['country_code'] == 'CA':
+                col.insert_one(temp)
+                #print data
+                print 'CANADA'
 
-        while time.time() - self.start_time < self.limit:
-            self.saveFile.write(data)
-            #return True
-
-        self.saveFile.close()
-        # open new file
-        now = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%s")
-        self.saveFile = open('RawTweets/%s_tws%s.json' %('_'.join(sys.argv[1:]).replace(' ','.'),now), 'a')
-        #self.saveFile.write(data)
-
-        print 'Saved ' + 'RawTweets/%s_tws%s.json' %('_'.join(sys.argv[1:]).replace(' ','.')) + '\n'
-
-        self.start_time = time.time()    
+        print("# tweets in the database:", col.count())
+        return True
+        
 
     def on_error(self, status):
         print status
-
-'''
-
 
 ####################
 
 if __name__ == '__main__':
 
-    for i in range(720*60/5): # change your max time for streamer here in mins/5
         
-        #This handles Twitter authetication and the connection to Twitter Streaming API
-        #l = StdOutListener()
-        
-        l = LimitListener()
+    
+    l = MongoDBListener()
 
-        #l = KenListener(time_refresh=10)
-        #l = KenListener()
+    col = pymongo.MongoClient()["tweets"]["december"]
+    
 
-        auth = OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token(access_token, access_token_secret)
-        stream = Stream(auth, listener=l) #refresh frequency
+    auth = OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    stream = Stream(auth, listener=l) 
 
-        # Bounding box http://boundingbox.klokantech.com/
-        # track and locations are OR per https://stackoverflow.com/questions/25739073/how-to-get-location-wise-tweets-using-tweepy-for-streaming-api
-        
-        #print 'stream for: ' + str(sys.argv[1:]) + ' ...' + str(i+1*5*60) + ' min(s)'
+    # Bounding box http://boundingbox.klokantech.com/
+    # track and locations are OR per https://stackoverflow.com/questions/25739073/how-to-get-location-wise-tweets-using-tweepy-for-streaming-api
+    
 
-        # no keyword
-        print 'stream for batch ' + str(i+1) + ' ...' + str((i+1)*5) + ' min(s) / ' + str((i+1)*5/60) + 'hrs'
-
-        #geo only
-        stream.filter(locations=[-140.625,49.0091,-46.9336,70.3187 # most of canada
-        ,-95.2,45.14,-70.81,53.65 
-        ,-83.18,42.68,-73.05,49.0
-        ,-83.2562,41.5995,-77.2537,44.7011
-        ,-80.8173,42.7211,-78.836,43.3508 # Niagara + Buffalo
-        ,-82.38,45.03,-71.53,48.56
-        ,-73.37,44.98,-67.76,49.46 # Quebec + Vermont
-        ,-67.73,43.33,-40.9,49.26 # Atlantic islands
-        ])
-
-
-
-        #geo.filter(track= sys.argv[1:], languages=['en'])
-
-   
-        #stream.filter(track= sys.argv[1:], languages=['en'], locations=[-140.2734375,48.987427006,-54.84375,83.6185979676, -89.68, 48.29, -54.81, 49.04, -85.96, 47.56, -54.81, 48.31, -86.52, 40.98, -56.04, 56.41, -72.53, 34.98, -42.64, 59.18])
-
-    #print sys.argv[1]
-
-    #time.sleep(10)
-    #stream.disconnect()
-
-
-#ipython2 tweets.py 'hiking' 'working' 'slept well'
+    # no keyword
+    #geo only
+    stream.filter(locations=[-140.625,49.0091,-46.9336,70.3187 
+    ,-95.2,45.14,-70.81,53.65 
+    ,-83.18,42.68,-73.05,49.0
+    ,-83.2562,41.5995,-77.2537,44.7011
+    ,-80.8173,42.7211,-78.836,43.3508 
+    ,-82.38,45.03,-71.53,48.56
+    ,-73.37,44.98,-67.76,49.46 
+    ,-67.73,43.33,-40.9,49.26 ], async = True)
 
 
 
 
-#import subprocess
-#subprocess.call([sys.executable, 'abc.py', 'argument1', 'argument2'])
-
-# Mongo DB
-#http://pythondata.com/collecting-storing-tweets-with-python-and-mongodb/
 
 
 
