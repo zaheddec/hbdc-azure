@@ -15,7 +15,7 @@
         this.parentSelector = parentSelector;
         this.data = data;
         this.opts = _.defaultsDeep({}, options, DEFAULTS);
-
+        console.log(this.opts);
         this.initVis();
     };
 

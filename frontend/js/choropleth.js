@@ -2,6 +2,7 @@
     var DEFAULTS = {
         height: 720,
         width: 1280,
+        scale : 1100,
         margin: {
             top: 20,
             right: 20,
@@ -31,10 +32,12 @@
         vis.height = vis.opts.height - vis.margin.top - vis.margin.bottom;        
 
         // SVG drawing area
-        vis.svg = d3.select("#map")
+        vis.svg = d3.select(this.parentSelector)
                     .append("svg")
                     .attr("height", vis.height + vis.margin.top + vis.margin.bottom)
                     .attr("width", vis.width + vis.margin.left + vis.margin.right)
+                    // .attr("height","100%")
+                    // .attr("width","100%")
                     .append("g")
                     .attr("transform", "translate(" + vis.margin.left + "," + vis.margin.top + ")");
 
@@ -64,8 +67,10 @@
             + center (translate)
             + zoom (scale)
         */
+        console.log(vis.opts.scale);
         vis.projection = d3.geoAlbers()
                            .translate([vis.width/2.2, vis.height/.93])
+                           .scale(vis.opts.scale)
 
         vis.path = d3.geoPath()
                      .projection(vis.projection);
@@ -147,10 +152,10 @@
                   .attr("width", 18)
                   .attr("height", 18)
                   .style("fill", vis.legend_color);
-
+        
         vis.legend.append("text")
                   .attr("id","ltext")
-                  .data(vis.population_domain.reverse())
+                  .data(vis.population_domain.slice().reverse())
                   .attr("x", 24)
                   .attr("y", 9)
                   .attr("dy", ".35em")

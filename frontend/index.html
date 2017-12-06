@@ -34,7 +34,7 @@
             </div>
                 <center>
                     <div id ="section-desc">
-                        <h1> Twitter Healthy Behaviour Trends!</h1>
+                        <h1> Social Media Healthy Behaviour Trends!</h1>
                     </div>
                     <div class='row'>
                         <div class='radio'>
@@ -49,15 +49,45 @@
                                 </label>
                         </div>
                     </div>
+                    <!-- add a tmap and gmap scale them down and display side by side -->
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="mapt"></div>
+                                <center> <div id="desc">Twitter Trend</div> </td></center>
+                            </td>
+                            <td>
+                                <div id="mapg"></div>
+                                <center><div id="desc">Google Trend</div></center>
+                            </td>
+                        </tr>
+                    </table>
 
-                    <div id="map"></div>
-                    <div id="info"></div>
-                    <div id="bar-chart">
-                    <svg width="960" height="500">
-                            <g></g>
-                        </svg> 
+                    <!-- map section for twitter -->
+                    <div id ="section-desc">
+                        <h1> Twitter Healthy Behaviour Trends!</h1>
                     </div>
-                    <div id="mapid"></div>
+                    
+               
+                    <div id="ttrend-map"></div>
+                    <div id="twitter-info"></div>
+                    <!-- <div id="tline-chart"></div> -->
+                    <div id="graph-desc"> This is a test chart for twitter treneds</div>
+                    <!-- <div id="tline-chart"></div> -->
+                    
+                    <!-- map section for Gtrends -->
+                    <div id ="section-desc">
+                        <h1> Google Trends Healthy Behaviour !</h1>
+                    </div>
+                    <div id="gtrend-map"></div>
+                    <div id="gtrend-info"></div>
+                    <div id="gline-chart"></div>
+                    <div id="graph-desc"> This is a test chart for google treneds</div>
+
+                    <!--  compare with check boxes -->
+                    <div id="compline-chart"></div>
+
+
 
                     <!-- <div id='map' style='width: 400px; height: 300px;'></div>
                     <script>
@@ -82,6 +112,7 @@
         <script src="js/main.js"></script>
         <script src="js/barchart.js"></script>
         <script src="js/choropleth.js"></script>
+        <script src="js/linechart.js"></script>
         <script src="js/lodash.min.js"></script>
 
         <!-- JQuery and other libraries -->
