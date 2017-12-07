@@ -73,12 +73,18 @@ class MongoDBListener(StreamListener):
     def on_data(self, data):
         
         print data
-        temp = json.loads(data)
-        if 'text' in data:
-            if temp['place']['country_code'] == 'CA':
-                col.insert_one(temp)
-                #print data
-                print 'CANADA'
+        
+        try:
+            temp = json.loads(data)
+            if 'text' in temp:
+                print 'Good Tweet'
+                if temp['place']['country_code'] == 'CA':
+                    col.insert_one(temp)
+                    #print data
+                    print 'CANADA'
+        except:
+            pass
+
 
         print("# tweets in the database:", col.count())
         return True
@@ -108,14 +114,23 @@ if __name__ == '__main__':
 
     # no keyword
     #geo only
-    stream.filter(locations=[-140.625,49.0091,-46.9336,70.3187 
+
+    i = 1
+    while True: # brute force to ignore exceptions
+        try:
+            stream.filter(locations=[-140.625,49.0091,-46.9336,70.3187 
     ,-95.2,45.14,-70.81,53.65 
     ,-83.18,42.68,-73.05,49.0
     ,-83.2562,41.5995,-77.2537,44.7011
     ,-80.8173,42.7211,-78.836,43.3508 
     ,-82.38,45.03,-71.53,48.56
     ,-73.37,44.98,-67.76,49.46 
-    ,-67.73,43.33,-40.9,49.26 ], async = True)
+    ,-67.73,43.33,-40.9,49.26 ])#, async = True)
+        
+        except:
+            time.sleep(10)
+            continue
+
 
 
 
