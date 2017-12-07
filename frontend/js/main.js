@@ -5,7 +5,6 @@
         + .csv
     */
     d3.queue()
-<<<<<<< HEAD
         //.defer(d3.json, "canada.topojson")
         .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
         .defer(d3.csv, "data/map_output.csv", function(d) {
@@ -24,32 +23,15 @@
         })
         // check how we can get this data
         .defer(d3.json,"./data/yr_data.json")
+        .defer(d3.json,"./data/yr_data_1.json")
     .await(ready)
 
 
 
-=======
-      .defer(d3.json, "data/gcd_000b11a_e_geo_10_topo.json")
-      .defer(d3.csv, "data/map_output.csv", function(d) {
-            dict = {
-                province_id: +d.province_id,
-                division_id: +d.division_id,
-                division_name: d.division_name,
-                province: d.province_name,
-                num_tweets: +d.num_tweets,
-                physical_activity: +d.physical_activity,
-                sedentary_behavior: +d.sedentary_behavior,
-                sleeping: +d.sleeping   
-            }
-            healthIndex.set(+d.division_id, dict);
-            return dict
-      })
-      .await(ready)
->>>>>>> c7be1cda12c16a1ac9c2277938df3b3e60aa4f9d
 
     var barchart, choropleth;
 
-    function ready(error, mapData,processedData,line_chart_data) {
+    function ready(error, mapData,processedData,line_chart_data,line_test) {
         if (error) {
             console.log(error)
         }
@@ -63,16 +45,12 @@
         */
         d3.selectAll("input[name='topic']").on("change", function(){
             console.log("calling map update!! # ", this.value)
-<<<<<<< HEAD
-            d3.select("#ltext").remove();
-            d3.select("#lrect").remove();
+            // d3.select("#ltext").remove();
+            // d3.select("#lrect").remove();
             choropletht.updateVis();
             choroplethg.updateVis();
             choroplethdt.updateVis();
             choroplethdg.updateVis();
-=======
-            choropleth.updateVis();
->>>>>>> c7be1cda12c16a1ac9c2277938df3b3e60aa4f9d
         });
 
         initVis();
@@ -90,14 +68,15 @@
             //twitter map
             choroplethdt = new window.charts.Choropleth('#ttrend-map', mapData, {}, healthIndex);
             // linechartt = new window.charts.LineC('#tline-chart', line_chart_data, {});
-            // barchartt = new window.charts.Bar('#bar-chart', processedData, {});
-            // // To fix the chart on click
-            // choropleth.map.on("click", function(d){
-            //     barchartt.updateVis(d.properties.CDUID);
-            // })
+            barchartt = new window.charts.Bar('#bar-chartt', processedData, {});
+            // To fix the chart on click
+            choropletht.map.on("click", function(d){
+                barchartt.updateVis(d.properties.CDUID);
+            })
            
             //google trends map
             choroplethdg = new window.charts.Choropleth('#gtrend-map', mapData, {}, healthIndex);
+            barchartg = new window.charts.Bar('#bar-chartg', processedData, {});
             linechartg = new window.charts.LineC('#gline-chart', line_chart_data, {});
             //barchartg = new window.charts.Bar('#gtrend-line-chart', processedData, {});
             // To fix the chart on click
@@ -107,7 +86,7 @@
                     
             
             // add a compare chart to it
-            linechartcomp = new window.charts.LineC('#compline-chart', line_chart_data, {});
+            linechartcomp = new window.charts.LineC('#compline-chart', line_test, {});
 
         }
     }
