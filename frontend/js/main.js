@@ -58,8 +58,8 @@
         // Render the charts
         function initVis () {
             var opts = {
-                height: 400,
-                width: 600,
+                height: 450,
+                width: 700,
                 scale :650,
             };
             choropletht = new window.charts.Choropleth('#mapt', mapData, opts, healthIndex);
@@ -67,8 +67,8 @@
             
             //twitter map
             choroplethdt = new window.charts.Choropleth('#ttrend-map', mapData, {}, healthIndex);
-            // linechartt = new window.charts.LineC('#tline-chart', line_chart_data, {});
             barchartt = new window.charts.Bar('#bar-chartt', processedData, {});
+            linechartt = new window.charts.LineC('#tline-chart', line_chart_data, {});
             // To fix the chart on click
             choropletht.map.on("click", function(d){
                 barchartt.updateVis(d.properties.CDUID);
@@ -77,7 +77,7 @@
             //google trends map
             choroplethdg = new window.charts.Choropleth('#gtrend-map', mapData, {}, healthIndex);
             barchartg = new window.charts.Bar('#bar-chartg', processedData, {});
-            linechartg = new window.charts.LineC('#gline-chart', line_chart_data, {});
+            linechartg = new window.charts.LineC('#gline-chart', line_test, {});
             //barchartg = new window.charts.Bar('#gtrend-line-chart', processedData, {});
             // To fix the chart on click
             // choropleth.map.on("click", function(d){

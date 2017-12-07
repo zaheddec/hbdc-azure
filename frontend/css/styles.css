@@ -80,11 +80,12 @@ div.tooltip {
     font-family:'Roboto';
 }
 
-#section-desc{
-    padding-top: 3em;
+#section-title{
+    padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
+    font-weight: bold;
     color: #000;
 }
 #site-desc{
@@ -98,6 +99,7 @@ div.tooltip {
 .radio{
     font-size:2em;
     font-style: bold; 
+    padding-bottom: 1.5em;
     padding-bottom: 1.5em;
 }
 #fullpage {
@@ -135,6 +137,9 @@ div.tooltip {
 #fullpage section:nth-child(5) { background-color: rgb(62, 43, 77); }
 #fullpage section:nth-child(6) { background-color: rgb(86, 99, 40); }
 
+body{
+    background: #FAFAFA;
+}
 /*
     Line Chart CSS
 */
@@ -173,3 +178,19 @@ stroke: rgb(8, 133, 70);;
 stroke-width: 2px;
 stroke-dasharray: 3,3;
 }
+
+/*
+ Styles for text in site
+*/
+p{
+    padding-bottom: 1.5em;
+}
+#topic-desc, #graph-desc{
+    font-size: 2em;
+    width: 900px;
+    max-width: 900px;
+    line-height: 1.5em; 
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}   

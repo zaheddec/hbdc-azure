@@ -1,7 +1,7 @@
 (function() {
     var DEFAULTS = {
-        height: 720,
-        width: 1280,
+        height: 670,
+        width: 1150,
         scale : 1100,
         margin: {
             top: 20,
@@ -163,19 +163,21 @@
             }
         })
 
-        d3.select(".legend").remove();
-        
+        //d3.select(".legend").remove();
         // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+        vis.legend_w = vis.width - 100;
         vis.legend = vis.svg.append("svg")
                         .attr("class", "legend")
-                        .attr("width", 100)
-                        .attr("height", 400)
+                        .attr("width", vis.width)
+                        .attr("height", vis.height)
+                        // .attr("width", 100)
+                        // .attr("height", 400)
                         .selectAll("g")
                         .data(vis.legend_color.domain().slice().reverse())
                         .enter()
                         .append("g")
                         //.attr("transform", "translate(0,40)");
-                        .attr("transform", function(d, i) { return "translate(5," + i * 20 + ")"; });
+                        .attr("transform", function(d, i) { return "translate("+ vis.legend_w +"," + i * 20 + ")"; });
 
         vis.legend.append("rect")
                   .attr("id","lrect")

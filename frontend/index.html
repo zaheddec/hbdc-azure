@@ -33,8 +33,13 @@
             </section>
             </div>
                 <center>
-                    <div id ="section-desc">
-                        <h1> Social Media Healthy Behaviour Trends!</h1>
+                    <div id="start-sec">
+                        <div id ="section-title">Social Media Healthy Behaviour Trends!</div>
+                        <div id="topic-desc"> <p>New technologies and data sources, including wearable devices, geomatic data, mobile applications 
+                            as well as data from social media and other online sources, provide an opportunity for national public health 
+                            organizations to access and integrate a more diverse array of data into public health surveillance. </p>
+                            <p>Choose one of three indicators from non-traditional or novel sources can:</p>
+                        </div>
                     </div>
                     <div class='row'>
                         <div class='radio'>
@@ -53,43 +58,83 @@
                     <table>
                         <tr>
                             <td>
-                                <div id="mapt"></div>
-                                <center> <div id="desc">Twitter Trend</div> </td></center>
+                                <a herf="#start-twitter"><div id="mapt"></div></a>
+                                <center> <div id="graph-desc">Twitter Trend</div> </center>
                             </td>
                             <td>
-                                <div id="mapg"></div>
-                                <center><div id="desc">Google Trend</div></center>
+                                <a herf="#start-gtrend"><div id="mapg"></div></a>
+                                <center><div id="graph-desc">Google Trend</div></center>
                             </td>
                         </tr>
                     </table>
 
                     <!-- map section for twitter -->
-                    <div id ="section-desc">
-                        <h1> Twitter Healthy Behaviour Trends!</h1>
+                    <div id="start-twitter">
+                        <div id="section-title"> Twitter Healthy Behaviour Trends!</div>
+                        <div id="topic-desc"> <p>Reviewing Twitter and data can give you insights into the type of information stored 
+                            for your account. It provides an easy way for you to view details about your account, and to make changes as 
+                            you see fit.</p>
+                            <p>Nationwide Twitter Map representing population health indicator</p>
+                        </div>
                     </div>
-                    
-               
                     <div id="ttrend-map"></div>
                     <div id="twitter-info"></div>
-                    <div id="tline-chart"></div>
-                    <div id="graph-desc"> This is a test chart for twitter treneds</div>
+                    
+                    <div id="graph-desc"><p>Twitter’s popularity as an information source has led to the development
+                            of applications and research in various domains. Humanitarian Assistance
+                            and Disaster Relief is one domain where information from Twitter is used
+                            to provide situational awareness to a crisis situation.</p>
+                            <p>Twitter information based on Cities</p>
+                    </div>
                     <div id="bar-chartt"></div>
+                    <div id="graph-desc"> 
+                        <p>Anual Healthy Behaviour Twitter Trend gives information on how the healthy behavior trends are changing on year to year basis.
+                            The information is based on number of tweets posted that year.</p>
+                        <p>Anual Healthy Behaviour Twitter Trend</p>
+                    </div>
+                    <div id="tline-chart"></div>
+                    <div id="graph-desc"> 
+                        <p>Anual Healthy Behaviour Twitter Trend gives information on how the healthy behavior trends are changing on year to year basis.
+                            The information is based on number of tweets posted that year.
+                        </p>
+                    </div>
                     <!-- <div id="tline-chart"></div> -->
                     
                     <!-- map section for Gtrends -->
-                    <div id ="section-desc">
-                        <h1> Google Trends Healthy Behaviour !</h1>
+                    <div id="start-gtrend">
+                        <div id="section-title"> Google Trends Healthy Behaviour !</div>
+                        <div id="topic-desc"><p>The vast amount of searches — trillions take place every year — make Google Trends one of the world’s 
+                            largest real time datasets. Examining what people search for provides a unique perspective on what they are currently 
+                            interested in and curious about. </p>
+                            <p>Nationwide google trend Map representing population health indicator</p>
+                        </div>
                     </div>
                     <div id="gtrend-map"></div>
                     <div id="gtrend-info"></div>
+                    <div id ="graph-desc"> <p>Trends data is an unbiased sample of our Google search data. It’s anonymized (no one is personally identified), 
+                        categorized (determining the topic for a search query) and aggregated (grouped together). This allows us to measure 
+                        interest in a particular topic across search, from around the globe, right down to city-level geography.</p>
+                        <p>Google Trend information based on Cities</p>
+                    </div>
                     <div id="bar-chartg"></div>
+                    <div id="graph-desc"><p>The chart gives information about three healthy behaviors for specific city</p>
+                        <p>Anual Healthy Behaviour Google Trend gives information on how the healthy behavior trends are changing on year to year basis.
+                            The information is based on number of tweets posted that year.</p>
+                        <p>Anual Healthy Behaviour Google Trend</p>
+                    </div> 
                     <div id="gline-chart"></div>
                     <div id="graph-desc"> This is a test chart for google treneds</div>
 
                     <!--  compare with check boxes -->
-                    <div id="compline-chart"></div>
-
-
+                    <div id="section-title"> </div>
+                    <div id="topic-desc"> </div>
+                    <div id="conclusion">
+                        <h id="section-title"> Healtht Behaviours Conclusion and Remarks</h>
+                        <div id="topic-desc"> <p>Trends data can provide a powerful lens into what Google users are curious about and how people around the 
+                            world react to important events. We’re committed to making Trends easier to use, understand and share. We look forward to 
+                            continuing the conversation.</p>
+                        </div>
+                    </div>
 
                     <!-- <div id='map' style='width: 400px; height: 300px;'></div>
                     <script>
@@ -99,7 +144,7 @@
                     style: 'mapbox://styles/mapbox/dark-v9'
                     });
                     </script> -->
-                </center>
+        </center>
             
         <!-- D3 library -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>

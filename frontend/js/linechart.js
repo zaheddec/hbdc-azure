@@ -1,6 +1,6 @@
 (function() {
     var DEFAULTS = {
-        height: 500,
+        height: 570,
         width: 960,
         margin: {
             top: 20,
