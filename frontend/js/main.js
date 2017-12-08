@@ -59,8 +59,8 @@
         function initVis () {
             var opts = {
                 height: 450,
-                width: 700,
-                scale :650,
+                width: 600,
+                scale :580,
             };
             choropletht = new window.charts.Choropleth('#mapt', mapData, opts, healthIndex);
             choroplethg = new window.charts.Choropleth('#mapg', mapData, opts, healthIndex);
