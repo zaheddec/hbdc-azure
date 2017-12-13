@@ -24,6 +24,13 @@
         // check how we can get this data
         .defer(d3.json,"./data/yr_data.json")
         .defer(d3.json,"./data/yr_data_1.json")
+        .defer(d3.csv,"./data/multichart.csv", function(d){
+            d.year = +d.year;
+            d.pa = +d.variableA;
+            d.sedantry = +d.sedantry;
+            d.sleep = +d.sleep;
+            d.income = +d.income;
+        })
     .await(ready)
 
 
@@ -31,7 +38,7 @@
 
     var barchart, choropleth;
 
-    function ready(error, mapData,processedData,line_chart_data,line_test) {
+    function ready(error, mapData,processedData,line_chart_data,line_test,multiline_data) {
         if (error) {
             console.log(error)
         }
@@ -86,7 +93,16 @@
                     
             
             // add a compare chart to it
-            linechartcomp = new window.charts.LineC('#compline-chart', line_test, {});
+
+            var chart = makeLineChart(multiline_data, 'year', {
+                'pa': {column: 'pa'},
+                'sedantry': {column: 'sedantry'},
+                'sleep': {column: 'sleep'},
+                'income': {column: 'income'}
+            }, {xAxis: 'Years', yAxis: 'tweets'});
+            chart.bind("#compline-chart");
+            chart.render();
+            // linechartcomp = new window.charts.LineC('#compline-chart', line_test, {});
 
         }
     }
