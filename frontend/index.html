@@ -41,6 +41,21 @@
                             <p>Choose one of three indicators from non-traditional or novel sources can:</p>
                         </div>
                     </div>
+                    <div class="row">
+                        <center>
+                        <div id="map-extremes" style="margin-bottom: 10px; display: none;">
+                            <table class="table table-striped table-condensed">
+                                <thead>
+                                    <center>
+                                    <tr><th>Best 5</th></tr>
+                                    </center>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        </center>
+                    </div>
+
                     <div class='row'>
                         <div class='radio'>
                                 <label class='radio-inline'>
@@ -133,7 +148,22 @@
 
                     <!--  compare with check boxes -->
                     <div id="section-title">Compare different indicators </div>
+                    <!-- compare cities and give a selection here -->
+                    
                     <div id="topic-desc"> Here we compare</div>
+                    <div class='row'>
+                        <div class='dropdown'>
+                             <select id="compare-select1">
+                                 <option value='1101'>Kings</option>
+                                 <option value='1102'>Queens</option>
+                             </select>
+                             <select id="compare-select2">
+                                <option value='1101'>Kings</option>
+                                <option value='1102'>Queens</option>
+                            </select>
+                            <button id="compare-btn" type="button">Compare</button>   
+                        </div>
+                    </div>
                     <div class="chart-wrapper" id="compline-chart"></div>
 
                     <div id="conclusion">
