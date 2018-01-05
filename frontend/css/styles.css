@@ -23,7 +23,8 @@ text {
 }
 
 .row{
-	text-align: center;
+    text-align: center;
+    padding-bottom: 35px;
 }
 
 .district {
