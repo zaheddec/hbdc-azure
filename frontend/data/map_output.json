@@ -1,0 +1,8582 @@
+{
+	"1001": {
+		"data": [],
+		"division_name": "Division No.  1",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1002": {
+		"data": [],
+		"division_name": "Division No.  2",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1003": {
+		"data": [],
+		"division_name": "Division No.  3",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1004": {
+		"data": [],
+		"division_name": "Division No.  4",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1005": {
+		"data": [],
+		"division_name": "Division No.  5",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1006": {
+		"data": [],
+		"division_name": "Division No.  6",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1007": {
+		"data": [],
+		"division_name": "Division No.  7",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1008": {
+		"data": [],
+		"division_name": "Division No.  8",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1009": {
+		"data": [],
+		"division_name": "Division No.  9",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1010": {
+		"data": [],
+		"division_name": "Division No. 10",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1011": {
+		"data": [],
+		"division_name": "Division No. 11",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 10,
+		"province_name": "Newfoundland and Labrador / Terre-Neuve-et-Labrador"
+	},
+	"1101": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 1,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Kings",
+		"latitude": 46.17366575,
+		"longitude": -62.5328944957,
+		"province_id": 11,
+		"province_name": "Prince Edward Island / Île-du-Prince-Édouard"
+	},
+	"1102": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 30,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 26,
+				"sedentary_behavior": 172,
+				"num_tweets": 1783,
+				"physical_activity": 58,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 403,
+				"num_tweets": 3665,
+				"physical_activity": 165,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 34,
+				"sedentary_behavior": 131,
+				"num_tweets": 1862,
+				"physical_activity": 83,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 340,
+				"physical_activity": 19,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Queens",
+		"latitude": 46.2181211,
+		"longitude": -63.1348056806,
+		"province_id": 11,
+		"province_name": "Prince Edward Island / Île-du-Prince-Édouard"
+	},
+	"1103": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 27,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 48,
+				"num_tweets": 619,
+				"physical_activity": 45,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 163,
+				"physical_activity": 9,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Prince",
+		"latitude": 46.57355925,
+		"longitude": -63.8695358464,
+		"province_id": 11,
+		"province_name": "Prince Edward Island / Île-du-Prince-Édouard"
+	},
+	"1201": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 20,
+				"num_tweets": 212,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 120,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Shelburne",
+		"latitude": 43.7639539,
+		"longitude": -65.321384,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1202": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 56,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 124,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 56,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Yarmouth",
+		"latitude": 43.8372828,
+		"longitude": -66.1156037,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1203": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 0,
+				"num_tweets": 415,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 385,
+				"physical_activity": 15,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 65,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Digby",
+		"latitude": 44.6194028,
+		"longitude": -65.758575,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1204": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 83,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 28,
+				"num_tweets": 222,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 107,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Queens",
+		"latitude": 44.1449621,
+		"longitude": -64.9184338221,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1205": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 22,
+				"num_tweets": 144,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 6,
+				"sedentary_behavior": 20,
+				"num_tweets": 243,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 169,
+				"physical_activity": 10,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Annapolis",
+		"latitude": 44.69495785,
+		"longitude": -65.2811194726,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1206": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 116,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 264,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 24,
+				"num_tweets": 172,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Lunenburg",
+		"latitude": 44.3774954,
+		"longitude": -64.3154816,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1207": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 62,
+				"num_tweets": 387,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 14,
+				"sedentary_behavior": 86,
+				"num_tweets": 789,
+				"physical_activity": 31,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 34,
+				"num_tweets": 340,
+				"physical_activity": 10,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 13,
+				"num_tweets": 126,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kings",
+		"latitude": 45.00525875,
+		"longitude": -64.6280222973,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1208": {
+		"data": [],
+		"division_name": "Hants",
+		"latitude": 45.0592567,
+		"longitude": -63.7925337852,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1209": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 35,
+				"num_tweets": 460,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 195,
+				"sedentary_behavior": 1905,
+				"num_tweets": 18635,
+				"physical_activity": 560,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 615,
+				"sedentary_behavior": 4380,
+				"num_tweets": 42226,
+				"physical_activity": 1715,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 210,
+				"sedentary_behavior": 1975,
+				"num_tweets": 20300,
+				"physical_activity": 720,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 460,
+				"num_tweets": 4750,
+				"physical_activity": 160,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Halifax",
+		"latitude": 44.6491198,
+		"longitude": -63.575134,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1210": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 9,
+				"num_tweets": 102,
+				"physical_activity": 5,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 49,
+				"num_tweets": 466,
+				"physical_activity": 16,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 24,
+				"num_tweets": 174,
+				"physical_activity": 26,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 45,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Colchester",
+		"latitude": 45.41964845,
+		"longitude": -63.5111101813,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1211": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 31,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 13,
+				"num_tweets": 91,
+				"physical_activity": 6,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 51,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 11,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Cumberland",
+		"latitude": 45.5964139,
+		"longitude": -64.0972503572,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1212": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 19,
+				"num_tweets": 152,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 23,
+				"sedentary_behavior": 50,
+				"num_tweets": 642,
+				"physical_activity": 22,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 258,
+				"physical_activity": 7,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 80,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Pictou",
+		"latitude": 45.6776403,
+		"longitude": -62.7106123,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1213": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 7,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 31,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 7,
+				"num_tweets": 26,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Guysborough",
+		"latitude": 45.3922534,
+		"longitude": -61.4997896,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1214": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 43,
+				"num_tweets": 445,
+				"physical_activity": 9,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 123,
+				"num_tweets": 1144,
+				"physical_activity": 30,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 51,
+				"num_tweets": 655,
+				"physical_activity": 29,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 10,
+				"num_tweets": 132,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Antigonish",
+		"latitude": 45.6213607,
+		"longitude": -61.9904928,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1215": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 19,
+				"physical_activity": 2,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 10,
+				"num_tweets": 87,
+				"physical_activity": 2,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 142,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Inverness",
+		"latitude": 46.2307181,
+		"longitude": -61.3056432,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1216": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 55,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 310,
+				"num_tweets": 3309,
+				"physical_activity": 115,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 80,
+				"sedentary_behavior": 609,
+				"num_tweets": 8090,
+				"physical_activity": 210,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 45,
+				"sedentary_behavior": 355,
+				"num_tweets": 4198,
+				"physical_activity": 215,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 75,
+				"num_tweets": 807,
+				"physical_activity": 50,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Richmond",
+		"latitude": 45.7542246,
+		"longitude": -63.467609,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1217": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 0,
+				"num_tweets": 80,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 78,
+				"sedentary_behavior": 578,
+				"num_tweets": 5656,
+				"physical_activity": 185,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 1307,
+				"num_tweets": 12706,
+				"physical_activity": 450,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 100,
+				"sedentary_behavior": 898,
+				"num_tweets": 7417,
+				"physical_activity": 155,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 125,
+				"num_tweets": 1400,
+				"physical_activity": 25,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Cape Breton",
+		"latitude": 46.2950327,
+		"longitude": -60.9360553505,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1218": {
+		"data": [],
+		"division_name": "Victoria",
+		"latitude": 45.7300441,
+		"longitude": -63.6807159,
+		"province_id": 12,
+		"province_name": "Nova Scotia / Nouvelle-Écosse"
+	},
+	"1301": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 205,
+				"num_tweets": 1675,
+				"physical_activity": 78,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 33,
+				"sedentary_behavior": 367,
+				"num_tweets": 3225,
+				"physical_activity": 106,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 189,
+				"num_tweets": 1746,
+				"physical_activity": 101,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 60,
+				"num_tweets": 376,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Saint John",
+		"latitude": 45.278752,
+		"longitude": -66.058044,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1302": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Charlotte",
+		"latitude": 45.01103135,
+		"longitude": -66.8656097263,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1303": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Sunbury",
+		"latitude": 46.2062723,
+		"longitude": -66.1755855,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1304": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 48,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 9,
+				"num_tweets": 99,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 9,
+				"num_tweets": 54,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Queens",
+		"latitude": 45.8255852,
+		"longitude": -66.0106246694,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1305": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 2,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Kings",
+		"latitude": 45.6592383,
+		"longitude": -65.5560951426,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1306": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 66,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 37,
+				"num_tweets": 250,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 120,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 48,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Albert",
+		"latitude": 45.7952051,
+		"longitude": -64.8744203231,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1307": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 84,
+				"num_tweets": 1234,
+				"physical_activity": 24,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 44,
+				"sedentary_behavior": 302,
+				"num_tweets": 3598,
+				"physical_activity": 84,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 100,
+				"num_tweets": 1272,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 392,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Westmorland",
+		"latitude": 45.9687484,
+		"longitude": -64.4155438183,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1308": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 12,
+				"num_tweets": 205,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 29,
+				"num_tweets": 401,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 24,
+				"num_tweets": 232,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kent",
+		"latitude": 47.059307,
+		"longitude": -67.749952,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1309": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Northumberland",
+		"latitude": 46.9389258,
+		"longitude": -65.8953414991,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1310": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 17,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 22,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "York",
+		"latitude": 46.2255841,
+		"longitude": -66.8114419663,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1311": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Carleton",
+		"latitude": 45.9580412,
+		"longitude": -66.6445253,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1312": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 67,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 9,
+				"sedentary_behavior": 40,
+				"num_tweets": 308,
+				"physical_activity": 5,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 98,
+				"physical_activity": 5,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 1,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Victoria",
+		"latitude": 47.0299997,
+		"longitude": -65.2310894,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1313": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 60,
+				"physical_activity": 20,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 76,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 4,
+				"num_tweets": 60,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Madawaska",
+		"latitude": 47.4181157,
+		"longitude": -68.1424950145,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1314": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Restigouche",
+		"latitude": 47.72508035,
+		"longitude": -67.0851442551,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"1315": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 42,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 110,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 55,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 4,
+				"num_tweets": 29,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Gloucester",
+		"latitude": 47.640686,
+		"longitude": -65.4157519941,
+		"province_id": 13,
+		"province_name": "New Brunswick / Nouveau-Brunswick"
+	},
+	"2401": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 44,
+				"physical_activity": 2,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 94,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 1,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 14,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Les Îles-de-la-Madeleine",
+		"latitude": 47.4630787,
+		"longitude": -61.7584097,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2402": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Le Rocher-Percé",
+		"latitude": 48.5238022,
+		"longitude": -64.1991076,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2403": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 149,
+				"physical_activity": 12,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 240,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 44,
+				"num_tweets": 324,
+				"physical_activity": 36,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 42,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "La Côte-de-Gaspé",
+		"latitude": 49.1654025,
+		"longitude": -64.5583971496,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2404": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 86,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "La Haute-Gaspésie",
+		"latitude": 49.1562677,
+		"longitude": -66.145980058,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2405": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 1,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Bonaventure",
+		"latitude": 48.0444351,
+		"longitude": -65.4925807,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2406": {
+		"data": [
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 2,
+				"num_tweets": 17,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 11,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Avignon",
+		"latitude": 48.16164485,
+		"longitude": -66.3900211288,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2407": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 11,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Matapédia",
+		"latitude": 48.412796,
+		"longitude": -67.390137,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2408": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 108,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 12,
+				"num_tweets": 193,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 124,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Matane",
+		"latitude": 48.8466697,
+		"longitude": -67.5317397,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2409": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Mitis",
+		"latitude": 48.42734735,
+		"longitude": -68.0500092382,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2410": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 105,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 241,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 145,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Rimouski-Neigette",
+		"latitude": 48.4332914,
+		"longitude": -68.5235867158,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2411": {
+		"data": [],
+		"division_name": "Les Basques",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2412": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 120,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Rivière-du-Loup",
+		"latitude": 47.8358164,
+		"longitude": -69.5368025,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2413": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Témiscouata",
+		"latitude": 47.684343,
+		"longitude": -68.883591,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2414": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 1,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Kamouraska",
+		"latitude": 47.566797,
+		"longitude": -69.866867,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2415": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Charlevoix-Est",
+		"latitude": 47.82132325,
+		"longitude": -70.1767257932,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2416": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Charlevoix",
+		"latitude": 47.6114112,
+		"longitude": -70.7215117381,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2417": {
+		"data": [],
+		"division_name": "L'Islet",
+		"latitude": 46.8812716,
+		"longitude": -71.1188369891,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2418": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 12,
+				"physical_activity": 3,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 7,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Montmagny",
+		"latitude": 46.981892,
+		"longitude": -70.555916,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2419": {
+		"data": [],
+		"division_name": "Bellechasse",
+		"latitude": 46.8696461,
+		"longitude": -70.7754501,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2420": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 18,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "L'Île-d'Orléans",
+		"latitude": 46.8787849,
+		"longitude": -71.1304836,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2421": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Côte-de-Beaupré",
+		"latitude": 47.41831145,
+		"longitude": -71.1991017974,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2422": {
+		"data": [],
+		"division_name": "La Jacques-Cartier",
+		"latitude": 47.27416065,
+		"longitude": -71.5634219182,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2423": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 5,
+				"num_tweets": 140,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 310,
+				"num_tweets": 6023,
+				"physical_activity": 65,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 65,
+				"sedentary_behavior": 675,
+				"num_tweets": 13137,
+				"physical_activity": 155,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 398,
+				"num_tweets": 6847,
+				"physical_activity": 88,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 40,
+				"sedentary_behavior": 130,
+				"num_tweets": 1555,
+				"physical_activity": 50,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Québec",
+		"latitude": 46.8259601,
+		"longitude": -71.2352226,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2425": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 470,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 853,
+				"physical_activity": 5,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 496,
+				"physical_activity": 10,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 60,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Lévis",
+		"latitude": 46.7910096,
+		"longitude": -71.1753274,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2426": {
+		"data": [],
+		"division_name": "La Nouvelle-Beauce",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2427": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Robert-Cliche",
+		"latitude": 46.735824,
+		"longitude": -71.2838009,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2428": {
+		"data": [],
+		"division_name": "Les Etchemins",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2429": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 38,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 86,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 41,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Beauce-Sartigan",
+		"latitude": 46.12655105,
+		"longitude": -70.6691818414,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2430": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Le Granit",
+		"latitude": 45.0081335,
+		"longitude": -72.0972678,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2431": {
+		"data": [],
+		"division_name": "Les Appalaches",
+		"latitude": 48.9708637,
+		"longitude": -64.4486373,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2432": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "L'Érable",
+		"latitude": 45.3609838,
+		"longitude": -72.240677,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2433": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 1,
+				"num_tweets": 7,
+				"physical_activity": 1,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Lotbinière",
+		"latitude": 46.6158722,
+		"longitude": -71.9352468,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2434": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Portneuf",
+		"latitude": 46.99346845,
+		"longitude": -71.9920602105,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2435": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Mékinac",
+		"latitude": 47.0538687,
+		"longitude": -73.0931461972,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2436": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 22,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 31,
+				"physical_activity": 10,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 50,
+				"num_tweets": 454,
+				"physical_activity": 25,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 335,
+				"physical_activity": 50,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 30,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Shawinigan",
+		"latitude": 46.5389609,
+		"longitude": -72.7467621,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2437": {
+		"data": [],
+		"division_name": "Francheville",
+		"latitude": 45.588618,
+		"longitude": -73.6036527,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2438": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 16,
+				"sedentary_behavior": 20,
+				"num_tweets": 96,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 218,
+				"physical_activity": 7,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 208,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Bécancour",
+		"latitude": 46.339343,
+		"longitude": -72.433205,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2439": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 15,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 536,
+				"physical_activity": 15,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 60,
+				"num_tweets": 1235,
+				"physical_activity": 20,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 565,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 115,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Arthabaska",
+		"latitude": 47.650125,
+		"longitude": -70.774487,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2440": {
+		"data": [],
+		"division_name": "Les Sources",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2441": {
+		"data": [],
+		"division_name": "Le Haut-Saint-François",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2442": {
+		"data": [],
+		"division_name": "Le Val-Saint-François",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2443": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 42,
+				"num_tweets": 574,
+				"physical_activity": 15,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 110,
+				"num_tweets": 1370,
+				"physical_activity": 35,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 55,
+				"num_tweets": 756,
+				"physical_activity": 6,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 15,
+				"num_tweets": 140,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Sherbrooke",
+		"latitude": 45.403271,
+		"longitude": -71.889038,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2444": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 120,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 48,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Coaticook",
+		"latitude": 45.1334169,
+		"longitude": -71.803479,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2445": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Memphrémagog",
+		"latitude": 45.2629236,
+		"longitude": -72.1435927083,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2446": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 21,
+				"physical_activity": 6,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 19,
+				"physical_activity": 6,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Brome-Missisquoi",
+		"latitude": 45.20721195,
+		"longitude": -72.7142660803,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2447": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 308,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 200,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 128,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "La Haute-Yamaska",
+		"latitude": 45.4113256,
+		"longitude": -72.7223007154,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2448": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 1,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Acton",
+		"latitude": 45.647648,
+		"longitude": -72.564011,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2449": {
+		"data": [],
+		"division_name": "Drummond",
+		"latitude": 45.5091531,
+		"longitude": -73.5999403,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2450": {
+		"data": [],
+		"division_name": "Nicolet-Yamaska",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2451": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Maskinongé",
+		"latitude": 46.2282338,
+		"longitude": -73.0164873,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2452": {
+		"data": [],
+		"division_name": "D'Autray",
+		"latitude": 46.216735,
+		"longitude": -73.2567319006,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2453": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Pierre-De Saurel",
+		"latitude": 46.0278804,
+		"longitude": -73.0972552,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2454": {
+		"data": [],
+		"division_name": "Les Maskoutains",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2455": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 3,
+				"num_tweets": 47,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 47,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Rouville",
+		"latitude": 45.5199004,
+		"longitude": -73.1495501,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2456": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Le Haut-Richelieu",
+		"latitude": 45.305326,
+		"longitude": -73.2541753997,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2457": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 96,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 28,
+				"num_tweets": 252,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 94,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 40,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "La Vallée-du-Richelieu",
+		"latitude": 45.6305465,
+		"longitude": -73.1828338,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2458": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 40,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 54,
+				"num_tweets": 901,
+				"physical_activity": 20,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 182,
+				"num_tweets": 2721,
+				"physical_activity": 64,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 50,
+				"num_tweets": 1314,
+				"physical_activity": 23,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 30,
+				"num_tweets": 368,
+				"physical_activity": 29,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Longueuil",
+		"latitude": 45.5172382,
+		"longitude": -73.4467466,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2459": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Lajemmerais",
+		"latitude": 45.5984181,
+		"longitude": -73.5985252,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2460": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 40,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 0,
+				"num_tweets": 83,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 43,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 14,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "L'Assomption",
+		"latitude": 45.8307051,
+		"longitude": -73.4222086,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2461": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 95,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 86,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 12,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Joliette",
+		"latitude": 46.0243857,
+		"longitude": -73.439845,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2462": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Matawinie",
+		"latitude": 46.87002175,
+		"longitude": -74.0611817261,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2463": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 45,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 196,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 79,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 10,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Montcalm",
+		"latitude": 45.9223436,
+		"longitude": -73.6971348065,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2464": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 65,
+				"physical_activity": 5,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 0,
+				"num_tweets": 150,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 15,
+				"num_tweets": 115,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 15,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Les Moulins",
+		"latitude": 45.74816055,
+		"longitude": -73.6346122781,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2465": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 15,
+				"num_tweets": 80,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 160,
+				"num_tweets": 2824,
+				"physical_activity": 65,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 667,
+				"num_tweets": 6976,
+				"physical_activity": 160,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 29,
+				"sedentary_behavior": 258,
+				"num_tweets": 3635,
+				"physical_activity": 85,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 50,
+				"num_tweets": 744,
+				"physical_activity": 5,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Laval",
+		"latitude": 45.60558895,
+		"longitude": -73.7344969952,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2466": {
+		"data": [
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 85,
+				"num_tweets": 900,
+				"physical_activity": 35,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 388,
+				"sedentary_behavior": 3188,
+				"num_tweets": 41072,
+				"physical_activity": 880,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 675,
+				"sedentary_behavior": 6439,
+				"num_tweets": 83475,
+				"physical_activity": 2156,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 450,
+				"sedentary_behavior": 3569,
+				"num_tweets": 43999,
+				"physical_activity": 1073,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 135,
+				"sedentary_behavior": 525,
+				"num_tweets": 9041,
+				"physical_activity": 210,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Montréal",
+		"latitude": 45.4972159,
+		"longitude": -73.6103642,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2467": {
+		"data": [],
+		"division_name": "Roussillon",
+		"latitude": 45.5414941,
+		"longitude": -73.4946444245,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2468": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Les Jardins-de-Napierville",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2469": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Le Haut-Saint-Laurent",
+		"latitude": 46.8547179,
+		"longitude": -71.0534745,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2470": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 18,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 9,
+				"num_tweets": 84,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 45,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Beauharnois-Salaberry",
+		"latitude": 45.21652845,
+		"longitude": -74.1151879805,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2471": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 28,
+				"num_tweets": 301,
+				"physical_activity": 15,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 91,
+				"num_tweets": 655,
+				"physical_activity": 25,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 25,
+				"num_tweets": 244,
+				"physical_activity": 5,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 74,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Vaudreuil-Soulanges",
+		"latitude": 45.37723455,
+		"longitude": -74.1362429399,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2472": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 20,
+				"num_tweets": 349,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 108,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 128,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Deux-Montagnes",
+		"latitude": 45.5355009,
+		"longitude": -73.9806930378,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2473": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 72,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 272,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 154,
+				"physical_activity": 6,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Thérèse-De Blainville",
+		"latitude": 45.6984316,
+		"longitude": -73.8621956333,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2474": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 85,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 145,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 75,
+				"physical_activity": 5,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Mirabel",
+		"latitude": 45.623402,
+		"longitude": -74.012489,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2475": {
+		"data": [],
+		"division_name": "La Rivière-du-Nord",
+		"latitude": 45.83461525,
+		"longitude": -73.960620311,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2476": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 1,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Argenteuil",
+		"latitude": 45.7190565,
+		"longitude": -74.4920852313,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2477": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 4,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Les Pays-d'en-Haut",
+		"latitude": 45.93467465,
+		"longitude": -74.2615046086,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2478": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 44,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 22,
+				"num_tweets": 428,
+				"physical_activity": 48,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 80,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 17,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Les Laurentides",
+		"latitude": 46.1842172,
+		"longitude": -74.5810082166,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2479": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Antoine-Labelle",
+		"latitude": 46.5523631,
+		"longitude": -75.497393,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2480": {
+		"data": [],
+		"division_name": "Papineau",
+		"latitude": 45.5240492,
+		"longitude": -73.5529443,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2481": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 0,
+				"num_tweets": 65,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 190,
+				"num_tweets": 2790,
+				"physical_activity": 55,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 480,
+				"num_tweets": 5560,
+				"physical_activity": 225,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 35,
+				"sedentary_behavior": 210,
+				"num_tweets": 3775,
+				"physical_activity": 130,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 50,
+				"num_tweets": 485,
+				"physical_activity": 15,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Gatineau",
+		"latitude": 45.457241,
+		"longitude": -75.723267,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2482": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 24,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 68,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 21,
+				"num_tweets": 69,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 29,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Les Collines-de-l'Outaouais",
+		"latitude": 45.6235107,
+		"longitude": -75.8362613619,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2483": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Vallée-de-la-Gatineau",
+		"latitude": 46.798141,
+		"longitude": -76.2729531885,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2484": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 102,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 148,
+				"physical_activity": 16,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 71,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 37,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Pontiac",
+		"latitude": 45.54244155,
+		"longitude": -76.1091991792,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2485": {
+		"data": [],
+		"division_name": "Témiscamingue",
+		"latitude": 48.2172576,
+		"longitude": -79.0901374,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2486": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 262,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 23,
+				"num_tweets": 645,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 9,
+				"num_tweets": 369,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 70,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Rouyn-Noranda",
+		"latitude": 48.2420524,
+		"longitude": -79.0205378,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2487": {
+		"data": [],
+		"division_name": "Abitibi-Ouest",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2488": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Abitibi",
+		"latitude": 48.7058581,
+		"longitude": -79.503510342,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2489": {
+		"data": [],
+		"division_name": "La Vallée-de-l'Or",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2490": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 19,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Tuque",
+		"latitude": 47.441092,
+		"longitude": -72.78511,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2491": {
+		"data": [],
+		"division_name": "Le Domaine-du-Roy",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2492": {
+		"data": [],
+		"division_name": "Maria-Chapdelaine",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2493": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Lac-Saint-Jean-Est",
+		"latitude": 48.40402585,
+		"longitude": -68.0626364787,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2494": {
+		"data": [],
+		"division_name": "Le Saguenay-et-son-Fjord",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2495": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "La Haute-Côte-Nord",
+		"latitude": 49.02652575,
+		"longitude": -69.3991730823,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2496": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 15,
+				"num_tweets": 328,
+				"physical_activity": 5,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 40,
+				"num_tweets": 535,
+				"physical_activity": 15,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 15,
+				"num_tweets": 331,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 88,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Manicouagan",
+		"latitude": 50.2145718,
+		"longitude": -68.8521751773,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2497": {
+		"data": [],
+		"division_name": "Sept-Rivières--Caniapiscau",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2498": {
+		"data": [],
+		"division_name": "Minganie--Le Golfe-du-Saint-Laurent",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"2499": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 174,
+				"physical_activity": 12,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 44,
+				"num_tweets": 429,
+				"physical_activity": 44,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 324,
+				"physical_activity": 30,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 12,
+				"num_tweets": 48,
+				"physical_activity": 8,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Nord-du-Québec",
+		"latitude": 45.3597156,
+		"longitude": -73.7732808,
+		"province_id": 24,
+		"province_name": "Quebec / Québec"
+	},
+	"3501": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 11,
+				"num_tweets": 163,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 21,
+				"num_tweets": 237,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 11,
+				"num_tweets": 162,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Stormont,  Dundas and Glengarry",
+		"latitude": 45.21648095,
+		"longitude": -75.0334668018,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3502": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 190,
+				"physical_activity": 9,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 711,
+				"physical_activity": 35,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 25,
+				"num_tweets": 348,
+				"physical_activity": 15,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 43,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Prescott and Russell",
+		"latitude": 45.4138136,
+		"longitude": -75.0146088662,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3506": {
+		"data": [
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 85,
+				"num_tweets": 780,
+				"physical_activity": 30,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 385,
+				"sedentary_behavior": 4140,
+				"num_tweets": 43985,
+				"physical_activity": 1525,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 940,
+				"sedentary_behavior": 9230,
+				"num_tweets": 92150,
+				"physical_activity": 3650,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 555,
+				"sedentary_behavior": 5065,
+				"num_tweets": 48794,
+				"physical_activity": 1725,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 170,
+				"sedentary_behavior": 990,
+				"num_tweets": 9046,
+				"physical_activity": 450,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Ottawa",
+		"latitude": 45.421106,
+		"longitude": -75.690308,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3507": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 182,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 27,
+				"num_tweets": 333,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 27,
+				"num_tweets": 289,
+				"physical_activity": 12,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 8,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Leeds and Grenville",
+		"latitude": 44.70309435,
+		"longitude": -75.8989237214,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3509": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 68,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 20,
+				"num_tweets": 108,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Lanark",
+		"latitude": 45.05743525,
+		"longitude": -76.3278723074,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3510": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 115,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 55,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Frontenac",
+		"latitude": 44.7794886,
+		"longitude": -76.8704262736,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3511": {
+		"data": [
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Lennox and Addington",
+		"latitude": 44.6228365,
+		"longitude": -77.1362825069,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3512": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 44,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 127,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 48,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Hastings",
+		"latitude": 44.71713585,
+		"longitude": -77.5734170235,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3513": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 385,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 145,
+				"sedentary_behavior": 1390,
+				"num_tweets": 18130,
+				"physical_activity": 510,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 420,
+				"sedentary_behavior": 3315,
+				"num_tweets": 42000,
+				"physical_activity": 1010,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 215,
+				"sedentary_behavior": 1885,
+				"num_tweets": 23955,
+				"physical_activity": 550,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 255,
+				"num_tweets": 4065,
+				"physical_activity": 70,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Prince Edward",
+		"latitude": 43.6610887,
+		"longitude": -79.5107936916,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3514": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 32,
+				"num_tweets": 303,
+				"physical_activity": 16,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 54,
+				"num_tweets": 786,
+				"physical_activity": 20,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 6,
+				"sedentary_behavior": 41,
+				"num_tweets": 322,
+				"physical_activity": 16,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 63,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Northumberland",
+		"latitude": 44.1678357,
+		"longitude": -77.9539617366,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3515": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 90,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 59,
+				"sedentary_behavior": 509,
+				"num_tweets": 5399,
+				"physical_activity": 204,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 198,
+				"sedentary_behavior": 1080,
+				"num_tweets": 12378,
+				"physical_activity": 465,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 75,
+				"sedentary_behavior": 573,
+				"num_tweets": 6564,
+				"physical_activity": 185,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 84,
+				"num_tweets": 1201,
+				"physical_activity": 24,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Peterborough",
+		"latitude": 44.3048009,
+		"longitude": -78.3199496,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3516": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 48,
+				"num_tweets": 620,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 16,
+				"sedentary_behavior": 162,
+				"num_tweets": 2171,
+				"physical_activity": 71,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 99,
+				"num_tweets": 1147,
+				"physical_activity": 48,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 24,
+				"num_tweets": 308,
+				"physical_activity": 12,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kawartha Lakes",
+		"latitude": 44.5204884,
+		"longitude": -78.7976478822,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3518": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 15,
+				"num_tweets": 195,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 38,
+				"num_tweets": 437,
+				"physical_activity": 11,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 133,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Durham",
+		"latitude": 44.1749404,
+		"longitude": -80.8138847,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3519": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 40,
+				"num_tweets": 294,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 145,
+				"sedentary_behavior": 1283,
+				"num_tweets": 15284,
+				"physical_activity": 470,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 390,
+				"sedentary_behavior": 2979,
+				"num_tweets": 31509,
+				"physical_activity": 983,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 165,
+				"sedentary_behavior": 1445,
+				"num_tweets": 15118,
+				"physical_activity": 510,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 35,
+				"sedentary_behavior": 290,
+				"num_tweets": 3110,
+				"physical_activity": 80,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "York",
+		"latitude": 43.6896191,
+		"longitude": -79.479188,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3520": {
+		"data": [
+			{
+				"sleeping": 60,
+				"sedentary_behavior": 295,
+				"num_tweets": 3431,
+				"physical_activity": 100,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 1780,
+				"sedentary_behavior": 14450,
+				"num_tweets": 163847,
+				"physical_activity": 5055,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3666,
+				"sedentary_behavior": 29766,
+				"num_tweets": 352059,
+				"physical_activity": 10269,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 1970,
+				"sedentary_behavior": 16105,
+				"num_tweets": 186196,
+				"physical_activity": 5615,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 475,
+				"sedentary_behavior": 3140,
+				"num_tweets": 37765,
+				"physical_activity": 1280,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Toronto",
+		"latitude": 43.653963,
+		"longitude": -79.387207,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3521": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 25,
+				"num_tweets": 280,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 110,
+				"sedentary_behavior": 895,
+				"num_tweets": 10888,
+				"physical_activity": 360,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 360,
+				"sedentary_behavior": 2530,
+				"num_tweets": 25533,
+				"physical_activity": 755,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 155,
+				"sedentary_behavior": 1165,
+				"num_tweets": 11135,
+				"physical_activity": 375,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 250,
+				"num_tweets": 2813,
+				"physical_activity": 105,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Peel",
+		"latitude": 43.73424205,
+		"longitude": -79.7992120889,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3522": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 76,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 233,
+				"physical_activity": 1,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 88,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Dufferin",
+		"latitude": 44.0282948,
+		"longitude": -80.1989895729,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3523": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 9,
+				"sedentary_behavior": 10,
+				"num_tweets": 180,
+				"physical_activity": 2,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 44,
+				"num_tweets": 399,
+				"physical_activity": 9,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 5,
+				"num_tweets": 107,
+				"physical_activity": 5,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 9,
+				"num_tweets": 46,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Wellington",
+		"latitude": 43.9521503,
+		"longitude": -77.3491071,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3524": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 15,
+				"num_tweets": 130,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 100,
+				"sedentary_behavior": 625,
+				"num_tweets": 6780,
+				"physical_activity": 255,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 180,
+				"sedentary_behavior": 1555,
+				"num_tweets": 16270,
+				"physical_activity": 640,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 90,
+				"sedentary_behavior": 740,
+				"num_tweets": 8740,
+				"physical_activity": 280,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 160,
+				"num_tweets": 1950,
+				"physical_activity": 65,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Halton",
+		"latitude": 43.5104303,
+		"longitude": -79.8948700067,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3525": {
+		"data": [
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 40,
+				"num_tweets": 320,
+				"physical_activity": 35,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 155,
+				"sedentary_behavior": 2208,
+				"num_tweets": 19767,
+				"physical_activity": 763,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 527,
+				"sedentary_behavior": 3965,
+				"num_tweets": 41718,
+				"physical_activity": 1845,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 313,
+				"sedentary_behavior": 2484,
+				"num_tweets": 22280,
+				"physical_activity": 873,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 85,
+				"sedentary_behavior": 474,
+				"num_tweets": 4040,
+				"physical_activity": 149,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Hamilton",
+		"latitude": 43.255205,
+		"longitude": -79.868202,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3526": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 140,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 115,
+				"sedentary_behavior": 814,
+				"num_tweets": 8972,
+				"physical_activity": 233,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 250,
+				"sedentary_behavior": 1901,
+				"num_tweets": 18883,
+				"physical_activity": 560,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 159,
+				"sedentary_behavior": 903,
+				"num_tweets": 9894,
+				"physical_activity": 264,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 40,
+				"sedentary_behavior": 184,
+				"num_tweets": 1754,
+				"physical_activity": 48,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Niagara",
+		"latitude": 43.05023,
+		"longitude": -79.12038,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3528": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 75,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 250,
+				"num_tweets": 2069,
+				"physical_activity": 75,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 55,
+				"sedentary_behavior": 398,
+				"num_tweets": 4407,
+				"physical_activity": 245,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 195,
+				"num_tweets": 1944,
+				"physical_activity": 80,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 50,
+				"num_tweets": 418,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Haldimand-Norfolk",
+		"latitude": 43.1703733,
+		"longitude": -80.257254188,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3529": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 36,
+				"num_tweets": 268,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 56,
+				"num_tweets": 612,
+				"physical_activity": 44,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 32,
+				"num_tweets": 284,
+				"physical_activity": 20,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 112,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Brant",
+		"latitude": 43.088075,
+		"longitude": -80.00387215,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3530": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 45,
+				"num_tweets": 325,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 159,
+				"sedentary_behavior": 1676,
+				"num_tweets": 17299,
+				"physical_activity": 581,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 529,
+				"sedentary_behavior": 3508,
+				"num_tweets": 35759,
+				"physical_activity": 1316,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 240,
+				"sedentary_behavior": 1970,
+				"num_tweets": 18470,
+				"physical_activity": 576,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 45,
+				"sedentary_behavior": 361,
+				"num_tweets": 3754,
+				"physical_activity": 89,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Waterloo",
+		"latitude": 43.466874,
+		"longitude": -80.524635,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3531": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 164,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 24,
+				"num_tweets": 300,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 104,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Perth",
+		"latitude": 44.898868,
+		"longitude": -76.246943,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3532": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 4,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 60,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 26,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 34,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Oxford",
+		"latitude": 46.4710258,
+		"longitude": -81.0719054,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3534": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 205,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 75,
+				"sedentary_behavior": 840,
+				"num_tweets": 7547,
+				"physical_activity": 270,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 124,
+				"sedentary_behavior": 1099,
+				"num_tweets": 11454,
+				"physical_activity": 483,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 574,
+				"num_tweets": 5653,
+				"physical_activity": 225,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 115,
+				"num_tweets": 1119,
+				"physical_activity": 45,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Elgin",
+		"latitude": 44.6078306,
+		"longitude": -76.2214376,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3536": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 160,
+				"num_tweets": 1590,
+				"physical_activity": 15,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 80,
+				"sedentary_behavior": 295,
+				"num_tweets": 3815,
+				"physical_activity": 75,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 40,
+				"sedentary_behavior": 175,
+				"num_tweets": 1735,
+				"physical_activity": 40,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 20,
+				"num_tweets": 330,
+				"physical_activity": 5,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Chatham-Kent",
+		"latitude": 42.405207,
+		"longitude": -82.191467,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3537": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 0,
+				"num_tweets": 165,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 133,
+				"sedentary_behavior": 718,
+				"num_tweets": 6927,
+				"physical_activity": 237,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 311,
+				"sedentary_behavior": 1994,
+				"num_tweets": 19548,
+				"physical_activity": 680,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 196,
+				"sedentary_behavior": 1104,
+				"num_tweets": 9693,
+				"physical_activity": 361,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 35,
+				"sedentary_behavior": 231,
+				"num_tweets": 2093,
+				"physical_activity": 85,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Essex",
+		"latitude": 42.03350855,
+		"longitude": -82.8068411277,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3538": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 148,
+				"physical_activity": 12,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 28,
+				"sedentary_behavior": 118,
+				"num_tweets": 734,
+				"physical_activity": 28,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 72,
+				"num_tweets": 420,
+				"physical_activity": 16,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 52,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Lambton",
+		"latitude": 42.92960515,
+		"longitude": -82.4337328238,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3539": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 25,
+				"num_tweets": 280,
+				"physical_activity": 25,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 140,
+				"sedentary_behavior": 1467,
+				"num_tweets": 14096,
+				"physical_activity": 616,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 342,
+				"sedentary_behavior": 2923,
+				"num_tweets": 29065,
+				"physical_activity": 959,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 178,
+				"sedentary_behavior": 1575,
+				"num_tweets": 14253,
+				"physical_activity": 689,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 34,
+				"sedentary_behavior": 221,
+				"num_tweets": 2549,
+				"physical_activity": 83,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Middlesex",
+		"latitude": 42.9791385,
+		"longitude": -80.9305313,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3540": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 80,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Huron",
+		"latitude": 44.65030755,
+		"longitude": -82.2818681764,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3541": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 36,
+				"num_tweets": 282,
+				"physical_activity": 12,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 56,
+				"num_tweets": 629,
+				"physical_activity": 19,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 24,
+				"num_tweets": 292,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 52,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Bruce",
+		"latitude": 44.64276155,
+		"longitude": -81.2043980576,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3542": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 28,
+				"num_tweets": 698,
+				"physical_activity": 16,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 81,
+				"num_tweets": 1767,
+				"physical_activity": 32,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 36,
+				"sedentary_behavior": 57,
+				"num_tweets": 814,
+				"physical_activity": 33,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 177,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Grey",
+		"latitude": 44.47141625,
+		"longitude": -80.694705594,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3543": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 90,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 112,
+				"sedentary_behavior": 614,
+				"num_tweets": 5814,
+				"physical_activity": 246,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 167,
+				"sedentary_behavior": 1218,
+				"num_tweets": 11095,
+				"physical_activity": 410,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 52,
+				"sedentary_behavior": 553,
+				"num_tweets": 5136,
+				"physical_activity": 374,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 14,
+				"sedentary_behavior": 82,
+				"num_tweets": 927,
+				"physical_activity": 24,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Simcoe",
+		"latitude": 44.44590855,
+		"longitude": -79.8498380081,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3544": {
+		"data": [
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 42,
+				"num_tweets": 318,
+				"physical_activity": 26,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 96,
+				"num_tweets": 985,
+				"physical_activity": 48,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 48,
+				"num_tweets": 593,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 109,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Muskoka",
+		"latitude": 45.1506666,
+		"longitude": -79.3440678214,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3546": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 21,
+				"physical_activity": 6,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 73,
+				"physical_activity": 2,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Haliburton",
+		"latitude": 45.1573163,
+		"longitude": -78.4706638642,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3547": {
+		"data": [
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 3,
+				"num_tweets": 89,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 21,
+				"num_tweets": 185,
+				"physical_activity": 6,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 53,
+				"physical_activity": 13,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Renfrew",
+		"latitude": 45.69645125,
+		"longitude": -77.2219071068,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3548": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 28,
+				"num_tweets": 228,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 16,
+				"sedentary_behavior": 44,
+				"num_tweets": 746,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 337,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 88,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Nipissing",
+		"latitude": 46.0955444,
+		"longitude": -79.5141664,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3549": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 127,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 28,
+				"num_tweets": 194,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 98,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Parry Sound",
+		"latitude": 45.3402359,
+		"longitude": -80.0370222,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3551": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 165,
+				"num_tweets": 1204,
+				"physical_activity": 110,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 244,
+				"num_tweets": 1995,
+				"physical_activity": 75,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 171,
+				"num_tweets": 1018,
+				"physical_activity": 40,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 35,
+				"num_tweets": 158,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Manitoulin",
+		"latitude": 45.68834755,
+		"longitude": -82.097783074,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3552": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Sudbury",
+		"latitude": 46.49272,
+		"longitude": -80.991211,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3553": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 70,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 195,
+				"num_tweets": 1985,
+				"physical_activity": 95,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 85,
+				"sedentary_behavior": 406,
+				"num_tweets": 4857,
+				"physical_activity": 175,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 60,
+				"sedentary_behavior": 230,
+				"num_tweets": 2715,
+				"physical_activity": 95,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 40,
+				"num_tweets": 530,
+				"physical_activity": 40,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Greater Sudbury / Grand Sudbury",
+		"latitude": 46.3074538,
+		"longitude": -81.3561758751,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3554": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Timiskaming",
+		"latitude": 47.66846735,
+		"longitude": -80.2958348299,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3556": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 10,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 77,
+				"num_tweets": 752,
+				"physical_activity": 13,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 13,
+				"sedentary_behavior": 229,
+				"num_tweets": 2334,
+				"physical_activity": 104,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 80,
+				"num_tweets": 1019,
+				"physical_activity": 57,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 26,
+				"num_tweets": 142,
+				"physical_activity": 9,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Cochrane",
+		"latitude": 49.066668,
+		"longitude": -81.017303,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3557": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 40,
+				"num_tweets": 431,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 137,
+				"num_tweets": 943,
+				"physical_activity": 36,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 108,
+				"num_tweets": 1017,
+				"physical_activity": 8,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 164,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Algoma",
+		"latitude": 44.28926955,
+		"longitude": -79.8536858468,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3558": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 30,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 245,
+				"num_tweets": 2157,
+				"physical_activity": 100,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 54,
+				"sedentary_behavior": 353,
+				"num_tweets": 4073,
+				"physical_activity": 129,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 195,
+				"num_tweets": 1859,
+				"physical_activity": 44,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 60,
+				"num_tweets": 580,
+				"physical_activity": 25,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Thunder Bay",
+		"latitude": 48.406414,
+		"longitude": -89.259796,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3559": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 84,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 250,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 116,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Rainy River",
+		"latitude": 48.722679,
+		"longitude": -94.564819,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"3560": {
+		"data": [
+			{
+				"sleeping": 7,
+				"sedentary_behavior": 24,
+				"num_tweets": 317,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 50,
+				"num_tweets": 655,
+				"physical_activity": 30,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 22,
+				"num_tweets": 486,
+				"physical_activity": 11,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 48,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kenora",
+		"latitude": 49.761752,
+		"longitude": -94.482422,
+		"province_id": 35,
+		"province_name": "Ontario"
+	},
+	"4601": {
+		"data": [],
+		"division_name": "Division No.  1",
+		"latitude": 50.9959116,
+		"longitude": -98.7987473049,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4602": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 25,
+				"num_tweets": 212,
+				"physical_activity": 5,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 38,
+				"sedentary_behavior": 62,
+				"num_tweets": 648,
+				"physical_activity": 44,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 38,
+				"num_tweets": 294,
+				"physical_activity": 10,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 55,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  2",
+		"latitude": 49.530557,
+		"longitude": -96.69342,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4603": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 256,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 49,
+				"num_tweets": 846,
+				"physical_activity": 28,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 32,
+				"num_tweets": 514,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 8,
+				"num_tweets": 132,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  3",
+		"latitude": 49.0210445,
+		"longitude": -98.2528431,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4604": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 30,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 98,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  4",
+		"latitude": 49.2248362,
+		"longitude": -98.9121735,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4605": {
+		"data": [],
+		"division_name": "Division No.  5",
+		"latitude": 49.8310583,
+		"longitude": -99.9602367,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4606": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 30,
+				"num_tweets": 358,
+				"physical_activity": 1,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 39,
+				"sedentary_behavior": 33,
+				"num_tweets": 566,
+				"physical_activity": 7,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 18,
+				"sedentary_behavior": 27,
+				"num_tweets": 192,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 21,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  6",
+		"latitude": 49.8485092,
+		"longitude": -100.9322654,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4607": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 3,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  7",
+		"latitude": 49.850381,
+		"longitude": -99.959106,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4608": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 2,
+				"sedentary_behavior": 0,
+				"num_tweets": 14,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Division No.  8",
+		"latitude": 50.9959116,
+		"longitude": -98.7987473049,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4609": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 59,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 87,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 52,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 21,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  9",
+		"latitude": 49.972422,
+		"longitude": -98.289185,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4610": {
+		"data": [],
+		"division_name": "Division No. 10",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4611": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 55,
+				"num_tweets": 405,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 295,
+				"sedentary_behavior": 1960,
+				"num_tweets": 20010,
+				"physical_activity": 735,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 615,
+				"sedentary_behavior": 4950,
+				"num_tweets": 44725,
+				"physical_activity": 1830,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 235,
+				"sedentary_behavior": 2570,
+				"num_tweets": 24456,
+				"physical_activity": 1130,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 635,
+				"num_tweets": 5855,
+				"physical_activity": 225,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 11",
+		"latitude": 49.884017,
+		"longitude": -97.168579,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4612": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 13,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 7,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 12",
+		"latitude": 50.0619312,
+		"longitude": -96.5140821,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4613": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 27,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 13",
+		"latitude": 52.1496988,
+		"longitude": -106.7099989,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4614": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 112,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 36,
+				"num_tweets": 200,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 0,
+				"num_tweets": 112,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 14",
+		"latitude": 50.1327525,
+		"longitude": -97.3270268321,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4615": {
+		"data": [],
+		"division_name": "Division No. 15",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4616": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 126,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 55,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 16",
+		"latitude": 51.233333,
+		"longitude": -101.35,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4617": {
+		"data": [],
+		"division_name": "Division No. 17",
+		"latitude": 51.153509,
+		"longitude": -100.04425,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4618": {
+		"data": [],
+		"division_name": "Division No. 18",
+		"latitude": 50.1327525,
+		"longitude": -97.3270268321,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4619": {
+		"data": [],
+		"division_name": "Division No. 19",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4620": {
+		"data": [],
+		"division_name": "Division No. 20",
+		"latitude": 51.9667188,
+		"longitude": -101.5617688,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4621": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 21,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 21",
+		"latitude": 54.77440345,
+		"longitude": -101.8824807164,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4622": {
+		"data": [
+			{
+				"sleeping": 16,
+				"sedentary_behavior": 15,
+				"num_tweets": 241,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 42,
+				"num_tweets": 364,
+				"physical_activity": 15,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 15,
+				"num_tweets": 175,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 22",
+		"latitude": 55.743347,
+		"longitude": -97.863464,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4623": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 150,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 36,
+				"num_tweets": 3406,
+				"physical_activity": 10,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 29,
+				"num_tweets": 9976,
+				"physical_activity": 66,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4950,
+				"physical_activity": 5,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 1243,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 23",
+		"latitude": 58.7721606,
+		"longitude": -94.1637108,
+		"province_id": 46,
+		"province_name": "Manitoba"
+	},
+	"4701": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 20,
+				"num_tweets": 90,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 435,
+				"num_tweets": 3918,
+				"physical_activity": 200,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 115,
+				"sedentary_behavior": 977,
+				"num_tweets": 8898,
+				"physical_activity": 441,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 62,
+				"sedentary_behavior": 450,
+				"num_tweets": 5072,
+				"physical_activity": 225,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 115,
+				"num_tweets": 996,
+				"physical_activity": 70,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  1",
+		"latitude": 52.1200598,
+		"longitude": -106.6700821,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4702": {
+		"data": [],
+		"division_name": "Division No.  2",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4703": {
+		"data": [],
+		"division_name": "Division No.  3",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4704": {
+		"data": [],
+		"division_name": "Division No.  4",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4705": {
+		"data": [],
+		"division_name": "Division No.  5",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4706": {
+		"data": [],
+		"division_name": "Division No.  6",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4707": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 1,
+				"sedentary_behavior": 5,
+				"num_tweets": 48,
+				"physical_activity": 2,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 52,
+				"physical_activity": 3,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 6,
+				"physical_activity": 2,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  7",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4708": {
+		"data": [],
+		"division_name": "Division No.  8",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4709": {
+		"data": [],
+		"division_name": "Division No.  9",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4710": {
+		"data": [],
+		"division_name": "Division No. 10",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4711": {
+		"data": [],
+		"division_name": "Division No. 11",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4712": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 2,
+				"num_tweets": 18,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 34,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 12",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4713": {
+		"data": [],
+		"division_name": "Division No. 13",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4714": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 171,
+				"num_tweets": 1562,
+				"physical_activity": 65,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 45,
+				"sedentary_behavior": 290,
+				"num_tweets": 3578,
+				"physical_activity": 130,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 225,
+				"num_tweets": 2758,
+				"physical_activity": 50,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 50,
+				"num_tweets": 330,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 14",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4715": {
+		"data": [],
+		"division_name": "Division No. 15",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4716": {
+		"data": [],
+		"division_name": "Division No. 16",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4717": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 3,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 9,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 17",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4718": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 20,
+				"num_tweets": 430,
+				"physical_activity": 10,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 70,
+				"num_tweets": 1382,
+				"physical_activity": 30,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 780,
+				"physical_activity": 10,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 155,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 18",
+		"latitude": 53.1869562,
+		"longitude": -105.7210493,
+		"province_id": 47,
+		"province_name": "Saskatchewan"
+	},
+	"4801": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 17,
+				"num_tweets": 91,
+				"physical_activity": 1,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 18,
+				"num_tweets": 207,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 10,
+				"num_tweets": 122,
+				"physical_activity": 6,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  1",
+		"latitude": 52.1531542,
+		"longitude": -106.6680651,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4802": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 173,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 69,
+				"sedentary_behavior": 648,
+				"num_tweets": 5679,
+				"physical_activity": 230,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 129,
+				"sedentary_behavior": 988,
+				"num_tweets": 12098,
+				"physical_activity": 461,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 90,
+				"sedentary_behavior": 750,
+				"num_tweets": 6335,
+				"physical_activity": 223,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 135,
+				"num_tweets": 1247,
+				"physical_activity": 80,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  2",
+		"latitude": 50.9227196,
+		"longitude": -102.791443,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4803": {
+		"data": [],
+		"division_name": "Division No.  3",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4804": {
+		"data": [],
+		"division_name": "Division No.  4",
+		"latitude": 52.8624503,
+		"longitude": -104.6063771,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4805": {
+		"data": [
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 9,
+				"num_tweets": 150,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 18,
+				"num_tweets": 177,
+				"physical_activity": 3,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 7,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No.  5",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4806": {
+		"data": [],
+		"division_name": "Division No.  6",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4807": {
+		"data": [],
+		"division_name": "Division No.  7",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4808": {
+		"data": [],
+		"division_name": "Division No.  8",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4809": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			}
+		],
+		"division_name": "Division No.  9",
+		"latitude": 51.5669475,
+		"longitude": -101.9052489,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4810": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 223,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 58,
+				"num_tweets": 515,
+				"physical_activity": 28,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 26,
+				"num_tweets": 193,
+				"physical_activity": 7,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 10",
+		"latitude": 51.6394143,
+		"longitude": -103.5274211,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4811": {
+		"data": [
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 20,
+				"num_tweets": 116,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 26,
+				"num_tweets": 306,
+				"physical_activity": 16,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 46,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 11",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4812": {
+		"data": [],
+		"division_name": "Division No. 12",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4813": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 60,
+				"num_tweets": 505,
+				"physical_activity": 20,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 269,
+				"sedentary_behavior": 3271,
+				"num_tweets": 34560,
+				"physical_activity": 1366,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 671,
+				"sedentary_behavior": 7331,
+				"num_tweets": 84787,
+				"physical_activity": 3147,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 386,
+				"sedentary_behavior": 4054,
+				"num_tweets": 43017,
+				"physical_activity": 1514,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 84,
+				"sedentary_behavior": 565,
+				"num_tweets": 7902,
+				"physical_activity": 240,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 13",
+		"latitude": 51.917734,
+		"longitude": -109.1405612,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4814": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 18,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 120,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Division No. 14",
+		"latitude": 52.8624503,
+		"longitude": -104.6063771,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4815": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Division No. 15",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4816": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 16",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4817": {
+		"data": [],
+		"division_name": "Division No. 17",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4818": {
+		"data": [],
+		"division_name": "Division No. 18",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"4819": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Division No. 19",
+		"latitude": 52.1476514,
+		"longitude": -106.6680964,
+		"province_id": 48,
+		"province_name": "Alberta"
+	},
+	"5901": {
+		"data": [],
+		"division_name": "East Kootenay",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5903": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 34,
+				"num_tweets": 373,
+				"physical_activity": 15,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 54,
+				"num_tweets": 932,
+				"physical_activity": 26,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 55,
+				"num_tweets": 704,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 60,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Central Kootenay",
+		"latitude": 50.03194325,
+		"longitude": -117.4854454993,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5905": {
+		"data": [
+			{
+				"sleeping": 55,
+				"sedentary_behavior": 115,
+				"num_tweets": 780,
+				"physical_activity": 20,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 1660,
+				"sedentary_behavior": 4660,
+				"num_tweets": 38307,
+				"physical_activity": 1279,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 3990,
+				"sedentary_behavior": 11198,
+				"num_tweets": 88896,
+				"physical_activity": 3543,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 2496,
+				"sedentary_behavior": 6507,
+				"num_tweets": 47958,
+				"physical_activity": 1867,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 605,
+				"sedentary_behavior": 1194,
+				"num_tweets": 8427,
+				"physical_activity": 300,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kootenay Boundary",
+		"latitude": 50.16641145,
+		"longitude": -115.6052366806,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5907": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 233,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 298,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 179,
+				"physical_activity": 12,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 40,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Okanagan-Similkameen",
+		"latitude": 49.45603675,
+		"longitude": -120.1907516519,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5909": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 86,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 488,
+				"physical_activity": 6,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 227,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 48,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Fraser Valley",
+		"latitude": 59.715297,
+		"longitude": -135.0479946,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5915": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 15,
+				"num_tweets": 175,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 120,
+				"sedentary_behavior": 1140,
+				"num_tweets": 11910,
+				"physical_activity": 413,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 149,
+				"sedentary_behavior": 1441,
+				"num_tweets": 19429,
+				"physical_activity": 613,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 500,
+				"num_tweets": 7101,
+				"physical_activity": 150,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 110,
+				"num_tweets": 1624,
+				"physical_activity": 49,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Greater Vancouver",
+		"latitude": 49.0935151,
+		"longitude": -122.4870785388,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5917": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 55,
+				"physical_activity": 5,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 100,
+				"num_tweets": 1928,
+				"physical_activity": 87,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 85,
+				"sedentary_behavior": 544,
+				"num_tweets": 5640,
+				"physical_activity": 301,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 10,
+				"sedentary_behavior": 270,
+				"num_tweets": 2743,
+				"physical_activity": 248,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 38,
+				"num_tweets": 689,
+				"physical_activity": 35,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Capital",
+		"latitude": 49.2814237,
+		"longitude": -123.1330616,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5919": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 182,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 59,
+				"num_tweets": 389,
+				"physical_activity": 16,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 13,
+				"num_tweets": 149,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 61,
+				"physical_activity": 4,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Cowichan Valley",
+		"latitude": 48.81174475,
+		"longitude": -123.8036246625,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5921": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 0,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 225,
+				"num_tweets": 2275,
+				"physical_activity": 75,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 70,
+				"sedentary_behavior": 365,
+				"num_tweets": 4645,
+				"physical_activity": 125,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 40,
+				"sedentary_behavior": 195,
+				"num_tweets": 2145,
+				"physical_activity": 60,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 25,
+				"num_tweets": 415,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Nanaimo",
+		"latitude": 49.166441,
+		"longitude": -123.939514,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5923": {
+		"data": [
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 23,
+				"num_tweets": 145,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 39,
+				"num_tweets": 441,
+				"physical_activity": 21,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 3,
+				"sedentary_behavior": 21,
+				"num_tweets": 83,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Alberni-Clayoquot",
+		"latitude": 49.266667,
+		"longitude": -124.8,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5924": {
+		"data": [
+			{
+				"sleeping": 5,
+				"sedentary_behavior": 45,
+				"num_tweets": 800,
+				"physical_activity": 40,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 345,
+				"sedentary_behavior": 3455,
+				"num_tweets": 39789,
+				"physical_activity": 1400,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 770,
+				"sedentary_behavior": 6675,
+				"num_tweets": 82386,
+				"physical_activity": 2905,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 360,
+				"sedentary_behavior": 3610,
+				"num_tweets": 42593,
+				"physical_activity": 1170,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 120,
+				"sedentary_behavior": 689,
+				"num_tweets": 8719,
+				"physical_activity": 244,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Strathcona",
+		"latitude": 49.279554,
+		"longitude": -123.0899788,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5926": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 44,
+				"num_tweets": 306,
+				"physical_activity": 8,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 8,
+				"sedentary_behavior": 51,
+				"num_tweets": 868,
+				"physical_activity": 44,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 27,
+				"num_tweets": 238,
+				"physical_activity": 28,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 16,
+				"num_tweets": 140,
+				"physical_activity": 32,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Comox Valley",
+		"latitude": 49.6727748,
+		"longitude": -124.9276177,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5927": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 54,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 156,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 0,
+				"num_tweets": 46,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Powell River",
+		"latitude": 49.837097,
+		"longitude": -124.524536,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5929": {
+		"data": [
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 4,
+				"num_tweets": 36,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 24,
+				"num_tweets": 289,
+				"physical_activity": 8,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 104,
+				"physical_activity": 12,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 32,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Sunshine Coast",
+		"latitude": 49.6212539,
+		"longitude": -124.026415,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5931": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 35,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 15,
+				"sedentary_behavior": 107,
+				"num_tweets": 2553,
+				"physical_activity": 123,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 25,
+				"sedentary_behavior": 316,
+				"num_tweets": 7346,
+				"physical_activity": 444,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 18,
+				"sedentary_behavior": 127,
+				"num_tweets": 3928,
+				"physical_activity": 261,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 63,
+				"num_tweets": 1086,
+				"physical_activity": 86,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Squamish-Lillooet",
+		"latitude": 49.701391,
+		"longitude": -123.151245,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5933": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 28,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 164,
+				"num_tweets": 2222,
+				"physical_activity": 84,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 453,
+				"num_tweets": 4343,
+				"physical_activity": 160,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 60,
+				"sedentary_behavior": 205,
+				"num_tweets": 2559,
+				"physical_activity": 75,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 20,
+				"sedentary_behavior": 50,
+				"num_tweets": 524,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Thompson-Nicola",
+		"latitude": 50.2598803,
+		"longitude": -121.4070114,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5935": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 5,
+				"physical_activity": 1,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 36,
+				"num_tweets": 472,
+				"physical_activity": 20,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 24,
+				"sedentary_behavior": 181,
+				"num_tweets": 2067,
+				"physical_activity": 58,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 16,
+				"sedentary_behavior": 60,
+				"num_tweets": 987,
+				"physical_activity": 46,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 4,
+				"num_tweets": 217,
+				"physical_activity": 8,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Central Okanagan",
+		"latitude": 49.9528689,
+		"longitude": -119.3847555179,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5937": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 55,
+				"physical_activity": 20,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 30,
+				"sedentary_behavior": 376,
+				"num_tweets": 3629,
+				"physical_activity": 144,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 118,
+				"sedentary_behavior": 770,
+				"num_tweets": 8637,
+				"physical_activity": 380,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 50,
+				"sedentary_behavior": 360,
+				"num_tweets": 3644,
+				"physical_activity": 104,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 39,
+				"num_tweets": 669,
+				"physical_activity": 10,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "North Okanagan",
+		"latitude": 49.8351549,
+		"longitude": -119.4840488765,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5939": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 36,
+				"num_tweets": 498,
+				"physical_activity": 24,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 144,
+				"num_tweets": 1494,
+				"physical_activity": 68,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 12,
+				"sedentary_behavior": 63,
+				"num_tweets": 588,
+				"physical_activity": 44,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 4,
+				"sedentary_behavior": 19,
+				"num_tweets": 142,
+				"physical_activity": 16,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Columbia-Shuswap",
+		"latitude": 51.45081845,
+		"longitude": -117.6329538288,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5941": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 25,
+				"num_tweets": 215,
+				"physical_activity": 10,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 180,
+				"sedentary_behavior": 1375,
+				"num_tweets": 13125,
+				"physical_activity": 628,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 379,
+				"sedentary_behavior": 2967,
+				"num_tweets": 31793,
+				"physical_activity": 1167,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 189,
+				"sedentary_behavior": 1653,
+				"num_tweets": 14964,
+				"physical_activity": 526,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 40,
+				"sedentary_behavior": 245,
+				"num_tweets": 2905,
+				"physical_activity": 150,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Cariboo",
+		"latitude": 49.2477785,
+		"longitude": -122.8897737,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5943": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 23,
+				"physical_activity": 3,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 45,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 14,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Mount Waddington",
+		"latitude": 51.3737074,
+		"longitude": -125.263529,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5945": {
+		"data": [],
+		"division_name": "Central Coast",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5947": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 24,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 17,
+				"num_tweets": 77,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 47,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Skeena-Queen Charlotte",
+		"latitude": 54.2370102,
+		"longitude": -129.8373263,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5949": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 20,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 1645,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 12,
+				"num_tweets": 4480,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 16,
+				"num_tweets": 2289,
+				"physical_activity": 2,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 590,
+				"physical_activity": 5,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kitimat-Stikine",
+		"latitude": 54.017452,
+		"longitude": -128.688354,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5951": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 54,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 19,
+				"num_tweets": 154,
+				"physical_activity": 4,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 18,
+				"num_tweets": 127,
+				"physical_activity": 14,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Bulkley-Nechako",
+		"latitude": 54.4921242,
+		"longitude": -125.8092307114,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5953": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 4,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 52,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Fraser-Fort George",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5955": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 24,
+				"num_tweets": 142,
+				"physical_activity": 12,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 30,
+				"num_tweets": 279,
+				"physical_activity": 12,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 17,
+				"num_tweets": 132,
+				"physical_activity": 4,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Peace River",
+		"latitude": 55.9828406,
+		"longitude": -121.9947387,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5957": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 2,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			}
+		],
+		"division_name": "Stikine",
+		"latitude": 58.000891,
+		"longitude": -127.9373744271,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"5959": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 60,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 5,
+				"num_tweets": 155,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 78,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 16,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Northern Rockies",
+		"latitude": 59.00140165,
+		"longitude": -123.4714986738,
+		"province_id": 59,
+		"province_name": "British Columbia / Colombie-Britannique"
+	},
+	"6001": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 26,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 6,
+				"num_tweets": 126,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 38,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Yukon",
+		"latitude": 33.7985579,
+		"longitude": -91.4678568,
+		"province_id": 60,
+		"province_name": "Yukon"
+	},
+	"6101": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 4,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 76,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 44,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 8,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Region 1",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6102": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Region 2",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6103": {
+		"data": [],
+		"division_name": "Region 3",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6104": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 12,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 3,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Region 4",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6105": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 3,
+				"num_tweets": 3,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Region 5",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6106": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 27,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 18,
+				"physical_activity": 3,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 6,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Region 6",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 61,
+		"province_name": "Northwest Territories / Territoires du Nord-Ouest"
+	},
+	"6204": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 72,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 14,
+				"num_tweets": 251,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 133,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 40,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Baffin",
+		"latitude": 67.8593948,
+		"longitude": -69.6872955544,
+		"province_id": 62,
+		"province_name": "Nunavut"
+	},
+	"6205": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 29,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 14,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			}
+		],
+		"division_name": "Keewatin",
+		"latitude": null,
+		"longitude": null,
+		"province_id": 62,
+		"province_name": "Nunavut"
+	},
+	"6208": {
+		"data": [
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-11-05"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-11-19"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 8,
+				"num_tweets": 125,
+				"physical_activity": 0,
+				"date": "2017-11-26"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 36,
+				"physical_activity": 0,
+				"date": "2017-12-03"
+			},
+			{
+				"sleeping": 0,
+				"sedentary_behavior": 0,
+				"num_tweets": 4,
+				"physical_activity": 0,
+				"date": "2017-12-10"
+			}
+		],
+		"division_name": "Kitikmeot",
+		"latitude": 69.11737675,
+		"longitude": -105.0517760363,
+		"province_id": 62,
+		"province_name": "Nunavut"
+	}
+}
