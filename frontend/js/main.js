@@ -164,12 +164,20 @@
 
     }
 
-    function multilineChart(jsonData,indicator,compare_division1='1101',compare_division2='1102'){
+    function multilineChart(jsonData,indicator,compare_division1='3520',compare_division2='2466'){
         // console.log(compare_division1+' : '+compare_division2)
         console.log(indicator);
         radio2indicator = {'sleep': 'sleeping',
             'physical': 'physical_activity',
             'sedentary': 'sedentary_behavior'};
+
+        // for logging valuess
+        // var value='';
+        // for (var key in jsonData) {
+        //     value = value+key+','+jsonData[key].province_name+','+jsonData[key].division_name+'<br />';
+        // }
+        // $("#select-data").html(value)
+
         indicator = radio2indicator[indicator];
         // compare_division1 = String(compare_division1)
         // compare_division2 = String(compare_division2)
@@ -184,7 +192,7 @@
         // get the max
         var data_count;
         var data_process;
-        console.log(compare_data1)
+        // console.log(compare_data1)
         for (i=0;i<div1_count;i++){
             object_data = {};
             object_data.date = compare_data1[i].date
@@ -227,6 +235,8 @@
             }, {xAxis: 'Years', yAxis: 'tweets'});
         chart.bind("#compline-chart");
         chart.render();
+
+        
     }
 
 })();
