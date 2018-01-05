@@ -15,7 +15,7 @@
         this.parentSelector = parentSelector;
         this.data = data;
         this.opts = _.defaultsDeep({}, options, DEFAULTS);
-        console.log(this.opts);
+        // console.log(this.opts);
         this.initVis();
     };
 
@@ -51,10 +51,18 @@
 
     Bar.prototype.updateVis = function(division_id) {
         data = this.data;
-        var keys = data.columns.slice(7);
-        data = data.filter(function(d) {
-            return d.division_id == division_id;
-        });
+
+        if (data[division_id]['data'].length == 0) {
+            data[division_id]['data'] = [{
+                "num_tweets": 0,
+                "sedentary_behavior": 0,
+                "sleeping": 0,
+                "physical_activity": 0
+            }]
+        }
+
+        data = [data[division_id]];
+        var keys = ['sleeping', 'sedentary_behavior', 'physical_activity']
 
         var vis = this;
 
@@ -68,14 +76,14 @@
 
         vis.x0.domain(data.map(function(d) { return d.division_name; }));
         vis.x1.domain(keys).rangeRound([0, vis.x0.bandwidth()]);
-        vis.y.domain([0, d3.max(data, function(d) {return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+        vis.y.domain([0, d3.max(data, function(d) {return d3.max(keys, function(key) { return d['data'].slice(-1)[0][key]; }); })]).nice();
         
         vis.g.selectAll("g")
             .data(data)
             .enter().append("g")
             .attr("transform", function(d) { return "translate(" + vis.x0(d.division_name) + ",0)"; })
             .selectAll("rect")
-            .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
+            .data(function(d) { return keys.map(function(key) { return {key: key, value: d['data'].slice(-1)[0][key]}; }); })
             .enter().append("rect")
             .attr("class", "bar")
             .attr("x", function(d) { return vis.x1(d.key); })

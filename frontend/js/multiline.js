@@ -1,6 +1,6 @@
 function makeLineChart(dataset, xName, yObjs, axisLables) {
     var chartObj = {};
-    var color = d3.scaleOrdinal(d3.schemeCategory10);;
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
     chartObj.xAxisLable = axisLables.xAxis;
     chartObj.yAxisLable = axisLables.yAxis;
     /*
@@ -9,12 +9,13 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
      */
 
     chartObj.data = dataset;
-    chartObj.margin = {top: 15, right: 60, bottom: 30, left: 50};
+    // console.log(dataset)
+    chartObj.margin = {top: 15, right: 60, bottom: 30, left: 50};chartObj
     chartObj.width = 650 - chartObj.margin.left - chartObj.margin.right;
     chartObj.height = 480 - chartObj.margin.top - chartObj.margin.bottom;
 
 // So we can pass the x and y as strings when creating the function
-    chartObj.xFunct = function(d){return d[xName]};
+    chartObj.xFunct = function(d){return d3.timeParse("%Y-%m-%d")(d[xName])};
 
 // For each yObjs argument, create a yFunction
     function getYFn(column) {
@@ -35,22 +36,23 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     chartObj.formatAsNumber = d3.format(".0f");
     chartObj.formatAsDecimal = d3.format(".2f");
     chartObj.formatAsCurrency = d3.format("$.2f");
+    chartObj.formatAsTime = d3.timeFormat("%Y-%m-%d");
     chartObj.formatAsFloat = function (d) {
         if (d % 1 !== 0) {
             return d3.format(".2f")(d);
         } else {
             return d3.format(".0f")(d);
         }
-        
     };
 
-    chartObj.xFormatter = chartObj.formatAsNumber;
+    // chartObj.xFormatter = chartObj.formatAsNumber;
+    chartObj.xFormatter = chartObj.formatAsTime;
     chartObj.yFormatter = chartObj.formatAsFloat;
 
     chartObj.bisectYear = d3.bisector(chartObj.xFunct).left; //< Can be overridden in definition
 
 //Create scale functions
-    chartObj.xScale = d3.scaleLinear().range([0, chartObj.width]).domain(d3.extent(chartObj.data, chartObj.xFunct)); //< Can be overridden in definition
+    chartObj.xScale = d3.scaleTime().range([0, chartObj.width]).domain(d3.extent(chartObj.data, chartObj.xFunct)); //< Can be overridden in definition
 
 // Get the max of every yFunct
     chartObj.max = function (fn) {
@@ -74,6 +76,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     }
     for (var yObj in yObjs) {
         yObjs[yObj].line = d3.line().curve(d3.curveCardinal).x(function (d) {
+            // console.log(d);
             return chartObj.xScale(chartObj.xFunct(d));
         }).y(getYScaleFn(yObj));
     }
@@ -85,6 +88,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     chartObj.update_svg_size = function () {
         chartObj.width = parseInt(chartObj.chartDiv.style("width"), 10) - (chartObj.margin.left + chartObj.margin.right);
         chartObj.height = parseInt(chartObj.chartDiv.style("height"), 10) - (chartObj.margin.top + chartObj.margin.bottom);
+        chartObj.height = chartObj.height - 50;
         console.log(chartObj.width)
         // chartObj.width = chartDiv.clientWidth - (chartObj.margin.left + chartObj.margin.right);
         // chartObj.height = chartDiv.clientHeight - (chartObj.margin.top + chartObj.margin.bottom);
@@ -96,7 +100,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
         if (!chartObj.svg) {return false;}
 
         /* Else Update the axis with the new scale */
-        chartObj.svg.select('.x.axis').attr("transform", "translate(0," + chartObj.height + ")").call(chartObj.xAxis);
+        chartObj.svg.select('.x.axis').attr("transform", "translate(0," + chartObj.height + 50 + ")").call(chartObj.xAxis);
         chartObj.svg.select('.x.axis .label').attr("x", chartObj.width / 2);
 
         chartObj.svg.select('.y.axis').call(chartObj.yAxis);
@@ -119,10 +123,14 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     chartObj.bind = function (selector) {
         chartObj.mainDiv = d3.select(selector);
         // Add all the divs to make it centered and responsive
+        
+        $(".inner-wrapper").remove()
+        $(".legend").remove()
+
         chartObj.mainDiv.append("div").attr("class", "inner-wrapper").append("div").attr("class", "outer-box").append("div").attr("class", "inner-box");
         chartSelector = selector + " .inner-box";
         chartObj.chartDiv = d3.select(chartSelector);
-        console.log('resize.' + chartSelector)
+
         d3.select(window).on('resize.' + chartSelector, chartObj.update_svg_size);
         chartObj.update_svg_size();
         return chartObj;
@@ -130,10 +138,12 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
 
 // Render the chart
     chartObj.render = function () {
+      
         //Create SVG element
-        chartObj.svg = chartObj.chartDiv.append("svg").attr("class", "chart-area").attr("width", chartObj.width + (chartObj.margin.left + chartObj.margin.right)).attr("height", chartObj.height + (chartObj.margin.top + chartObj.margin.bottom)).append("g").attr("transform", "translate(" + chartObj.margin.left + "," + chartObj.margin.top + ")");
+        chartObj.svg = chartObj.chartDiv.append("svg").attr("class", "chart-area").attr("width", chartObj.width + (chartObj.margin.left + chartObj.margin.right)).attr("height", chartObj.height + 50 +(chartObj.margin.top + chartObj.margin.bottom)).append("g").attr("transform", "translate(" + chartObj.margin.left + "," + chartObj.margin.top + ")");
 
         // Draw Lines
+        // console.log(chartObj.data)
         for (var y  in yObjs) {
             yObjs[y].path = chartObj.svg.append("path").datum(chartObj.data).attr("class", "line").attr("d", yObjs[y].line).style("stroke", color(y)).attr("data-series", y).on("mouseover", function () {
                 focus.style("display", null);
@@ -146,11 +156,18 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
         // Draw Axis
         // chartObj.svg.append("g").attr("class", "x axis").attr("transform", "translate(0," + chartObj.height + ")").call(chartObj.xAxis).append("text").attr("class", "label").attr("x", chartObj.width / 2).attr("y", 30).style("text-anchor", "middle").text(chartObj.xAxisLable);
         chartObj.svg.append("g").attr("class", "x axis")
-                .attr("transform", "translate(0," + chartObj.height + ")")
-                .call(chartObj.xAxis).append("text").attr("class", "label")
-                .attr("x", chartObj.width / 2).attr("y", 30)
-                .style("text-anchor", "middle")
-                .text(chartObj.xAxisLable);
+                .attr("transform", "translate(0," + chartObj.height+ ")")
+                .call(chartObj.xAxis)
+                .selectAll("text")	
+                    .style("text-anchor", "end")
+                    .attr("dx", "-.8em")
+                    .attr("dy", ".15em")
+                    .attr("transform", "rotate(-65)");
+                // .append("text") //.attr("class", "label")
+                // .attr("x", chartObj.width / 2).attr("y", 30)
+                // .attr("fill", "#000")
+                // .style("text-anchor", "middle")
+                // .text(chartObj.xAxisLable);
         chartObj.svg.append("g").attr("class", "y axis")
                 .call(chartObj.yAxis)
                 .append("text")
@@ -159,6 +176,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
                 .attr("y", -42)
                 .attr("x", -chartObj.height / 2)
                 .attr("dy", ".71em")
+                .attr("fill", "#000")
                 .style("text-anchor", "middle")
                 .text(chartObj.yAxisLable);
 

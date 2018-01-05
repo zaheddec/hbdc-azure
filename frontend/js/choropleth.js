@@ -11,7 +11,6 @@
         }
     };
 
-    // A line chart for health spending.
     var Choropleth = function(parentSelector, data, options, dict) {
         this.parentSelector = parentSelector;
         this.data = data;
@@ -103,31 +102,51 @@
         // console.log(vis.healthIndex);
         vis.map.attr("fill", function(d) { 
             vis.indicator = d3.select('input[name="topic"]:checked').node().value;
+            latestData = vis.healthIndex[d.properties.CDUID]['data'].slice(-1)[0]
+            if (latestData == null) {
+                sedentary_tweets = 0;
+                pa_tweets = 0;
+                sleep_tweets = 0;
+            } else {
+                sedentary_tweets = latestData.sedentary_behavior;
+                pa_tweets = latestData.physical_activity;
+                sleep_tweets = latestData.sleeping;
+            }
             if (vis.indicator == 'sedentary') {
                 //console.log("Adding new colore : ",indicator);
                 vis.legend_color = vis.sedentary_color;
-                return vis.sedentary_color(d.tweets = vis.healthIndex.get(d.properties.CDUID).num_tweets);
+                return vis.sedentary_color(d.tweets = sedentary_tweets);
             } else if (vis.indicator == 'sleep'){
                 //console.log("Adding new colore : ",indicator);
                 vis.legend_color = vis.sleep_color;
-                return vis.sleep_color(d.tweets = vis.healthIndex.get(d.properties.CDUID).num_tweets);
+                return vis.sleep_color(d.tweets = sleep_tweets);
             } else{
                 //console.log("Adding new colore : ",indicator);
                 vis.legend_color = vis.pa_color;
-                return vis.pa_color(d.tweets = vis.healthIndex.get(d.properties.CDUID).physical_activity);
+                return vis.pa_color(d.tweets = pa_tweets);
             }
         })
         // 
         vis.map.on("mouseover", function(d){
+            latestData = vis.healthIndex[d.properties.CDUID]['data'].slice(-1)[0]
+            if (latestData == null) {
+                sedentary_tweets = 0;
+                pa_tweets = 0;
+                sleep_tweets = 0;
+            } else {
+                sedentary_tweets = latestData.sedentary_behavior;
+                pa_tweets = latestData.physical_activity;
+                sleep_tweets = latestData.sleeping;
+            }
             vis.tooltip.classed('hidden', false)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY -30) + "px")
                 // .text(d.properties.CDNAME+": "+vis.healthIndex.get(d.properties.CDUID).num_tweets)
                 // .text(d.properties.CDNAME+": "+vis.healthIndex.get(d.properties.CDUID).physical_activity)
                 .html("<strong style= 'color=red'>"+ d.properties.CDNAME+ "</strong><br/>"+
-                    "<strong>Physical Activity:</strong> <span>" + vis.healthIndex.get(d.properties.CDUID).physical_activity + "</span><br/>"+
-                    "<strong>Sedentary Behavior :</strong> <span>" + vis.healthIndex.get(d.properties.CDUID).sedentary_behavior + "</span><br/>"+
-                    "<strong>Sleep              :</strong> <span>" + vis.healthIndex.get(d.properties.CDUID).sleeping + "</span><br/>"
+                    "<strong>Physical Activity:</strong> <span>" + pa_tweets + "</span><br/>"+
+                    "<strong>Sedentary Behavior :</strong> <span>" + sedentary_tweets + "</span><br/>"+
+                    "<strong>Sleep              :</strong> <span>" + sleep_tweets + "</span><br/>"
                   )
         })
         .on("mouseout", function(d){

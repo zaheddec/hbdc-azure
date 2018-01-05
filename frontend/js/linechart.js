@@ -52,7 +52,7 @@
             d.year = vis.parseTime(d.year);
             d.value = +d.value;
         });
-        console.log(vis.data);
+        // console.log(vis.data);
 
         vis.x.domain(d3.extent(vis.data, function(d) { return d.year; }));
         vis.y.domain([d3.min(vis.data, function(d) { return d.value; }) / 1.005, d3.max(vis.data, function(d) { return d.value; }) * 1.005]);
