@@ -141,14 +141,15 @@
             if (viss.indicator == 'sedentary') {
                 //console.log("Adding new colore : ",indicator);
                 viss.legend_color = viss.sedentary_color;
+                $( "#CHI" ).text( "Diabetes Prevalence 2014" );
                 // console.log(d.tweets)
                 return viss.sedentary_color(d.tweets = sedentary_survey);
             } else if (viss.indicator == 'sleep'){
-                //console.log("Adding new colore : ",indicator);
+                $( "#CHI" ).text( "Mood Prevalence 2014" );
                 viss.legend_color = viss.sleep_color;
                 return viss.sleep_color(d.tweets = sleep_survey);
             } else{
-                //console.log("Adding new colore : ",indicator);
+                $( "#CHI" ).text( "Adult Obesity Prevalence 2014" );
                 viss.legend_color = viss.pa_color;
                 return viss.pa_color(d.tweets = pa_survey);
             }
@@ -231,7 +232,7 @@
             .attr("x", 24)
             .attr("y", 9)
             .attr("dy", ".35em")
-            .text(function(d) { return d ; });
+            .text(function(d) { return d + " %" ; });
         
     }
 
