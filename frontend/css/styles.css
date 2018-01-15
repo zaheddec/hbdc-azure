@@ -115,7 +115,7 @@ div.tooltip {
     background: linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
-      ), url(http://healthdatachallenge.com/wp-content/uploads/2017/06/banner-healthdatachallenge.jpg);
+      ), url('../img/pass_collage.png');
     background-color: #000; 
     text-align: center;
     vertical-align: middle;
@@ -339,3 +339,7 @@ p{
   .diverge.valbox.q7-10 {background-color: #35978f; }
   .diverge.valbox.q8-10 {background-color: #01665e; }
   .diverge.valbox.q9-10 {background-color: #003c30; }
+
+#copyright{
+    font-size:1.5em;
+}
