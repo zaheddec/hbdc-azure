@@ -11,12 +11,12 @@
         }
     };
 
-    var Choropleth = function(parentSelector, data, options, dict) {
+    var Choropleth = function(parentSelector, data, options, dict,legend_text) {
         this.parentSelector = parentSelector;
         this.data = data;
         this.opts = _.defaultsDeep({}, options, DEFAULTS);
         this.healthIndex = dict;
-
+        this.legend_text = legend_text;
         this.initVis();
     };
 
@@ -203,7 +203,7 @@
             .attr("x", 24)
             .attr("y", 9)
             .attr("dy", ".35em")
-            .text(function(d) { return d + ' tweets'; });
+            .text(function(d) { return d + vis.legend_text; });
         
     }
 
