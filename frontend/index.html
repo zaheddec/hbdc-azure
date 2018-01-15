@@ -27,35 +27,20 @@
         <div id="fullpage">
             <section>
                 <div id="site-desc">
-                    <h1> HEALTHY BEHAVIOUR DATA CHALLENGE </h1>
-                    <div> Exploring Twitter and Google Trends to monitor public health!</div>
+                    <h1> PASS SURVEILLANCE SYSTEM</h1>
+                    <div> Our system uses real-time Twitter and Google Trends data to track indicators of Physical Activity, Sedentary behaviour, and Sleep quality (PASS) of Canadians. </div>
                 </div>
             </section>
             </div>
                 <center>
                     <div id="start-sec">
-                        <div id ="section-title">Social Media Healthy Behaviour Trends!</div>
-                        <div id="topic-desc"> <p>New technologies and data sources, including wearable devices, geomatic data, mobile applications 
-                            as well as data from social media and other online sources, provide an opportunity for national public health 
-                            organizations to access and integrate a more diverse array of data into public health surveillance. </p>
-                            <p>Choose one of three indicators from non-traditional or novel sources can:</p>
+                        <div id ="section-title">PASS SURVEILLANCE SYSTEM</div>
+                        <div id="topic-desc"> 
+                            <p>Big data from the Internet tells us a lot about what people are interested in. So why not use it to see if tweets and Google search data can give us any insights into how much Canadians care about physical activity, sedentary behaviour, and sleep quality. </p>
+                            <p>Since November 2017, we have been collecting location-tagged tweets and Google Trends data to see how well these unconventional data sources can be used to predict the prevalences of common diseases, such as: diabetes, obesity (body mass index), and mood disorder. </p>
+                            <p>Please choose 1 of 3 behaviours below:</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <center>
-                        <div id="map-extremes" style="margin-bottom: 10px; display: none;">
-                            <table class="table table-striped table-condensed">
-                                <thead>
-                                    <center>
-                                    <tr><th>Best 5</th></tr>
-                                    </center>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
-                        </center>
-                    </div>
-
                     <div class='row'>
                         <div class='radio'>
                                 <label class='radio-inline'>
@@ -68,7 +53,25 @@
                                     <input type="radio" name="topic" value="sleep"> Sleep
                                 </label>
                         </div>
+
+                        <!-- add a dropdown for weekly selection -->
+                        <div class='dropdown-date'>
+                            <select id="date-select">
+                                <option value="2018-01-14" selected="selected">2018-01-14</option>
+                                <option value="2018-01-07">2018-01-07</option>
+                                <option value="2017-12-31">2017-12-31</option>
+                                <option value="2017-12-24">2017-12-24</option>
+                                <option value="2017-12-17">2017-12-17</option>
+                                <option value="2017-12-10">2017-12-10</option>
+                                <option value="2017-12-03">2017-12-03</option>
+                                <option value="2017-11-26">2017-11-26</option>
+                                <option value="2017-11-19">2017-11-19</option>
+                                <option value="2017-11-12">2017-11-12</option>
+                                <option value="2017-11-05">2017-11-05</option>
+                            </select>
+                        </div>
                     </div>
+
                     <!-- add a tmap and gmap scale them down and display side by side -->
                     <table style="width: 100%; max-width: 1200px; table-layout: fixed;">
                         <tr>
@@ -81,667 +84,341 @@
                         </tr>
                         <tr align="center" style="font-size:2em">
                             <td>
-                                Twitter Trend
+                                Twitter PASS Indicators 
                             </td>
                             <td>
-                                Google Trend
+                                Google Trends PASS Indicators
                             </td>
                         </tr>
+                       
                     </table>
-
+                    <table style="width: 100%; max-width: 1200px; table-layout: fixed;">
+                        <tr>
+                            <div id="mapsurvey"></div>
+                        </tr>
+                        <tr>
+                            <td align="center" style="font-size:2em">Canadian Health survey</td>
+                        </tr>
+                    </table>
+                    <div>
+                            <div id="topic-desc">Following are the top cities for selected indicator </div>
+                            <div class="row">
+                                    <center>
+                                    <div id="map-extremes" style="margin-bottom: 10px; display: none;">
+                                        <table class="table table-striped table-condensed">
+                                            <thead>
+                                                <center>
+                                                <tr><th>Best 5</th></tr>
+                                                </center>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                    </center>
+                                </div>
+                    </div>
                     <!-- map section for twitter -->
                     <div id="start-twitter">
-                        <div id="section-title"> Twitter Healthy Behaviour Trends!</div>
-                        <div id="topic-desc"> <p>Reviewing Twitter and data can give you insights into the type of information stored 
-                            for your account. It provides an easy way for you to view details about your account, and to make changes as 
-                            you see fit.</p>
-                            <p>Nationwide Twitter Map representing population health indicator</p>
+                        <div id="section-title"> Twitter PASS Indicators</div>
+                        <div id="topic-desc"> <p>Twitter is a social networking site with up to 190 million users worldwide producing up to 50 million tweets daily. Twitter is utilized as a micro-blogging site to share opinions, mood, and activities, including health-related conditions and behaviours.</p>
+                            <p>Our Twitter PASS indicator tells us what portions of the tweets collected are relevant to the Physical Activity, Sedentary behaviour, and Sleep quality in the first person point of view. To do this, we used a machine learning model that was trained with a set of example tweets (hand-labelled by our team) to classify whether a tweet is relevant in the first person or not. The tweets are then aggregated by location and mapped according to the Canadian Health Regions. Only Health Regions with 100 or more tweets were mapped.</p>
+                            <p>Twitter PASS Indicator for each Health Region across Canada</p>
                         </div>
                     </div>
                     <div id="ttrend-map"></div>
                     <div id="twitter-info"></div>
                     
-                    <div id="graph-desc"><p>Twitter’s popularity as an information source has led to the development
-                            of applications and research in various domains. Humanitarian Assistance
-                            and Disaster Relief is one domain where information from Twitter is used
-                            to provide situational awareness to a crisis situation.</p>
-                            <p>Twitter information based on Cities</p>
+                    <div id="graph-desc"><p>Twitter trends may change overtime. Let’s take a look at the historical data that we collected.</p>
+                            <p>Twitter PASS Indicator for Canada Overtime</p>
                     </div>
-                    <div id="bar-chartt"></div>
-                    <div id="graph-desc"> 
-                        <p>Anual Healthy Behaviour Twitter Trend gives information on how the healthy behavior trends are changing on year to year basis.
-                            The information is based on number of tweets posted that year.</p>
-                        <p>Anual Healthy Behaviour Twitter Trend</p>
-                    </div>
-                    <div id="tline-chart"></div>
-                    <div id="graph-desc"> 
-                        <p>Anual Healthy Behaviour Twitter Trend gives information on how the healthy behavior trends are changing on year to year basis.
-                            The information is based on number of tweets posted that year.
-                        </p>
-                    </div>
+                    <div class="chart-wrapper" id="tline-chart"></div>
+                    
+
                     <!-- <div id="tline-chart"></div> -->
                     
                     <!-- map section for Gtrends -->
                     <div id="start-gtrend">
-                        <div id="section-title"> Google Trends Healthy Behaviour !</div>
-                        <div id="topic-desc"><p>The vast amount of searches — trillions take place every year — make Google Trends one of the world’s 
-                            largest real time datasets. Examining what people search for provides a unique perspective on what they are currently 
-                            interested in and curious about. </p>
-                            <p>Nationwide google trend Map representing population health indicator</p>
+                        <div id="section-title"> Google Trends PASS Indicators</div>
+                        <div id="topic-desc"><p>By examining vast number of searches on the Internet, we are given a unique perspective on what Canadians are currently interested in and curious about.</p>
+                            <p>The Google Trends Indicator represents the total interest of five selected topics chosen by our team for each of the three PASS components. Google Trends data provides us a random sample of all Google searches from Canada since 2004, and across some major metropolitan areas. The data is anonymized (no one is personally identified) and categorized (grouping similar queries into a topic).</p>
+
+                            <p>Google Trends PASS Indicator for each Health Region across Canada</p>
                         </div>
                     </div>
                     <div id="gtrend-map"></div>
                     <div id="gtrend-info"></div>
-                    <div id ="graph-desc"> <p>Trends data is an unbiased sample of our Google search data. It’s anonymized (no one is personally identified), 
-                        categorized (determining the topic for a search query) and aggregated (grouped together). This allows us to measure 
-                        interest in a particular topic across search, from around the globe, right down to city-level geography.</p>
-                        <p>Google Trend information based on Cities</p>
+                    <div id ="graph-desc">
+                        <p>Google Trends PASS Indicator for Canada Overtime</p>
                     </div>
-                    <div id="bar-chartg"></div>
-                    <div id="graph-desc"><p>The chart gives information about three healthy behaviors for specific city</p>
-                        <p>Anual Healthy Behaviour Google Trend gives information on how the healthy behavior trends are changing on year to year basis.
-                            The information is based on number of tweets posted that year.</p>
-                        <p>Anual Healthy Behaviour Google Trend</p>
+                    <div class="chart-wrapper" id="gline-chart"></div>
+                    <div id="graph-desc"><p>By comparing the trends between the Twitter and Google Trends indicator in a region of interest, we are able to visualize and a new perspective to the interest of PASS behaviour in the Canadian population.</p>
                     </div> 
-                    <div id="gline-chart"></div>
-                    <div id="graph-desc"> This is a test chart for google treneds</div>
-
+                    
                     <!--  compare with check boxes -->
-                    <div id="section-title">Compare different indicators </div>
+                    <div id="section-title">Compare multiple indicators </div>
                     <!-- compare cities and give a selection here -->
                     
-                    <div id="topic-desc"> Here we compare</div>
+                    <div id="topic-desc"> <p>Pick an indicator and different locations in Canada to begin comparing:</p></div>
                     <div class='row'>
                         <div class='dropdown'>
-                             <select id="compare-select1">
-                                <option value='4801'>Alberta : Division No. 1</option>
-                                <option value='4810'>Alberta : Division No. 10</option>
-                                <option value='4811'>Alberta : Division No. 11</option>
-                                <option value='4812'>Alberta : Division No. 12</option>
-                                <option value='4813'>Alberta : Division No. 13</option>
-                                <option value='4814'>Alberta : Division No. 14</option>
-                                <option value='4815'>Alberta : Division No. 15</option>
-                                <option value='4816'>Alberta : Division No. 16</option>
-                                <option value='4817'>Alberta : Division No. 17</option>
-                                <option value='4818'>Alberta : Division No. 18</option>
-                                <option value='4819'>Alberta : Division No. 19</option>
-                                <option value='4802'>Alberta : Division No. 2</option>
-                                <option value='4803'>Alberta : Division No. 3</option>
-                                <option value='4804'>Alberta : Division No. 4</option>
-                                <option value='4805'>Alberta : Division No. 5</option>
-                                <option value='4806'>Alberta : Division No. 6</option>
-                                <option value='4807'>Alberta : Division No. 7</option>
-                                <option value='4808'>Alberta : Division No. 8</option>
-                                <option value='4809'>Alberta : Division No. 9</option>
-                                <option value='5923'>British Columbia : Alberni-Clayoquot</option>
-                                <option value='5951'>British Columbia : Bulkley-Nechako</option>
-                                <option value='5917'>British Columbia : Capital</option>
-                                <option value='5941'>British Columbia : Cariboo</option>
-                                <option value='5945'>British Columbia : Central Coast</option>
-                                <option value='5903'>British Columbia : Central Kootenay</option>
-                                <option value='5935'>British Columbia : Central Okanagan</option>
-                                <option value='5939'>British Columbia : Columbia-Shuswap</option>
-                                <option value='5926'>British Columbia : Comox Valley</option>
-                                <option value='5919'>British Columbia : Cowichan Valley</option>
-                                <option value='5901'>British Columbia : East Kootenay</option>
-                                <option value='5909'>British Columbia : Fraser Valley</option>
-                                <option value='5953'>British Columbia : Fraser-Fort George</option>
-                                <option value='5915'>British Columbia : Greater Vancouver</option>
-                                <option value='5949'>British Columbia : Kitimat-Stikine</option>
-                                <option value='5905'>British Columbia : Kootenay Boundary</option>
-                                <option value='5943'>British Columbia : Mount Waddington</option>
-                                <option value='5921'>British Columbia : Nanaimo</option>
-                                <option value='5937'>British Columbia : North Okanagan</option>
-                                <option value='5959'>British Columbia : Northern Rockies</option>
-                                <option value='5907'>British Columbia : Okanagan-Similkameen</option>
-                                <option value='5955'>British Columbia : Peace River</option>
-                                <option value='5927'>British Columbia : Powell River</option>
-                                <option value='5947'>British Columbia : Skeena-Queen Charlotte</option>
-                                <option value='5931'>British Columbia : Squamish-Lillooet</option>
-                                <option value='5957'>British Columbia : Stikine</option>
-                                <option value='5924'>British Columbia : Strathcona</option>
-                                <option value='5929'>British Columbia : Sunshine Coast</option>
-                                <option value='5933'>British Columbia : Thompson-Nicola</option>
-                                <option value='4601'>Manitoba : Division No. 1</option>
-                                <option value='4610'>Manitoba : Division No. 10</option>
-                                <option value='4611'>Manitoba : Division No. 11</option>
-                                <option value='4612'>Manitoba : Division No. 12</option>
-                                <option value='4613'>Manitoba : Division No. 13</option>
-                                <option value='4614'>Manitoba : Division No. 14</option>
-                                <option value='4615'>Manitoba : Division No. 15</option>
-                                <option value='4616'>Manitoba : Division No. 16</option>
-                                <option value='4617'>Manitoba : Division No. 17</option>
-                                <option value='4618'>Manitoba : Division No. 18</option>
-                                <option value='4619'>Manitoba : Division No. 19</option>
-                                <option value='4602'>Manitoba : Division No. 2</option>
-                                <option value='4620'>Manitoba : Division No. 20</option>
-                                <option value='4621'>Manitoba : Division No. 21</option>
-                                <option value='4622'>Manitoba : Division No. 22</option>
-                                <option value='4623'>Manitoba : Division No. 23</option>
-                                <option value='4603'>Manitoba : Division No. 3</option>
-                                <option value='4604'>Manitoba : Division No. 4</option>
-                                <option value='4605'>Manitoba : Division No. 5</option>
-                                <option value='4606'>Manitoba : Division No. 6</option>
-                                <option value='4607'>Manitoba : Division No. 7</option>
-                                <option value='4608'>Manitoba : Division No. 8</option>
-                                <option value='4609'>Manitoba : Division No. 9</option>
-                                <option value='1306'>New Brunswick : Albert</option>
-                                <option value='1311'>New Brunswick : Carleton</option>
-                                <option value='1302'>New Brunswick : Charlotte</option>
-                                <option value='1315'>New Brunswick : Gloucester</option>
-                                <option value='1308'>New Brunswick : Kent</option>
-                                <option value='1305'>New Brunswick : Kings</option>
-                                <option value='1313'>New Brunswick : Madawaska</option>
-                                <option value='1309'>New Brunswick : Northumberland</option>
-                                <option value='1304'>New Brunswick : Queens</option>
-                                <option value='1314'>New Brunswick : Restigouche</option>
-                                <option value='1301'>New Brunswick : Saint John</option>
-                                <option value='1303'>New Brunswick : Sunbury</option>
-                                <option value='1312'>New Brunswick : Victoria</option>
-                                <option value='1307'>New Brunswick : Westmorland</option>
-                                <option value='1310'>New Brunswick : York</option>
-                                <option value='1001'>Newfoundland and Labrador : Division No. 1</option>
-                                <option value='1010'>Newfoundland and Labrador : Division No. 10</option>
-                                <option value='1011'>Newfoundland and Labrador : Division No. 11</option>
-                                <option value='1002'>Newfoundland and Labrador : Division No. 2</option>
-                                <option value='1003'>Newfoundland and Labrador : Division No. 3</option>
-                                <option value='1004'>Newfoundland and Labrador : Division No. 4</option>
-                                <option value='1005'>Newfoundland and Labrador : Division No. 5</option>
-                                <option value='1006'>Newfoundland and Labrador : Division No. 6</option>
-                                <option value='1007'>Newfoundland and Labrador : Division No. 7</option>
-                                <option value='1008'>Newfoundland and Labrador : Division No. 8</option>
-                                <option value='1009'>Newfoundland and Labrador : Division No. 9</option>
-                                <option value='6101'>Northwest Territories : Region 1</option>
-                                <option value='6102'>Northwest Territories : Region 2</option>
-                                <option value='6103'>Northwest Territories : Region 3</option>
-                                <option value='6104'>Northwest Territories : Region 4</option>
-                                <option value='6105'>Northwest Territories : Region 5</option>
-                                <option value='6106'>Northwest Territories : Region 6</option>
-                                <option value='1205'>Nova Scotia : Annapolis</option>
-                                <option value='1214'>Nova Scotia : Antigonish</option>
-                                <option value='1217'>Nova Scotia : Cape Breton</option>
-                                <option value='1210'>Nova Scotia : Colchester</option>
-                                <option value='1211'>Nova Scotia : Cumberland</option>
-                                <option value='1203'>Nova Scotia : Digby</option>
-                                <option value='1213'>Nova Scotia : Guysborough</option>
-                                <option value='1209'>Nova Scotia : Halifax</option>
-                                <option value='1208'>Nova Scotia : Hants</option>
-                                <option value='1215'>Nova Scotia : Inverness</option>
-                                <option value='1207'>Nova Scotia : Kings</option>
-                                <option value='1206'>Nova Scotia : Lunenburg</option>
-                                <option value='1212'>Nova Scotia : Pictou</option>
-                                <option value='1204'>Nova Scotia : Queens</option>
-                                <option value='1216'>Nova Scotia : Richmond</option>
-                                <option value='1201'>Nova Scotia : Shelburne</option>
-                                <option value='1218'>Nova Scotia : Victoria</option>
-                                <option value='1202'>Nova Scotia : Yarmouth</option>
-                                <option value='6204'>Nunavut : Baffin</option>
-                                <option value='6205'>Nunavut : Keewatin</option>
-                                <option value='6208'>Nunavut : Kitikmeot</option>
-                                <option value='3557'>Ontario : Algoma</option>
-                                <option value='3529'>Ontario : Brant</option>
-                                <option value='3541'>Ontario : Bruce</option>
-                                <option value='3536'>Ontario : Chatham-Kent</option>
-                                <option value='3556'>Ontario : Cochrane</option>
-                                <option value='3522'>Ontario : Dufferin</option>
-                                <option value='3518'>Ontario : Durham</option>
-                                <option value='3534'>Ontario : Elgin</option>
-                                <option value='3537'>Ontario : Essex</option>
-                                <option value='3510'>Ontario : Frontenac</option>
-                                <option value='3553'>Ontario : Greater Sudbury</option>
-                                <option value='3542'>Ontario : Grey</option>
-                                <option value='3528'>Ontario : Haldimand-Norfolk</option>
-                                <option value='3546'>Ontario : Haliburton</option>
-                                <option value='3524'>Ontario : Halton</option>
-                                <option value='3525'>Ontario : Hamilton</option>
-                                <option value='3512'>Ontario : Hastings</option>
-                                <option value='3540'>Ontario : Huron</option>
-                                <option value='3516'>Ontario : Kawartha Lakes</option>
-                                <option value='3560'>Ontario : Kenora</option>
-                                <option value='3538'>Ontario : Lambton</option>
-                                <option value='3509'>Ontario : Lanark</option>
-                                <option value='3507'>Ontario : Leeds and Grenville</option>
-                                <option value='3511'>Ontario : Lennox and Addington</option>
-                                <option value='3551'>Ontario : Manitoulin</option>
-                                <option value='3539'>Ontario : Middlesex</option>
-                                <option value='3544'>Ontario : Muskoka</option>
-                                <option value='3526'>Ontario : Niagara</option>
-                                <option value='3548'>Ontario : Nipissing</option>
-                                <option value='3514'>Ontario : Northumberland</option>
-                                <option value='3506'>Ontario : Ottawa</option>
-                                <option value='3532'>Ontario : Oxford</option>
-                                <option value='3549'>Ontario : Parry Sound</option>
-                                <option value='3521'>Ontario : Peel</option>
-                                <option value='3531'>Ontario : Perth</option>
-                                <option value='3515'>Ontario : Peterborough</option>
-                                <option value='3502'>Ontario : Prescott and Russell</option>
-                                <option value='3513'>Ontario : Prince Edward</option>
-                                <option value='3559'>Ontario : Rainy River</option>
-                                <option value='3547'>Ontario : Renfrew</option>
-                                <option value='3543'>Ontario : Simcoe</option>
-                                <option value='3501'>Ontario : Stormont</option>
-                                <option value='3552'>Ontario : Sudbury</option>
-                                <option value='3558'>Ontario : Thunder Bay</option>
-                                <option value='3554'>Ontario : Timiskaming</option>
-                                <option value='3520' selected="selected">Ontario : Toronto</option>
-                                <option value='3530'>Ontario : Waterloo</option>
-                                <option value='3523'>Ontario : Wellington</option>
-                                <option value='3519'>Ontario : York</option>
-                                <option value='1101'>Prince Edward Island : Kings</option>
-                                <option value='1103'>Prince Edward Island : Prince</option>
-                                <option value='1102'>Prince Edward Island : Queens</option>
-                                <option value='2488'>Quebec : Abitibi</option>
-                                <option value='2487'>Quebec : Abitibi-Ouest</option>
-                                <option value='2448'>Quebec : Acton</option>
-                                <option value='2479'>Quebec : Antoine-Labelle</option>
-                                <option value='2476'>Quebec : Argenteuil</option>
-                                <option value='2439'>Quebec : Arthabaska</option>
-                                <option value='2406'>Quebec : Avignon</option>
-                                <option value='2429'>Quebec : Beauce-Sartigan</option>
-                                <option value='2470'>Quebec : Beauharnois-Salaberry</option>
-                                <option value='2438'>Quebec : Bécancour</option>
-                                <option value='2419'>Quebec : Bellechasse</option>
-                                <option value='2405'>Quebec : Bonaventure</option>
-                                <option value='2446'>Quebec : Brome-Missisquoi</option>
-                                <option value='2416'>Quebec : Charlevoix</option>
-                                <option value='2415'>Quebec : Charlevoix-Est</option>
-                                <option value='2444'>Quebec : Coaticook</option>
-                                <option value='2452'>Quebec : D'Autray</option>
-                                <option value='2472'>Quebec : Deux-Montagnes</option>
-                                <option value='2449'>Quebec : Drummond</option>
-                                <option value='2437'>Quebec : Francheville</option>
-                                <option value='2481'>Quebec : Gatineau</option>
-                                <option value='2461'>Quebec : Joliette</option>
-                                <option value='2414'>Quebec : Kamouraska</option>
-                                <option value='2460'>Quebec : L'Assomption</option>
-                                <option value='2432'>Quebec : L'Érable</option>
-                                <option value='2420'>Quebec : L'Île-d'Orléans</option>
-                                <option value='2417'>Quebec : L'Islet</option>
-                                <option value='2421'>Quebec : La Côte-de-Beaupré</option>
-                                <option value='2403'>Quebec : La Côte-de-Gaspé</option>
-                                <option value='2495'>Quebec : La Haute-Côte-Nord</option>
-                                <option value='2404'>Quebec : La Haute-Gaspésie</option>
-                                <option value='2447'>Quebec : La Haute-Yamaska</option>
-                                <option value='2422'>Quebec : La Jacques-Cartier</option>
-                                <option value='2407'>Quebec : La Matapédia</option>
-                                <option value='2409'>Quebec : La Mitis</option>
-                                <option value='2426'>Quebec : La Nouvelle-Beauce</option>
-                                <option value='2475'>Quebec : La Rivière-du-Nord</option>
-                                <option value='2490'>Quebec : La Tuque</option>
-                                <option value='2489'>Quebec : La Vallée-de-l'Or</option>
-                                <option value='2483'>Quebec : La Vallée-de-la-Gatineau</option>
-                                <option value='2457'>Quebec : La Vallée-du-Richelieu</option>
-                                <option value='2493'>Quebec : Lac-Saint-Jean-Est</option>
-                                <option value='2459'>Quebec : Lajemmerais</option>
-                                <option value='2465'>Quebec : Laval</option>
-                                <option value='2491'>Quebec : Le Domaine-du-Roy</option>
-                                <option value='2430'>Quebec : Le Granit</option>
-                                <option value='2456'>Quebec : Le Haut-Richelieu</option>
-                                <option value='2441'>Quebec : Le Haut-Saint-François</option>
-                                <option value='2469'>Quebec : Le Haut-Saint-Laurent</option>
-                                <option value='2402'>Quebec : Le Rocher-Percé</option>
-                                <option value='2494'>Quebec : Le Saguenay-et-son-Fjord</option>
-                                <option value='2442'>Quebec : Le Val-Saint-François</option>
-                                <option value='2431'>Quebec : Les Appalaches</option>
-                                <option value='2411'>Quebec : Les Basques</option>
-                                <option value='2482'>Quebec : Les Collines-de-l'Outaouais</option>
-                                <option value='2428'>Quebec : Les Etchemins</option>
-                                <option value='2401'>Quebec : Les Îles-de-la-Madeleine</option>
-                                <option value='2468'>Quebec : Les Jardins-de-Napierville</option>
-                                <option value='2478'>Quebec : Les Laurentides</option>
-                                <option value='2454'>Quebec : Les Maskoutains</option>
-                                <option value='2464'>Quebec : Les Moulins</option>
-                                <option value='2477'>Quebec : Les Pays-d'en-Haut</option>
-                                <option value='2440'>Quebec : Les Sources</option>
-                                <option value='2425'>Quebec : Lévis</option>
-                                <option value='2458'>Quebec : Longueuil</option>
-                                <option value='2433'>Quebec : Lotbinière</option>
-                                <option value='2496'>Quebec : Manicouagan</option>
-                                <option value='2492'>Quebec : Maria-Chapdelaine</option>
-                                <option value='2451'>Quebec : Maskinongé</option>
-                                <option value='2408'>Quebec : Matane</option>
-                                <option value='2462'>Quebec : Matawinie</option>
-                                <option value='2435'>Quebec : Mékinac</option>
-                                <option value='2445'>Quebec : Memphrémagog</option>
-                                <option value='2498'>Quebec : Minganie--Le Golfe-du-Saint-Laurent</option>
-                                <option value='2474'>Quebec : Mirabel</option>
-                                <option value='2463'>Quebec : Montcalm</option>
-                                <option value='2418'>Quebec : Montmagny</option>
-                                <option value='2466'>Quebec : Montréal</option>
-                                <option value='2450'>Quebec : Nicolet-Yamaska</option>
-                                <option value='2499'>Quebec : Nord-du-Québec</option>
-                                <option value='2480'>Quebec : Papineau</option>
-                                <option value='2453'>Quebec : Pierre-De Saurel</option>
-                                <option value='2484'>Quebec : Pontiac</option>
-                                <option value='2434'>Quebec : Portneuf</option>
-                                <option value='2423'>Quebec : Québec</option>
-                                <option value='2410'>Quebec : Rimouski-Neigette</option>
-                                <option value='2412'>Quebec : Rivière-du-Loup</option>
-                                <option value='2427'>Quebec : Robert-Cliche</option>
-                                <option value='2467'>Quebec : Roussillon</option>
-                                <option value='2455'>Quebec : Rouville</option>
-                                <option value='2486'>Quebec : Rouyn-Noranda</option>
-                                <option value='2497'>Quebec : Sept-Rivières--Caniapiscau</option>
-                                <option value='2436'>Quebec : Shawinigan</option>
-                                <option value='2443'>Quebec : Sherbrooke</option>
-                                <option value='2485'>Quebec : Témiscamingue</option>
-                                <option value='2413'>Quebec : Témiscouata</option>
-                                <option value='2473'>Quebec : Thérèse-De Blainville</option>
-                                <option value='2471'>Quebec : Vaudreuil-Soulanges</option>
-                                <option value='4701'>Saskatchewan : Division No. 1</option>
-                                <option value='4710'>Saskatchewan : Division No. 10</option>
-                                <option value='4711'>Saskatchewan : Division No. 11</option>
-                                <option value='4712'>Saskatchewan : Division No. 12</option>
-                                <option value='4713'>Saskatchewan : Division No. 13</option>
-                                <option value='4714'>Saskatchewan : Division No. 14</option>
-                                <option value='4715'>Saskatchewan : Division No. 15</option>
-                                <option value='4716'>Saskatchewan : Division No. 16</option>
-                                <option value='4717'>Saskatchewan : Division No. 17</option>
-                                <option value='4718'>Saskatchewan : Division No. 18</option>
-                                <option value='4702'>Saskatchewan : Division No. 2</option>
-                                <option value='4703'>Saskatchewan : Division No. 3</option>
-                                <option value='4704'>Saskatchewan : Division No. 4</option>
-                                <option value='4705'>Saskatchewan : Division No. 5</option>
-                                <option value='4706'>Saskatchewan : Division No. 6</option>
-                                <option value='4707'>Saskatchewan : Division No. 7</option>
-                                <option value='4708'>Saskatchewan : Division No. 8</option>
-                                <option value='4709'>Saskatchewan : Division No. 9</option>
-                                <option value='6001'>Yukon : Yukon</option>
+                            <select id="compare-data-source">
+                                <option value="twitter">Twitter</option>
+                                <option value="gtrends">Google Trend</option>
+                            </select>
+                            </select>
+                            <select id="compare-select1">
+                                <option value='1011'>NL : Eastern Regional Integrated Health Authority</option>
+                                <option value='1012'>NL : Central Regional Integrated Health Authority</option>
+                                <option value='1013'>NL : Western Regional Integrated Health Authority</option>
+                                <option value='1014'>NL : Labrador-Grenfell Regional Integrated Health Authority</option>
+                                <option value='1101'>PEI : Kings County</option>
+                                <option value='1102'>PEI : Queens County</option>
+                                <option value='1103'>PEI : Prince County</option>
+                                <option value='1211'>NS : South Shore District Health Authority</option>
+                                <option value='1212'>NS : South West Nova District Health Authority</option>
+                                <option value='1223'>NS : Annapolis Valley District Health Authority</option>
+                                <option value='1234'>NS : Colchester East Hants Health Authority</option>
+                                <option value='1235'>NS : Cumberland Health Authority</option>
+                                <option value='1246'>NS : Pictou County Health Authority</option>
+                                <option value='1247'>NS : Guysborough Antigonish Strait Health Authority</option>
+                                <option value='1258'>NS : Cape Breton District Health Authority</option>
+                                <option value='1269'>NS : Capital District Health Authority</option>
+                                <option value='1301'>NB : Zone 1</option>
+                                <option value='1302'>NB : Zone 2</option>
+                                <option value='1303'>NB : Zone 3</option>
+                                <option value='1304'>NB : Zone 4</option>
+                                <option value='1305'>NB : Zone 5</option>
+                                <option value='1306'>NB : Zone 6</option>
+                                <option value='1307'>NB : Zone 7</option>
+                                <option value='2401'>QC : Region du Bas-Saint-Laurent</option>
+                                <option value='2402'>QC : Region du Saguenay Lac-Saint-Jean</option>
+                                <option value='2403'>QC : Region de la Capitale Nationale</option>
+                                <option value='2404'>QC : Region de la Mauricie et du Centre-du-Quebec</option>
+                                <option value='2405'>QC : Region de l'Estrie</option>
+                                <option value='2406'>QC : Region de Montreal</option>
+                                <option value='2407'>QC : Region de l'Outaouais</option>
+                                <option value='2408'>QC : Region de l'Abitibi-Temiscamingue</option>
+                                <option value='2409'>QC : Region de la CÌ«te-Nord</option>
+                                <option value='2410'>QC : Region du Nord-du-Quebec</option>
+                                <option value='2411'>QC : Region de la GaspesieÛÓÌ_les-de-la-Madeleine</option>
+                                <option value='2412'>QC : Region de la ChaudiÌ¬re-Appalaches</option>
+                                <option value='2413'>QC : Region de Laval</option>
+                                <option value='2414'>QC : Region de LanaudiÌ¬re</option>
+                                <option value='2415'>QC : Region des Laurentides</option>
+                                <option value='2416'>QC : Region de la Monteregie</option>
+                                <option value='2417'>QC : Region du Nunavik</option>
+                                <option value='2418'>QC : Region des Terres-Cries-de-la-Baie-James</option>
+                                <option value='3526'>ON : The District of Algoma Health Unit</option>
+                                <option value='3527'>ON : Brant County Health Unit</option>
+                                <option value='3530'>ON : Durham Regional Health Unit</option>
+                                <option value='3531'>ON : Elgin-St. Thomas Health Unit</option>
+                                <option value='3533'>ON : Grey Bruce Health Unit</option>
+                                <option value='3534'>ON : Haldimand-Norfolk Health Unit</option>
+                                <option value='3535'>ON : Haliburton</option>
+                                <option value='3536'>ON : Halton Regional Health Unit</option>
+                                <option value='3537'>ON : City of Hamilton Health Unit</option>
+                                <option value='3538'>ON : Hastings and Prince Edward Counties Health Unit</option>
+                                <option value='3539'>ON : Huron County Health Unit</option>
+                                <option value='3540'>ON : Chatham-Kent Health Unit</option>
+                                <option value='3541'>ON : Kingston</option>
+                                <option value='3542'>ON : Lambton Health Unit</option>
+                                <option value='3543'>ON : Leeds</option>
+                                <option value='3544'>ON : Middlesex-London Health Unit</option>
+                                <option value='3546'>ON : Niagara Regional Area Health Unit</option>
+                                <option value='3547'>ON : North Bay Parry Sound District Health Unit</option>
+                                <option value='3549'>ON : Northwestern Health Unit</option>
+                                <option value='3551'>ON : City of Ottawa Health Unit</option>
+                                <option value='3552'>ON : Oxford County Health Unit</option>
+                                <option value='3553'>ON : Peel Regional Health Unit</option>
+                                <option value='3554'>ON : Perth District Health Unit</option>
+                                <option value='3555'>ON : Peterborough County-City Health Unit</option>
+                                <option value='3556'>ON : Porcupine Health Unit</option>
+                                <option value='3557'>ON : Renfrew County and District Health Unit</option>
+                                <option value='3558'>ON : The Eastern Ontario Health Unit</option>
+                                <option value='3560'>ON : Simcoe Muskoka District Health Unit</option>
+                                <option value='3561'>ON : Sudbury and District Health Unit</option>
+                                <option value='3562'>ON : Thunder Bay District Health Unit</option>
+                                <option value='3563'>ON : Timiskaming Health Unit</option>
+                                <option value='3565'>ON : Waterloo Health Unit</option>
+                                <option value='3566'>ON : Wellington-Dufferin-Guelph Health Unit</option>
+                                <option value='3568'>ON : Windsor-Essex County Health Unit</option>
+                                <option value='3570'>ON : York Regional Health Unit</option>
+                                <option value='3595' selected>ON : City of Toronto Health Unit</option>
+                                <option value='4610'>MB : Winnipeg Regional Health Authority</option>
+                                <option value='4615'>MB : Brandon Regional Health Authority</option>
+                                <option value='4620'>MB : North Eastman Regional Health Authority</option>
+                                <option value='4625'>MB : South Eastman Regional Health Authority</option>
+                                <option value='4630'>MB : Interlake Regional Health Authority</option>
+                                <option value='4640'>MB : Central Regional Health Authority</option>
+                                <option value='4645'>MB : Assiniboine Regional Health Authority</option>
+                                <option value='4660'>MB : Parkland Regional Health Authority</option>
+                                <option value='4670'>OK : NOR-MAN Regional Health Authority</option>
+                                <option value='4680'>MB : Burntwood Regional Health Authority</option>
+                                <option value='4690'>MB : Churchill Regional Health Authority</option>
+                                <option value='4701'>SK : Sun Country Regional Health Authority</option>
+                                <option value='4702'>SK : Five Hills Regional Health Authority</option>
+                                <option value='4703'>SK : Cypress Regional Health Authority</option>
+                                <option value='4704'>SK : Regina Qu'Appelle Regional Health Authority</option>
+                                <option value='4705'>SK : Sunrise Regional Health Authority</option>
+                                <option value='4706'>SK : Saskatoon Regional Health Authority</option>
+                                <option value='4707'>SK : Heartland Regional Health Authority</option>
+                                <option value='4708'>SK : Kelsey Trail Regional Health Authority</option>
+                                <option value='4709'>SK : Prince Albert Parkland Regional Health Authority</option>
+                                <option value='4710'>SK : Prairie North Regional Health Authority</option>
+                                <option value='4711'>SK : Mamawetan Churchill River Regional Health Authority</option>
+                                <option value='4712'>SK : Keewatin Yatthe Regional Health Authority</option>
+                                <option value='4713'>SK : Athabasca Health Authority</option>
+                                <option value='4831'>AB : South Zone</option>
+                                <option value='4832'>AB : Calgary Zone</option>
+                                <option value='4833'>AB : Central Zone</option>
+                                <option value='4834'>AB : Edmonton Zone</option>
+                                <option value='4835'>AB : North Zone</option>
+                                <option value='5911'>BC : East Kootenay</option>
+                                <option value='5912'>BC : Kootenay-Boundary</option>
+                                <option value='5913'>BC : Okanagan</option>
+                                <option value='5914'>BC : Thompson/Cariboo</option>
+                                <option value='5921'>BC : Fraser East</option>
+                                <option value='5922'>BC : Fraser North</option>
+                                <option value='5923'>BC : Fraser South</option>
+                                <option value='5931'>BC : Richmond</option>
+                                <option value='5932'>BC : Vancouver</option>
+                                <option value='5933'>BC : North Shore/Coast Garibaldi</option>
+                                <option value='5941'>BC : South Vancouver Island</option>
+                                <option value='5942'>BC : Central Vancouver Island</option>
+                                <option value='5943'>BC : North Vancouver Island</option>
+                                <option value='5951'>BC : Northwest</option>
+                                <option value='5952'>BC : Northern Interior</option>
+                                <option value='5953'>BC : Northeast</option>
+                                <option value='6001'>YT : Yukon</option>
+                                <option value='6101'>NT : Northwest Territories</option>
+                                <option value='6201'>NU : Nunavut</option>
                              </select>
                              <select id="compare-select2">
-                                <option value='4801'>Alberta : Division No. 1</option>
-                                <option value='4810'>Alberta : Division No. 10</option>
-                                <option value='4811'>Alberta : Division No. 11</option>
-                                <option value='4812'>Alberta : Division No. 12</option>
-                                <option value='4813'>Alberta : Division No. 13</option>
-                                <option value='4814'>Alberta : Division No. 14</option>
-                                <option value='4815'>Alberta : Division No. 15</option>
-                                <option value='4816'>Alberta : Division No. 16</option>
-                                <option value='4817'>Alberta : Division No. 17</option>
-                                <option value='4818'>Alberta : Division No. 18</option>
-                                <option value='4819'>Alberta : Division No. 19</option>
-                                <option value='4802'>Alberta : Division No. 2</option>
-                                <option value='4803'>Alberta : Division No. 3</option>
-                                <option value='4804'>Alberta : Division No. 4</option>
-                                <option value='4805'>Alberta : Division No. 5</option>
-                                <option value='4806'>Alberta : Division No. 6</option>
-                                <option value='4807'>Alberta : Division No. 7</option>
-                                <option value='4808'>Alberta : Division No. 8</option>
-                                <option value='4809'>Alberta : Division No. 9</option>
-                                <option value='5923'>British Columbia : Alberni-Clayoquot</option>
-                                <option value='5951'>British Columbia : Bulkley-Nechako</option>
-                                <option value='5917'>British Columbia : Capital</option>
-                                <option value='5941'>British Columbia : Cariboo</option>
-                                <option value='5945'>British Columbia : Central Coast</option>
-                                <option value='5903'>British Columbia : Central Kootenay</option>
-                                <option value='5935'>British Columbia : Central Okanagan</option>
-                                <option value='5939'>British Columbia : Columbia-Shuswap</option>
-                                <option value='5926'>British Columbia : Comox Valley</option>
-                                <option value='5919'>British Columbia : Cowichan Valley</option>
-                                <option value='5901'>British Columbia : East Kootenay</option>
-                                <option value='5909'>British Columbia : Fraser Valley</option>
-                                <option value='5953'>British Columbia : Fraser-Fort George</option>
-                                <option value='5915'>British Columbia : Greater Vancouver</option>
-                                <option value='5949'>British Columbia : Kitimat-Stikine</option>
-                                <option value='5905'>British Columbia : Kootenay Boundary</option>
-                                <option value='5943'>British Columbia : Mount Waddington</option>
-                                <option value='5921'>British Columbia : Nanaimo</option>
-                                <option value='5937'>British Columbia : North Okanagan</option>
-                                <option value='5959'>British Columbia : Northern Rockies</option>
-                                <option value='5907'>British Columbia : Okanagan-Similkameen</option>
-                                <option value='5955'>British Columbia : Peace River</option>
-                                <option value='5927'>British Columbia : Powell River</option>
-                                <option value='5947'>British Columbia : Skeena-Queen Charlotte</option>
-                                <option value='5931'>British Columbia : Squamish-Lillooet</option>
-                                <option value='5957'>British Columbia : Stikine</option>
-                                <option value='5924'>British Columbia : Strathcona</option>
-                                <option value='5929'>British Columbia : Sunshine Coast</option>
-                                <option value='5933'>British Columbia : Thompson-Nicola</option>
-                                <option value='4601'>Manitoba : Division No. 1</option>
-                                <option value='4610'>Manitoba : Division No. 10</option>
-                                <option value='4611'>Manitoba : Division No. 11</option>
-                                <option value='4612'>Manitoba : Division No. 12</option>
-                                <option value='4613'>Manitoba : Division No. 13</option>
-                                <option value='4614'>Manitoba : Division No. 14</option>
-                                <option value='4615'>Manitoba : Division No. 15</option>
-                                <option value='4616'>Manitoba : Division No. 16</option>
-                                <option value='4617'>Manitoba : Division No. 17</option>
-                                <option value='4618'>Manitoba : Division No. 18</option>
-                                <option value='4619'>Manitoba : Division No. 19</option>
-                                <option value='4602'>Manitoba : Division No. 2</option>
-                                <option value='4620'>Manitoba : Division No. 20</option>
-                                <option value='4621'>Manitoba : Division No. 21</option>
-                                <option value='4622'>Manitoba : Division No. 22</option>
-                                <option value='4623'>Manitoba : Division No. 23</option>
-                                <option value='4603'>Manitoba : Division No. 3</option>
-                                <option value='4604'>Manitoba : Division No. 4</option>
-                                <option value='4605'>Manitoba : Division No. 5</option>
-                                <option value='4606'>Manitoba : Division No. 6</option>
-                                <option value='4607'>Manitoba : Division No. 7</option>
-                                <option value='4608'>Manitoba : Division No. 8</option>
-                                <option value='4609'>Manitoba : Division No. 9</option>
-                                <option value='1306'>New Brunswick : Albert</option>
-                                <option value='1311'>New Brunswick : Carleton</option>
-                                <option value='1302'>New Brunswick : Charlotte</option>
-                                <option value='1315'>New Brunswick : Gloucester</option>
-                                <option value='1308'>New Brunswick : Kent</option>
-                                <option value='1305'>New Brunswick : Kings</option>
-                                <option value='1313'>New Brunswick : Madawaska</option>
-                                <option value='1309'>New Brunswick : Northumberland</option>
-                                <option value='1304'>New Brunswick : Queens</option>
-                                <option value='1314'>New Brunswick : Restigouche</option>
-                                <option value='1301'>New Brunswick : Saint John</option>
-                                <option value='1303'>New Brunswick : Sunbury</option>
-                                <option value='1312'>New Brunswick : Victoria</option>
-                                <option value='1307'>New Brunswick : Westmorland</option>
-                                <option value='1310'>New Brunswick : York</option>
-                                <option value='1001'>Newfoundland and Labrador : Division No. 1</option>
-                                <option value='1010'>Newfoundland and Labrador : Division No. 10</option>
-                                <option value='1011'>Newfoundland and Labrador : Division No. 11</option>
-                                <option value='1002'>Newfoundland and Labrador : Division No. 2</option>
-                                <option value='1003'>Newfoundland and Labrador : Division No. 3</option>
-                                <option value='1004'>Newfoundland and Labrador : Division No. 4</option>
-                                <option value='1005'>Newfoundland and Labrador : Division No. 5</option>
-                                <option value='1006'>Newfoundland and Labrador : Division No. 6</option>
-                                <option value='1007'>Newfoundland and Labrador : Division No. 7</option>
-                                <option value='1008'>Newfoundland and Labrador : Division No. 8</option>
-                                <option value='1009'>Newfoundland and Labrador : Division No. 9</option>
-                                <option value='6101'>Northwest Territories : Region 1</option>
-                                <option value='6102'>Northwest Territories : Region 2</option>
-                                <option value='6103'>Northwest Territories : Region 3</option>
-                                <option value='6104'>Northwest Territories : Region 4</option>
-                                <option value='6105'>Northwest Territories : Region 5</option>
-                                <option value='6106'>Northwest Territories : Region 6</option>
-                                <option value='1205'>Nova Scotia : Annapolis</option>
-                                <option value='1214'>Nova Scotia : Antigonish</option>
-                                <option value='1217'>Nova Scotia : Cape Breton</option>
-                                <option value='1210'>Nova Scotia : Colchester</option>
-                                <option value='1211'>Nova Scotia : Cumberland</option>
-                                <option value='1203'>Nova Scotia : Digby</option>
-                                <option value='1213'>Nova Scotia : Guysborough</option>
-                                <option value='1209'>Nova Scotia : Halifax</option>
-                                <option value='1208'>Nova Scotia : Hants</option>
-                                <option value='1215'>Nova Scotia : Inverness</option>
-                                <option value='1207'>Nova Scotia : Kings</option>
-                                <option value='1206'>Nova Scotia : Lunenburg</option>
-                                <option value='1212'>Nova Scotia : Pictou</option>
-                                <option value='1204'>Nova Scotia : Queens</option>
-                                <option value='1216'>Nova Scotia : Richmond</option>
-                                <option value='1201'>Nova Scotia : Shelburne</option>
-                                <option value='1218'>Nova Scotia : Victoria</option>
-                                <option value='1202'>Nova Scotia : Yarmouth</option>
-                                <option value='6204'>Nunavut : Baffin</option>
-                                <option value='6205'>Nunavut : Keewatin</option>
-                                <option value='6208'>Nunavut : Kitikmeot</option>
-                                <option value='3557'>Ontario : Algoma</option>
-                                <option value='3529'>Ontario : Brant</option>
-                                <option value='3541'>Ontario : Bruce</option>
-                                <option value='3536'>Ontario : Chatham-Kent</option>
-                                <option value='3556'>Ontario : Cochrane</option>
-                                <option value='3522'>Ontario : Dufferin</option>
-                                <option value='3518'>Ontario : Durham</option>
-                                <option value='3534'>Ontario : Elgin</option>
-                                <option value='3537'>Ontario : Essex</option>
-                                <option value='3510'>Ontario : Frontenac</option>
-                                <option value='3553'>Ontario : Greater Sudbury</option>
-                                <option value='3542'>Ontario : Grey</option>
-                                <option value='3528'>Ontario : Haldimand-Norfolk</option>
-                                <option value='3546'>Ontario : Haliburton</option>
-                                <option value='3524'>Ontario : Halton</option>
-                                <option value='3525'>Ontario : Hamilton</option>
-                                <option value='3512'>Ontario : Hastings</option>
-                                <option value='3540'>Ontario : Huron</option>
-                                <option value='3516'>Ontario : Kawartha Lakes</option>
-                                <option value='3560'>Ontario : Kenora</option>
-                                <option value='3538'>Ontario : Lambton</option>
-                                <option value='3509'>Ontario : Lanark</option>
-                                <option value='3507'>Ontario : Leeds and Grenville</option>
-                                <option value='3511'>Ontario : Lennox and Addington</option>
-                                <option value='3551'>Ontario : Manitoulin</option>
-                                <option value='3539'>Ontario : Middlesex</option>
-                                <option value='3544'>Ontario : Muskoka</option>
-                                <option value='3526'>Ontario : Niagara</option>
-                                <option value='3548'>Ontario : Nipissing</option>
-                                <option value='3514'>Ontario : Northumberland</option>
-                                <option value='3506'>Ontario : Ottawa</option>
-                                <option value='3532'>Ontario : Oxford</option>
-                                <option value='3549'>Ontario : Parry Sound</option>
-                                <option value='3521'>Ontario : Peel</option>
-                                <option value='3531'>Ontario : Perth</option>
-                                <option value='3515'>Ontario : Peterborough</option>
-                                <option value='3502'>Ontario : Prescott and Russell</option>
-                                <option value='3513'>Ontario : Prince Edward</option>
-                                <option value='3559'>Ontario : Rainy River</option>
-                                <option value='3547'>Ontario : Renfrew</option>
-                                <option value='3543'>Ontario : Simcoe</option>
-                                <option value='3501'>Ontario : Stormont</option>
-                                <option value='3552'>Ontario : Sudbury</option>
-                                <option value='3558'>Ontario : Thunder Bay</option>
-                                <option value='3554'>Ontario : Timiskaming</option>
-                                <option value='3520'>Ontario : Toronto</option>
-                                <option value='3530'>Ontario : Waterloo</option>
-                                <option value='3523'>Ontario : Wellington</option>
-                                <option value='3519'>Ontario : York</option>
-                                <option value='1101'>Prince Edward Island : Kings</option>
-                                <option value='1103'>Prince Edward Island : Prince</option>
-                                <option value='1102'>Prince Edward Island : Queens</option>
-                                <option value='2488'>Quebec : Abitibi</option>
-                                <option value='2487'>Quebec : Abitibi-Ouest</option>
-                                <option value='2448'>Quebec : Acton</option>
-                                <option value='2479'>Quebec : Antoine-Labelle</option>
-                                <option value='2476'>Quebec : Argenteuil</option>
-                                <option value='2439'>Quebec : Arthabaska</option>
-                                <option value='2406'>Quebec : Avignon</option>
-                                <option value='2429'>Quebec : Beauce-Sartigan</option>
-                                <option value='2470'>Quebec : Beauharnois-Salaberry</option>
-                                <option value='2438'>Quebec : Bécancour</option>
-                                <option value='2419'>Quebec : Bellechasse</option>
-                                <option value='2405'>Quebec : Bonaventure</option>
-                                <option value='2446'>Quebec : Brome-Missisquoi</option>
-                                <option value='2416'>Quebec : Charlevoix</option>
-                                <option value='2415'>Quebec : Charlevoix-Est</option>
-                                <option value='2444'>Quebec : Coaticook</option>
-                                <option value='2452'>Quebec : D'Autray</option>
-                                <option value='2472'>Quebec : Deux-Montagnes</option>
-                                <option value='2449'>Quebec : Drummond</option>
-                                <option value='2437'>Quebec : Francheville</option>
-                                <option value='2481'>Quebec : Gatineau</option>
-                                <option value='2461'>Quebec : Joliette</option>
-                                <option value='2414'>Quebec : Kamouraska</option>
-                                <option value='2460'>Quebec : L'Assomption</option>
-                                <option value='2432'>Quebec : L'Érable</option>
-                                <option value='2420'>Quebec : L'Île-d'Orléans</option>
-                                <option value='2417'>Quebec : L'Islet</option>
-                                <option value='2421'>Quebec : La Côte-de-Beaupré</option>
-                                <option value='2403'>Quebec : La Côte-de-Gaspé</option>
-                                <option value='2495'>Quebec : La Haute-Côte-Nord</option>
-                                <option value='2404'>Quebec : La Haute-Gaspésie</option>
-                                <option value='2447'>Quebec : La Haute-Yamaska</option>
-                                <option value='2422'>Quebec : La Jacques-Cartier</option>
-                                <option value='2407'>Quebec : La Matapédia</option>
-                                <option value='2409'>Quebec : La Mitis</option>
-                                <option value='2426'>Quebec : La Nouvelle-Beauce</option>
-                                <option value='2475'>Quebec : La Rivière-du-Nord</option>
-                                <option value='2490'>Quebec : La Tuque</option>
-                                <option value='2489'>Quebec : La Vallée-de-l'Or</option>
-                                <option value='2483'>Quebec : La Vallée-de-la-Gatineau</option>
-                                <option value='2457'>Quebec : La Vallée-du-Richelieu</option>
-                                <option value='2493'>Quebec : Lac-Saint-Jean-Est</option>
-                                <option value='2459'>Quebec : Lajemmerais</option>
-                                <option value='2465'>Quebec : Laval</option>
-                                <option value='2491'>Quebec : Le Domaine-du-Roy</option>
-                                <option value='2430'>Quebec : Le Granit</option>
-                                <option value='2456'>Quebec : Le Haut-Richelieu</option>
-                                <option value='2441'>Quebec : Le Haut-Saint-François</option>
-                                <option value='2469'>Quebec : Le Haut-Saint-Laurent</option>
-                                <option value='2402'>Quebec : Le Rocher-Percé</option>
-                                <option value='2494'>Quebec : Le Saguenay-et-son-Fjord</option>
-                                <option value='2442'>Quebec : Le Val-Saint-François</option>
-                                <option value='2431'>Quebec : Les Appalaches</option>
-                                <option value='2411'>Quebec : Les Basques</option>
-                                <option value='2482'>Quebec : Les Collines-de-l'Outaouais</option>
-                                <option value='2428'>Quebec : Les Etchemins</option>
-                                <option value='2401'>Quebec : Les Îles-de-la-Madeleine</option>
-                                <option value='2468'>Quebec : Les Jardins-de-Napierville</option>
-                                <option value='2478'>Quebec : Les Laurentides</option>
-                                <option value='2454'>Quebec : Les Maskoutains</option>
-                                <option value='2464'>Quebec : Les Moulins</option>
-                                <option value='2477'>Quebec : Les Pays-d'en-Haut</option>
-                                <option value='2440'>Quebec : Les Sources</option>
-                                <option value='2425'>Quebec : Lévis</option>
-                                <option value='2458'>Quebec : Longueuil</option>
-                                <option value='2433'>Quebec : Lotbinière</option>
-                                <option value='2496'>Quebec : Manicouagan</option>
-                                <option value='2492'>Quebec : Maria-Chapdelaine</option>
-                                <option value='2451'>Quebec : Maskinongé</option>
-                                <option value='2408'>Quebec : Matane</option>
-                                <option value='2462'>Quebec : Matawinie</option>
-                                <option value='2435'>Quebec : Mékinac</option>
-                                <option value='2445'>Quebec : Memphrémagog</option>
-                                <option value='2498'>Quebec : Minganie--Le Golfe-du-Saint-Laurent</option>
-                                <option value='2474'>Quebec : Mirabel</option>
-                                <option value='2463'>Quebec : Montcalm</option>
-                                <option value='2418'>Quebec : Montmagny</option>
-                                <option value='2466' selected="selected">Quebec : Montréal</option>
-                                <option value='2450'>Quebec : Nicolet-Yamaska</option>
-                                <option value='2499'>Quebec : Nord-du-Québec</option>
-                                <option value='2480'>Quebec : Papineau</option>
-                                <option value='2453'>Quebec : Pierre-De Saurel</option>
-                                <option value='2484'>Quebec : Pontiac</option>
-                                <option value='2434'>Quebec : Portneuf</option>
-                                <option value='2423'>Quebec : Québec</option>
-                                <option value='2410'>Quebec : Rimouski-Neigette</option>
-                                <option value='2412'>Quebec : Rivière-du-Loup</option>
-                                <option value='2427'>Quebec : Robert-Cliche</option>
-                                <option value='2467'>Quebec : Roussillon</option>
-                                <option value='2455'>Quebec : Rouville</option>
-                                <option value='2486'>Quebec : Rouyn-Noranda</option>
-                                <option value='2497'>Quebec : Sept-Rivières--Caniapiscau</option>
-                                <option value='2436'>Quebec : Shawinigan</option>
-                                <option value='2443'>Quebec : Sherbrooke</option>
-                                <option value='2485'>Quebec : Témiscamingue</option>
-                                <option value='2413'>Quebec : Témiscouata</option>
-                                <option value='2473'>Quebec : Thérèse-De Blainville</option>
-                                <option value='2471'>Quebec : Vaudreuil-Soulanges</option>
-                                <option value='4701'>Saskatchewan : Division No. 1</option>
-                                <option value='4710'>Saskatchewan : Division No. 10</option>
-                                <option value='4711'>Saskatchewan : Division No. 11</option>
-                                <option value='4712'>Saskatchewan : Division No. 12</option>
-                                <option value='4713'>Saskatchewan : Division No. 13</option>
-                                <option value='4714'>Saskatchewan : Division No. 14</option>
-                                <option value='4715'>Saskatchewan : Division No. 15</option>
-                                <option value='4716'>Saskatchewan : Division No. 16</option>
-                                <option value='4717'>Saskatchewan : Division No. 17</option>
-                                <option value='4718'>Saskatchewan : Division No. 18</option>
-                                <option value='4702'>Saskatchewan : Division No. 2</option>
-                                <option value='4703'>Saskatchewan : Division No. 3</option>
-                                <option value='4704'>Saskatchewan : Division No. 4</option>
-                                <option value='4705'>Saskatchewan : Division No. 5</option>
-                                <option value='4706'>Saskatchewan : Division No. 6</option>
-                                <option value='4707'>Saskatchewan : Division No. 7</option>
-                                <option value='4708'>Saskatchewan : Division No. 8</option>
-                                <option value='4709'>Saskatchewan : Division No. 9</option>
-                                <option value='6001'>Yukon : Yukon</option>
+                                <option value='1011'>NL : Eastern Regional Integrated Health Authority</option>
+                                <option value='1012'>NL : Central Regional Integrated Health Authority</option>
+                                <option value='1013'>NL : Western Regional Integrated Health Authority</option>
+                                <option value='1014'>NL : Labrador-Grenfell Regional Integrated Health Authority</option>
+                                <option value='1101'>PEI : Kings County</option>
+                                <option value='1102'>PEI : Queens County</option>
+                                <option value='1103'>PEI : Prince County</option>
+                                <option value='1211'>NS : South Shore District Health Authority</option>
+                                <option value='1212'>NS : South West Nova District Health Authority</option>
+                                <option value='1223'>NS : Annapolis Valley District Health Authority</option>
+                                <option value='1234'>NS : Colchester East Hants Health Authority</option>
+                                <option value='1235'>NS : Cumberland Health Authority</option>
+                                <option value='1246'>NS : Pictou County Health Authority</option>
+                                <option value='1247'>NS : Guysborough Antigonish Strait Health Authority</option>
+                                <option value='1258'>NS : Cape Breton District Health Authority</option>
+                                <option value='1269'>NS : Capital District Health Authority</option>
+                                <option value='1301'>NB : Zone 1</option>
+                                <option value='1302'>NB : Zone 2</option>
+                                <option value='1303'>NB : Zone 3</option>
+                                <option value='1304'>NB : Zone 4</option>
+                                <option value='1305'>NB : Zone 5</option>
+                                <option value='1306'>NB : Zone 6</option>
+                                <option value='1307'>NB : Zone 7</option>
+                                <option value='2401'>QC : Region du Bas-Saint-Laurent</option>
+                                <option value='2402'>QC : Region du Saguenay Lac-Saint-Jean</option>
+                                <option value='2403'>QC : Region de la Capitale Nationale</option>
+                                <option value='2404'>QC : Region de la Mauricie et du Centre-du-Quebec</option>
+                                <option value='2405'>QC : Region de l'Estrie</option>
+                                <option value='2406' selected>QC : Region de Montreal</option>
+                                <option value='2407'>QC : Region de l'Outaouais</option>
+                                <option value='2408'>QC : Region de l'Abitibi-Temiscamingue</option>
+                                <option value='2409'>QC : Region de la CÌ«te-Nord</option>
+                                <option value='2410'>QC : Region du Nord-du-Quebec</option>
+                                <option value='2411'>QC : Region de la GaspesieÛÓÌ_les-de-la-Madeleine</option>
+                                <option value='2412'>QC : Region de la ChaudiÌ¬re-Appalaches</option>
+                                <option value='2413'>QC : Region de Laval</option>
+                                <option value='2414'>QC : Region de LanaudiÌ¬re</option>
+                                <option value='2415'>QC : Region des Laurentides</option>
+                                <option value='2416'>QC : Region de la Monteregie</option>
+                                <option value='2417'>QC : Region du Nunavik</option>
+                                <option value='2418'>QC : Region des Terres-Cries-de-la-Baie-James</option>
+                                <option value='3526'>ON : The District of Algoma Health Unit</option>
+                                <option value='3527'>ON : Brant County Health Unit</option>
+                                <option value='3530'>ON : Durham Regional Health Unit</option>
+                                <option value='3531'>ON : Elgin-St. Thomas Health Unit</option>
+                                <option value='3533'>ON : Grey Bruce Health Unit</option>
+                                <option value='3534'>ON : Haldimand-Norfolk Health Unit</option>
+                                <option value='3535'>ON : Haliburton</option>
+                                <option value='3536'>ON : Halton Regional Health Unit</option>
+                                <option value='3537'>ON : City of Hamilton Health Unit</option>
+                                <option value='3538'>ON : Hastings and Prince Edward Counties Health Unit</option>
+                                <option value='3539'>ON : Huron County Health Unit</option>
+                                <option value='3540'>ON : Chatham-Kent Health Unit</option>
+                                <option value='3541'>ON : Kingston</option>
+                                <option value='3542'>ON : Lambton Health Unit</option>
+                                <option value='3543'>ON : Leeds</option>
+                                <option value='3544'>ON : Middlesex-London Health Unit</option>
+                                <option value='3546'>ON : Niagara Regional Area Health Unit</option>
+                                <option value='3547'>ON : North Bay Parry Sound District Health Unit</option>
+                                <option value='3549'>ON : Northwestern Health Unit</option>
+                                <option value='3551'>ON : City of Ottawa Health Unit</option>
+                                <option value='3552'>ON : Oxford County Health Unit</option>
+                                <option value='3553'>ON : Peel Regional Health Unit</option>
+                                <option value='3554'>ON : Perth District Health Unit</option>
+                                <option value='3555'>ON : Peterborough County-City Health Unit</option>
+                                <option value='3556'>ON : Porcupine Health Unit</option>
+                                <option value='3557'>ON : Renfrew County and District Health Unit</option>
+                                <option value='3558'>ON : The Eastern Ontario Health Unit</option>
+                                <option value='3560'>ON : Simcoe Muskoka District Health Unit</option>
+                                <option value='3561'>ON : Sudbury and District Health Unit</option>
+                                <option value='3562'>ON : Thunder Bay District Health Unit</option>
+                                <option value='3563'>ON : Timiskaming Health Unit</option>
+                                <option value='3565'>ON : Waterloo Health Unit</option>
+                                <option value='3566'>ON : Wellington-Dufferin-Guelph Health Unit</option>
+                                <option value='3568'>ON : Windsor-Essex County Health Unit</option>
+                                <option value='3570'>ON : York Regional Health Unit</option>
+                                <option value='3595'>ON : City of Toronto Health Unit</option>
+                                <option value='4610'>MB : Winnipeg Regional Health Authority</option>
+                                <option value='4615'>MB : Brandon Regional Health Authority</option>
+                                <option value='4620'>MB : North Eastman Regional Health Authority</option>
+                                <option value='4625'>MB : South Eastman Regional Health Authority</option>
+                                <option value='4630'>MB : Interlake Regional Health Authority</option>
+                                <option value='4640'>MB : Central Regional Health Authority</option>
+                                <option value='4645'>MB : Assiniboine Regional Health Authority</option>
+                                <option value='4660'>MB : Parkland Regional Health Authority</option>
+                                <option value='4670'>OK : NOR-MAN Regional Health Authority</option>
+                                <option value='4680'>MB : Burntwood Regional Health Authority</option>
+                                <option value='4690'>MB : Churchill Regional Health Authority</option>
+                                <option value='4701'>SK : Sun Country Regional Health Authority</option>
+                                <option value='4702'>SK : Five Hills Regional Health Authority</option>
+                                <option value='4703'>SK : Cypress Regional Health Authority</option>
+                                <option value='4704'>SK : Regina Qu'Appelle Regional Health Authority</option>
+                                <option value='4705'>SK : Sunrise Regional Health Authority</option>
+                                <option value='4706'>SK : Saskatoon Regional Health Authority</option>
+                                <option value='4707'>SK : Heartland Regional Health Authority</option>
+                                <option value='4708'>SK : Kelsey Trail Regional Health Authority</option>
+                                <option value='4709'>SK : Prince Albert Parkland Regional Health Authority</option>
+                                <option value='4710'>SK : Prairie North Regional Health Authority</option>
+                                <option value='4711'>SK : Mamawetan Churchill River Regional Health Authority</option>
+                                <option value='4712'>SK : Keewatin Yatthe Regional Health Authority</option>
+                                <option value='4713'>SK : Athabasca Health Authority</option>
+                                <option value='4831'>AB : South Zone</option>
+                                <option value='4832'>AB : Calgary Zone</option>
+                                <option value='4833'>AB : Central Zone</option>
+                                <option value='4834'>AB : Edmonton Zone</option>
+                                <option value='4835'>AB : North Zone</option>
+                                <option value='5911'>BC : East Kootenay</option>
+                                <option value='5912'>BC : Kootenay-Boundary</option>
+                                <option value='5913'>BC : Okanagan</option>
+                                <option value='5914'>BC : Thompson/Cariboo</option>
+                                <option value='5921'>BC : Fraser East</option>
+                                <option value='5922'>BC : Fraser North</option>
+                                <option value='5923'>BC : Fraser South</option>
+                                <option value='5931'>BC : Richmond</option>
+                                <option value='5932'>BC : Vancouver</option>
+                                <option value='5933'>BC : North Shore/Coast Garibaldi</option>
+                                <option value='5941'>BC : South Vancouver Island</option>
+                                <option value='5942'>BC : Central Vancouver Island</option>
+                                <option value='5943'>BC : North Vancouver Island</option>
+                                <option value='5951'>BC : Northwest</option>
+                                <option value='5952'>BC : Northern Interior</option>
+                                <option value='5953'>BC : Northeast</option>
+                                <option value='6001'>YT : Yukon</option>
+                                <option value='6101'>NT : Northwest Territories</option>
+                                <option value='6201'>NU : Nunavut</option>
                             </select>
                             <button id="compare-btn" type="button">Compare</button>   
                         </div>
@@ -749,21 +426,12 @@
                     <div class="chart-wrapper" id="compline-chart"></div>
                     <div id="select-data"></div>
                     <div id="conclusion">
-                        <h id="section-title"> Healthy Behaviour Analysis Conclusion and Remarks</h>
-                        <div id="topic-desc"> <p>Twitter and Google Trends data can provide a powerful lens into what social media users are curious about and how people around the 
-                            world react to important events. We’re committed to making Trends easier to use, understand and share. We look forward to 
-                            continuing the conversation.</p>
+                        <div id="topic-desc"> <p>Twitter and Google Trends data provides an interesting and powerful lens into what social media users are curious about, as well as their underlying health-related behaviours. We look forward to continuing the conversation.
+                        </p>
                         </div>
                     </div>
+                    <div id="copyright"><p>This web app is created by the <a href="http://hdsl.uwaterloo.ca">Health Data Science Lab</a> at the University of Waterloo. This project was sponsored by the MaRS Healthy Behaviour Data Challenge, the Canadian Institutes of Health Research (CIHR), and the Public Health Agency of Canada (PHAC).</p></div>
 
-                    <!-- <div id='map' style='width: 400px; height: 300px;'></div>
-                    <script>
-                    mapboxgl.accessToken = 'pk.eyJ1Ijoib2xpdmllcm5ndXllbiIsImEiOiIyNGExOTIwZTQwNGYyZmJjZWY3Mzk2MTEwY2EwZGRjOCJ9.vhftamcL2cMPjsdCut5SJg';
-                    var map = new mapboxgl.Map({
-                    container: 'map',
-                    style: 'mapbox://styles/mapbox/dark-v9'
-                    });
-                    </script> -->
         </center>
             
         <!-- D3 library -->
@@ -779,6 +447,7 @@
         <script src="js/main.js"></script>
         <script src="js/barchart.js"></script>
         <script src="js/choropleth.js"></script>
+        <script src="js/survey_choropleth.js"></script>
         <script src="js/linechart.js"></script>
         <script src="js/multiline.js"></script>
         <script src="js/lodash.min.js"></script>
