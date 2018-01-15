@@ -28,7 +28,7 @@
             console.log(error)
         }
 
-        console.log(googleData)
+        console.log(jsonData)
         // console.log(surveyData);
         _.forEach(jsonData, function (d) {
             _.forEach(d.data, function(dd) {
@@ -49,7 +49,7 @@
             choropleths.updateVis();
             choroplethdt.updateVis();
             choroplethdg.updateVis();
-            setBestTable(jsonData, null, this.value);
+            setBestTable(jsonData, null, googleData, this.value);
             //compare
             // var div1 = '1101';
             // var div2 = '1102';
@@ -88,7 +88,7 @@
 
         initVis();
 
-        setBestTable(jsonData, null, 'physical');
+        setBestTable(jsonData, null, googleData,'physical');
 
         // Render the charts
         function initVis () {
@@ -97,11 +97,11 @@
                 width: 600,
                 scale :580,
             };
-            choropletht = new window.charts.Choropleth('#mapt', mapData, opts, jsonData);
-            choroplethg = new window.charts.Choropleth('#mapg', mapData, opts, googleData);
+            choropletht = new window.charts.Choropleth('#mapt', mapData, opts, jsonData,' Tweets');
+            choroplethg = new window.charts.Choropleth('#mapg', mapData, opts, googleData,' RSV');
             choropleths = new window.charts.SChoropleth('#mapsurvey', mapData, opts, surveyData)
             //twitter map
-            choroplethdt = new window.charts.Choropleth('#ttrend-map', mapData, {}, jsonData);
+            choroplethdt = new window.charts.Choropleth('#ttrend-map', mapData, {}, jsonData,' Tweets');
 
             // To fix the chart on click
             choroplethdt.map.on("click", function(d){
@@ -109,7 +109,7 @@
             })
            
             //google trends map
-            choroplethdg = new window.charts.Choropleth('#gtrend-map', mapData, {}, googleData);
+            choroplethdg = new window.charts.Choropleth('#gtrend-map', mapData, {}, googleData,' RSV');
             // barchartg = new window.charts.Bar('#bar-chartg', jsonData, {});
             //linechartg = new window.charts.LineC('#gline-chart', line_test, {});
             // To fix the chart on click
@@ -124,7 +124,7 @@
         }
     }
 
-    function setBestTable(data, date, indicator) {
+    function setBestTable(data, date, googleData, indicator) {
 
         radio2indicator = {'sleep': 'sleeping_percent',
                            'physical': 'physical_activity_percent',
@@ -137,7 +137,7 @@
         d3.select('#map-extremes table tbody').selectAll('tr').remove()
         
         // console.log('Displaying table', indicator);
-        var _data = _(data).map(function(d) { 
+        var _datat = _(data).map(function(d) { 
             if (d.data.length == 0) { val = 0;} 
             else { val = d.data.slice(-1)[0][indicator];}
         
@@ -149,8 +149,24 @@
             return d.value !== null;
             })        
 
-        var highest = _data.takeRight(5).value().reverse();
+        var highest = _datat.takeRight(5).value().reverse();
+        console.log(googleData)
+        var _datag = _(googleData).map(function(d) { 
+            
+            if (d.data.length == 0) { val = 0;} 
+            else { val = d.data.slice(-1)[0][indicator];}
+        
+            return { 
+                value: val,
+                datum: d
+            }
+        }).sortBy('value').filter(function (d) {
+            return d.value !== null;
+            })        
 
+        var highesg = _datag.takeRight(5).value().reverse();
+        console.log(highest);
+        console.log(highesg)    
         // Display in html
         $('#map-extremes').css('display', '');
         var rows = d3.select('#map-extremes table tbody').selectAll('tr')
@@ -321,9 +337,9 @@
             });
         // console.log(twitterData); 
         if (selector=="#tline-chart"){
-            yaxis = "Tweets"
+            yaxis = "Relevant Tweets Percentage"
         }else{
-            yaxis ="Trend"
+            yaxis ="Relative Search Volume"
         }
         line_max = Math.max.apply(Math,twitterData.map(function(o){return o.tweets;}));
         console.log(line_max);
