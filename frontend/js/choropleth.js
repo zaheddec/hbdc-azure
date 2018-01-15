@@ -40,7 +40,7 @@
             .attr("transform", "translate(" + vis.margin.left + "," + vis.margin.top + ")");
 
         //var population_domain = [10000,100000,200000,300000,400000,500000,600000,900000];
-        vis.population_domain = [0,2,200,300,400,1000,1500,2000];
+        vis.population_domain = [0,2,50,100,300,500,800,1000];
 
         // Define linear scale for output
         vis.pa_color = d3.scaleThreshold()
@@ -74,8 +74,9 @@
             .projection(vis.projection);
 
         // Convert TopoJSON to GeoJSON
-        vis.districts = topojson.feature(data, data.objects.gcd_000b11a_e_geo).features;
-
+        // vis.districts = topojson.feature(data, data.objects.gcd_000b11a_e_geo).features;
+        vis.districts = topojson.feature(data, data.objects.canada_health_divisions).features;
+        // console.log(vis.districts)
         vis.map = vis.svg.selectAll(".district")
             .data(vis.districts)
             .enter().append("path")
@@ -102,16 +103,37 @@
         // console.log(vis.healthIndex);
         vis.map.attr("fill", function(d) { 
             vis.indicator = d3.select('input[name="topic"]:checked').node().value;
-            latestData = vis.healthIndex[d.properties.CDUID]['data'].slice(-1)[0]
-            if (latestData == null) {
+            // console.log(d)
+            // add condition for date here 
+            vis.date = d3.select("#date-select").property("value");
+            // console.log(vis.date);
+            // latestData = vis.healthIndex[d.properties.PR_HRUID]['data'].slice(-1)[0]
+            dates_available = vis.healthIndex[d.properties.PR_HRUID]['data'].length
+            var sedentary_tweets = 0;
+            var pa_tweets = 0;
+            var sleep_tweets = 0;
+            if (dates_available == 0) {
                 sedentary_tweets = 0;
                 pa_tweets = 0;
                 sleep_tweets = 0;
             } else {
-                sedentary_tweets = latestData.sedentary_behavior;
-                pa_tweets = latestData.physical_activity;
-                sleep_tweets = latestData.sleeping;
+                var found = 0;
+                for (dt = 0; dt <dates_available; dt++){
+                   if(vis.healthIndex[d.properties.PR_HRUID]['data'][dt].date == vis.date){
+                        sedentary_tweets = vis.healthIndex[d.properties.PR_HRUID]['data'][dt].sedentary_behavior;
+                        // console.log(sedentary_tweets)
+                        pa_tweets = vis.healthIndex[d.properties.PR_HRUID]['data'][dt].physical_activity;
+                        sleep_tweets = vis.healthIndex[d.properties.PR_HRUID]['data'][dt].sleep
+                        found = 1;
+                   }
+                }
+                if(!found){
+                    sedentary_tweets = 0;
+                    pa_tweets = 0;
+                    sleep_tweets = 0;
+                }
             }
+            // console.log(sedentary_tweets)
             if (vis.indicator == 'sedentary') {
                 //console.log("Adding new colore : ",indicator);
                 vis.legend_color = vis.sedentary_color;
@@ -128,7 +150,8 @@
         })
         // 
         vis.map.on("mouseover", function(d){
-            latestData = vis.healthIndex[d.properties.CDUID]['data'].slice(-1)[0]
+            // latestData = vis.healthIndex[d.properties.CDUID]['data'].slice(-1)[0]
+            latestData = vis.healthIndex[d.properties.PR_HRUID]['data'].slice(-1)[0]
             if (latestData == null) {
                 sedentary_tweets = 0;
                 pa_tweets = 0;
@@ -136,17 +159,17 @@
             } else {
                 sedentary_tweets = latestData.sedentary_behavior;
                 pa_tweets = latestData.physical_activity;
-                sleep_tweets = latestData.sleeping;
+                sleep_tweets = latestData.sleep;
             }
             vis.tooltip.classed('hidden', false)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY -30) + "px")
                 // .text(d.properties.CDNAME+": "+vis.healthIndex.get(d.properties.CDUID).num_tweets)
                 // .text(d.properties.CDNAME+": "+vis.healthIndex.get(d.properties.CDUID).physical_activity)
-                .html("<strong style= 'color=red'>"+ d.properties.CDNAME+ "</strong><br/>"+
-                    "<strong>Physical Activity:</strong> <span>" + pa_tweets + "</span><br/>"+
-                    "<strong>Sedentary Behavior :</strong> <span>" + sedentary_tweets + "</span><br/>"+
-                    "<strong>Sleep              :</strong> <span>" + sleep_tweets + "</span><br/>"
+                .html("<table class='tooltable'><tr><strong style= 'color=red'>"+ d.properties.ENG_LABEL+ "</strong></tr>"+
+                    "<tr><td><strong>Physical Activity</strong></td><td><span>" + pa_tweets + "</span></td></tr>"+
+                    "<tr><td><strong>Sedentary Behavior </strong></td><td><span>" + sedentary_tweets + "</span></td></tr>"+
+                    "<tr><td><strong>Sleep              </strong></td><td><span>" + sleep_tweets + "</span></td></tr></table>"
                   )
         })
         .on("mouseout", function(d){

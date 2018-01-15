@@ -3,6 +3,7 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     var color = d3.scaleOrdinal(d3.schemeCategory10);
     chartObj.xAxisLable = axisLables.xAxis;
     chartObj.yAxisLable = axisLables.yAxis;
+    // console.log(dataset);
     /*
      yObjsects format:
      {y1:{column:'',name:'name',color:'color'},y2}
@@ -88,8 +89,9 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     chartObj.update_svg_size = function () {
         chartObj.width = parseInt(chartObj.chartDiv.style("width"), 10) - (chartObj.margin.left + chartObj.margin.right);
         chartObj.height = parseInt(chartObj.chartDiv.style("height"), 10) - (chartObj.margin.top + chartObj.margin.bottom);
+        // console.log(parseInt(chartObj.chartDiv.style("height"), 10))
         chartObj.height = chartObj.height - 50;
-        console.log(chartObj.width)
+        // console.log(chartObj.height);
         // chartObj.width = chartDiv.clientWidth - (chartObj.margin.left + chartObj.margin.right);
         // chartObj.height = chartDiv.clientHeight - (chartObj.margin.top + chartObj.margin.bottom);
 
@@ -123,9 +125,10 @@ function makeLineChart(dataset, xName, yObjs, axisLables) {
     chartObj.bind = function (selector) {
         chartObj.mainDiv = d3.select(selector);
         // Add all the divs to make it centered and responsive
-        
-        $(".inner-wrapper").remove()
-        $(".legend").remove()
+        $(selector).children().remove(".inner-wrapper");
+        $(selector).children().remove(".legend");
+        // $(".inner-wrapper").remove()
+        // $(".legend").remove()
 
         chartObj.mainDiv.append("div").attr("class", "inner-wrapper").append("div").attr("class", "outer-box").append("div").attr("class", "inner-box");
         chartSelector = selector + " .inner-box";
